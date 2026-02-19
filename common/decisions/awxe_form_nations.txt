@@ -150,7 +150,6 @@ formable_nations_mod_category = {
 				original_tag = TAN
 				original_tag = MEN
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -2175,7 +2174,6 @@ formable_nations_mod_category = {
 				original_tag = HES
 				original_tag = BAD
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -2863,7 +2861,6 @@ formable_nations_mod_category = {
 				original_tag = ITA
 				original_tag = HUN
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -3557,7 +3554,6 @@ formable_nations_mod_category = {
 				original_tag = CZE
 				original_tag = SLO
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -4120,7 +4116,6 @@ formable_nations_mod_category = {
 				original_tag = BLR
 				original_tag = UKR
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -4337,10 +4332,9 @@ formable_nations_mod_category = {
 			NOT = { has_country_flag = unform_available }
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
+			    has_global_flag = no_limit
 				original_tag = BUL
-				has_global_flag = no_limit
 			}
-			#NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -4991,7 +4985,6 @@ formable_nations_mod_category = {
 				original_tag = POL
 				original_tag = HUN
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -5267,7 +5260,6 @@ formable_nations_mod_category = {
 				original_tag = D09
 				original_tag = TRA
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -5398,13 +5390,12 @@ formable_nations_mod_category = {
 			NOT = { has_country_flag = unform_available }
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
+				has_global_flag = no_limit
 				original_tag = ENG
 				original_tag = FRA
 				original_tag = BRI
 				original_tag = WLS
-				has_global_flag = no_limit
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -5548,7 +5539,6 @@ formable_nations_mod_category = {
 				original_tag = GRE
 				original_tag = MAC
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -6436,7 +6426,6 @@ formable_nations_mod_category = {
 				original_tag = RAJ
 				original_tag = BAN
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -6946,7 +6935,6 @@ formable_nations_mod_category = {
 				original_tag = DEN
 				original_tag = NOR
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -7073,7 +7061,6 @@ formable_nations_mod_category = {
 				original_tag = PRU
 				original_tag = ECU
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -10123,7 +10110,6 @@ formable_nations_mod_category = {
 				original_tag = JOR
 				original_tag = PAL
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 		
 		highlight_states = {
@@ -11529,7 +11515,6 @@ formable_nations_mod_category = {
 				original_tag = SIC
 				original_tag = MLT
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -11766,7 +11751,6 @@ formable_nations_mod_category = {
 				has_global_flag = no_limit
 				original_tag = MLI
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -13141,7 +13125,6 @@ formable_nations_mod_category = {
 				original_tag = VIN
 				original_tag = BRM
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -13225,7 +13208,6 @@ formable_nations_mod_category = {
 				has_global_flag = no_limit
 				original_tag = BAN
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -14212,10 +14194,9 @@ formable_nations_mod_category = {
 			NOT = { has_country_flag = unform_available }
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
-				original_tag = GRE
 				has_global_flag = no_limit
+				original_tag = GRE
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -14462,6 +14443,7 @@ formable_nations_mod_category = {
 			NOT = { has_country_flag = unform_available }
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
+				has_global_flag = no_limit
 				original_tag = ITA
 				original_tag = SPR
 				original_tag = SPA
@@ -14472,9 +14454,7 @@ formable_nations_mod_category = {
 				original_tag = CAT
 				original_tag = NAV
 				original_tag = ADR
-				has_global_flag = no_limit
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -14881,7 +14861,6 @@ formable_nations_mod_category = {
 				original_tag = NAV
 				original_tag = ROM
 			}
-			NOT = { has_global_flag = modern_country }
 			OR = {
 				has_cosmetic_tag = FORM_BYZ
 				has_cosmetic_tag = FORM_WRO
@@ -18795,7 +18774,6 @@ formable_nations_mod_category = {
 				has_global_flag = no_limit
 				original_tag = TUR
 			}
-			NOT = { has_global_flag = modern_country }
 			OR = {
 				has_cosmetic_tag = FORM_OTT
 			}
@@ -26887,7 +26865,6 @@ formable_nations_mod_category = {
 				has_global_flag = no_limit
 				original_tag = ADU
 			}
-			NOT = { has_global_flag = modern_country }
 		}
 
 		highlight_states = {
@@ -27121,7 +27098,6 @@ formable_nations_mod_category = {
 				original_tag = LBA
 				original_tag = COR
 			}
-			NOT = { has_global_flag = modern_country }
 			OR = {
 				has_cosmetic_tag = AFN_VIK
 				has_cosmetic_tag = AFN_VAN
@@ -28800,7 +28776,6 @@ formable_nations_mod_category = {
 				original_tag = LUX
 				original_tag = FRA
 			}
-			NOT = { has_global_flag = modern_country }
 			OR = {
 				has_cosmetic_tag = AFN_LOT
 				has_cosmetic_tag = AFN_BUR
