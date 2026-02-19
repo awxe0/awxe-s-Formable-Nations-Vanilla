@@ -1,22 +1,25 @@
-# awxe's Formable Nations - Vanilla
+# awxe's Formable Nations
 
-MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=3531061069
+<img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
-FORMABLE NATION LIST
+**MOD:** The vanilla version was not released.
 
-Abbasid Caliphate - Abyssinia - Adriatic - Afsharid Dynasty - Akhand Bharat - Al-Andalus - Alpine Federation - Americas - Andes - Angevin Empire - Anglosphere - Arabia - Asia - Assyria - Australasia - Austria-Hungary - Austro-Slovakia Union - Babylonian Empire - Balkans - Baltic States - Bani Khalid Emirate - Bantu Kingdom - Benelux - Bengal Empire - Bulgaria-Romania Union - Bulgarian Empire - Byzantium - Carpathia - Caribbean - Carolingian Empire - Carthage - Celtic Union - Central America - Chile-Argentina - China - Commonwealth - Cossack Hosts - Danubian Federation - Danish Colonial Empire - Denmark-Norway Union - Dutch Colonial Empire - Durrani Empire - East Africa - Empire of Srivijaya - Eurasia - Europe - European Hun Empire - European Unity - Fennoscandia - First Turkic Khaganate - Franco-Spanish Union - Frankish Empire - Gallic Empire - German Colonial Empire - Ghaznavid Empire - Golden Circle - Golden Horde - Gran Colombia - Great Moravia - Great Nordic Union - Great Ottoman Empire - Greater Albania - Greater Austria - Greater Canada - Greater Croatia - Greater Egypt - Greater Finland - Greater Georgia - Greater Greece - Greater Israel - Greater Italy - Greater Japan - Greater Korea - Greater Russian Empire - Greater Serbia - Greater Tibet - Greater Yugoslavia - Großdeutschland - Hellenoturkism - Hispaniola - Hispanic America - Holy Roman Empire - Hungarian Kingdom - Iberia - Illyrian Kingdom - Inca Empire - Indochina - Intermarium - Italy - Khazar Khaganate - Kievan Rus - Khmer Empire - Kingdom of Aksum - Kingdom of Aragon - Kingdom of Burgundy - Kingdom of Jerusalem - Kingdom of Lotharingia - Kingdom of Pontus - Kingdom of Prussia - Kingdom of Thrace - La Plata - Latin Union - Levant - Macedonian Empire - Maghreb - Mali Empire - Mamluk Sultanate - Mexican Empire - Middle East - Ming Dynasty - Mongol Empire - Mughal Empire - North America - North German Federation - North Sea Empire - Oceanian - Ostrogothic Kingdom - Ottoman Empire - Outremer - Pala Empire - Pan-Slavic Federation - Persian Empire - Peru-Bolivia - Philippine Empire - Phoenicia - Poland-Hungary - Polish-Swedish Union - Portuguese Colonial Empire - Qajar Empire - Qing Dynasty - Republic of Pirates - Roman Empire - Romano-Gothia Empire - Sahel - Sasanian Empire - Scandinavia - Seljuk Empire - Skibidi San Ma - South America - South German Federation - Southeast Asia - Spanish Empire - Swedish Empire - The World - Timurid Empire - Transcaucasia - Turan - Umayyad Caliphate - Unified Silla & Balhae - United British Isles - United Guyana - Vandal Kingdom - Visigothic Kingdom - Visegrad - West Rome - Xiongnu - Zapadoslavia - Zaidi Kingdom of Yemen
+The vanilla version is full of brand new content that has been expanded, translated, optimized and never seen before.
 
-FEATURES
+<img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-• +170 Formable Nations  
-• Full integration with Road to 56  
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 6" src="https://github.com/user-attachments/assets/2787af2a-d435-4b08-a4dd-40d08d3693e8" />
+
+<img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
+
+• +180 Formable Nations  
 • Custom flags, colors, decisions, and cores  
 • Accurate historical & cultural naming  
 • Regular updates, new content monthly  
 • Performance-optimized for both Singleplayer and Multiplayer  
 • The borders needed for the formable will highlighted white when you hover over its name or icon.  
 
-LANGUAGES
+<img width="600" height="75" alt="AFN - Steam Banners - Languages v2" src="https://github.com/user-attachments/assets/84f34e63-25d9-4b0d-9563-af871783eb2b" />
 
 • English - ✅ 100%  
 • French / Français - ✅ 100%  
@@ -24,9 +27,29 @@ LANGUAGES
 • Spanish / Español - ✅ 100%  
 • Russian / Русский - ✅ 100%  
 • Polish / Dialekt - ✅ 100%  
+• Japanese / 日本語 - ✅ 100%  
+• Korean / 韓國語 - ✅ 100%  
 • Chinese / 中文 - ✅ 100% (by 鸢一折纸)  
 • Portuguese / Português - Work in Progress  
-• Japanese / 日本語 - Work in Progress  
+
+<img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
+
+It may not be compatible with mods that add or modify states.
+
+<img width="600" height="75" alt="AFN - Steam Banners - Feedback v2" src="https://github.com/user-attachments/assets/a59cd5f1-0305-4e7b-ab2c-0cf6bf63d6a0" />
+
+Have a suggestion for a new formable nation? Found a bug? Noticed a localization issue?
+
+Feel free to leave a comment but for detailed suggestions and bug reports, please use the **Discussion** section on the Workshop page. It helps keep things organized and ensures your feedback isn’t missed!
+
+Your ideas matter! Want to see more formable nations? Let me know!
+I'm always working to improve and expand this mod.
+Let’s shape the future of this mod together.
+
+*All reported bugs and localization issues can be viewed publicly on the GitHub Issues page. You can check ongoing fixes, confirmed reports and closed issues there.*
+
+https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues]
+
 
 RESTRICTIVE LICENSE AGREEMENT
 © Ali/awxe 2025. ALL RIGHTS RESERVED.
