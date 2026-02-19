@@ -833,3 +833,23 @@ AFN_TNG = {
 	color = rgb { 229 202 78 }
 	color_ui = rgb { 229 202 78 }
 }
+AFN_GTU = {
+	color = rgb { 227 10 23 }
+	color_ui = rgb { 227 10 23 }
+}
+AFN_GAR = {
+	color = rgb { 209 131 79 }
+	color_ui = rgb { 209 131 79 }
+}
+AFN_AKE = {
+	color = rgb { 229 218 168 }
+	color_ui = rgb { 229 218 168 }
+}
+AFN_SEE = {
+	color = rgb { 40 62 148 }
+	color_ui = rgb { 40 62 148 }
+}
+AFN_GAZ = {
+	color = rgb { 0 151 109 }
+	color_ui = rgb { 0 151 109 }
+}
