@@ -22212,6 +22212,7 @@ formable_nations_mod_category = {
 			637 = { add_core_of = ROOT }
 			822 = { add_core_of = ROOT }
 			68 = { add_claim_by = ROOT }
+			354 = { add_claim_by = ROOT }
 		}
 	}
 	
@@ -31294,6 +31295,643 @@ formable_nations_mod_category = {
 			604 = { add_core_of = ROOT }
 			748 = { add_core_of = ROOT }
 			752 = { add_core_of = ROOT }
+		}
+	}
+	
+	formable_nations_greater_turkey = {
+	
+		priority = 828
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = TUR
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 49
+				state = 164
+				state = 184
+				state = 187
+				state = 211
+				state = 212
+				state = 339
+				state = 340
+				state = 341
+				state = 342
+				state = 343
+				state = 344
+				state = 345
+				state = 346
+				state = 347
+				state = 348
+				state = 349
+				state = 350
+				state = 352
+				state = 353
+				state = 354
+				state = 355
+				state = 356
+				state = 676
+				state = 677
+				state = 680
+				state = 798
+				state = 731
+				state = 797
+				state = 799
+				state = 800				
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						49 = { owns_or_subject_of = yes }
+				        164 = { owns_or_subject_of = yes }
+						184 = { owns_or_subject_of = yes }
+				        187 = { owns_or_subject_of = yes }
+				        211 = { owns_or_subject_of = yes }
+				        212 = { owns_or_subject_of = yes }
+				        339 = { owns_or_subject_of = yes }
+				        340 = { owns_or_subject_of = yes }
+				        341 = { owns_or_subject_of = yes }
+				        342 = { owns_or_subject_of = yes }
+				        343 = { owns_or_subject_of = yes }
+				        344 = { owns_or_subject_of = yes }
+			            345 = { owns_or_subject_of = yes }
+						346 = { owns_or_subject_of = yes }
+				        347 = { owns_or_subject_of = yes }
+				        348 = { owns_or_subject_of = yes }
+				        349 = { owns_or_subject_of = yes }
+						350 = { owns_or_subject_of = yes }
+						352 = { owns_or_subject_of = yes }
+						353 = { owns_or_subject_of = yes }
+						354 = { owns_or_subject_of = yes }
+						355 = { owns_or_subject_of = yes }
+						356 = { owns_or_subject_of = yes }
+						676 = { owns_or_subject_of = yes }
+						677 = { owns_or_subject_of = yes }
+						680 = { owns_or_subject_of = yes }
+						798 = { owns_or_subject_of = yes }
+						731 = { owns_or_subject_of = yes }
+						797 = { owns_or_subject_of = yes }
+						799 = { owns_or_subject_of = yes }
+						800 = { owns_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GTU } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_greater_turkey
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_GTU
+			add_stability = 0.10
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				49 = { add_core_of = ROOT }
+				164 = { add_core_of = ROOT }
+				184 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				339 = { add_core_of = ROOT }
+				340 = { add_core_of = ROOT }
+				341 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				346 = { add_core_of = ROOT }
+				347 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+				355 = { add_core_of = ROOT }
+				356 = { add_core_of = ROOT }
+				676 = { add_core_of = ROOT }
+				677 = { add_core_of = ROOT }
+				680 = { add_core_of = ROOT }
+				798 = { add_core_of = ROOT }
+				731 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				800 = { add_core_of = ROOT }
+			}	
+			183 = { add_core_of = ROOT }
+			231 = { add_core_of = ROOT }
+			230 = { add_claim_by = ROOT }
+		}
+	}
+	
+	formable_nations_greater_armenia = {
+	
+		priority = 827
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = ARM
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 230	
+				state = 354
+				state = 800
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						230 = { owns_or_subject_of = yes }
+						354 = { owns_or_subject_of = yes }
+						800 = { owns_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GAR } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_greater_armenia
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_GAR
+			add_stability = 0.05
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				230 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+				800 = { add_core_of = ROOT }
+			}	
+		}
+	}
+	
+	formable_nations_akkadian_empire = {
+	
+		priority = 826
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = IRQ
+				original_tag = SYR
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 291
+				state = 344
+				state = 350
+				state = 352
+				state = 412
+				state = 413
+				state = 553
+				state = 554
+				state = 656
+				state = 658
+				state = 675
+				state = 676
+				state = 677
+				state = 678
+				state = 680
+				state = 765
+				state = 799
+				state = 859
+				state = 1010
+				state = 1011
+				state = 1014
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						291 = { owns_or_subject_of = yes }
+						344 = { owns_or_subject_of = yes }
+						350 = { owns_or_subject_of = yes }
+						352 = { owns_or_subject_of = yes }
+						412 = { owns_or_subject_of = yes }
+						413 = { owns_or_subject_of = yes }
+						553 = { owns_or_subject_of = yes }
+						554 = { owns_or_subject_of = yes }
+						656 = { owns_or_subject_of = yes }
+						658 = { owns_or_subject_of = yes }
+						675 = { owns_or_subject_of = yes }
+						676 = { owns_or_subject_of = yes }
+						677 = { owns_or_subject_of = yes }
+						678 = { owns_or_subject_of = yes }
+						680 = { owns_or_subject_of = yes }
+						765 = { owns_or_subject_of = yes }
+						799 = { owns_or_subject_of = yes }
+						859 = { owns_or_subject_of = yes }
+						1010 = { owns_or_subject_of = yes }
+						1011 = { owns_or_subject_of = yes }
+						1014 = { owns_or_subject_of = yes }						
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AKE } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_akkadian_empire
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_AKE
+			add_stability = 0.15
+			set_capital = { state = 291 }
+			set_province_name = { id = 2097 name = "New Akkad" }
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				291 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				412 = { add_core_of = ROOT }
+				413 = { add_core_of = ROOT }
+				553 = { add_core_of = ROOT }
+				554 = { add_core_of = ROOT }
+				656 = { add_core_of = ROOT }
+				658 = { add_core_of = ROOT }
+				675 = { add_core_of = ROOT }
+				676 = { add_core_of = ROOT }
+				677 = { add_core_of = ROOT }
+				678 = { add_core_of = ROOT }
+				680 = { add_core_of = ROOT }
+				765 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				859 = { add_core_of = ROOT }
+				1010 = { add_core_of = ROOT }
+				1011 = { add_core_of = ROOT }
+				1014 = { add_core_of = ROOT }				
+			}	
+			454 = { add_core_of = ROOT }
+			455 = { add_core_of = ROOT }
+		}
+	}
+	
+	formable_nations_seleucid_empire = {
+	
+		priority = 825
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = GRE
+				original_tag = PER
+				original_tag = SYR
+				original_tag = IRQ
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 49
+				state = 266
+				state = 267
+				state = 291
+				state = 339
+				state = 340
+				state = 341
+				state = 342
+				state = 343
+				state = 344
+				state = 345
+				state = 346
+				state = 347
+				state = 348
+				state = 349
+				state = 350
+				state = 352
+				state = 353
+				state = 410
+				state = 411
+				state = 412
+				state = 413
+				state = 414
+				state = 415
+				state = 416
+				state = 417
+				state = 418
+				state = 419
+				state = 420
+				state = 421
+				state = 442
+				state = 444
+				state = 445
+				state = 454
+				state = 455
+				state = 553
+				state = 554
+				state = 656
+				state = 675
+				state = 676
+				state = 677
+				state = 680
+				state = 797
+				state = 798
+				state = 799
+				state = 800
+				state = 987
+				state = 988
+				state = 1000
+				state = 1001
+				state = 1002
+				state = 1003
+				state = 1004
+				state = 1005
+				state = 1006
+				state = 1007
+				state = 1008
+				state = 1009
+				state = 1010
+				state = 1011
+				state = 1012
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = enough_control_requirement
+				OR = {
+					count_triggers = {
+                        amount = 50 "72 states"
+					    49 = { owns_or_subject_of = yes }
+						266 = { owns_or_subject_of = yes }
+						267 = { owns_or_subject_of = yes }
+						291 = { owns_or_subject_of = yes }
+						339 = { owns_or_subject_of = yes }
+						340 = { owns_or_subject_of = yes }
+						341 = { owns_or_subject_of = yes }
+						342 = { owns_or_subject_of = yes }
+						343 = { owns_or_subject_of = yes }
+						344 = { owns_or_subject_of = yes }
+						345 = { owns_or_subject_of = yes }
+						346 = { owns_or_subject_of = yes }
+						347 = { owns_or_subject_of = yes }
+						348 = { owns_or_subject_of = yes }
+						349 = { owns_or_subject_of = yes }
+						350 = { owns_or_subject_of = yes }
+						352 = { owns_or_subject_of = yes }
+						353 = { owns_or_subject_of = yes }
+						410 = { owns_or_subject_of = yes }
+						411 = { owns_or_subject_of = yes }
+						412 = { owns_or_subject_of = yes }
+						413 = { owns_or_subject_of = yes }
+						414 = { owns_or_subject_of = yes }
+						415 = { owns_or_subject_of = yes }
+						416 = { owns_or_subject_of = yes }
+						417 = { owns_or_subject_of = yes }
+						418 = { owns_or_subject_of = yes }
+                        419 = { owns_or_subject_of = yes }
+                        420 = { owns_or_subject_of = yes }
+                        421 = { owns_or_subject_of = yes }
+                        442 = { owns_or_subject_of = yes }
+                        444 = { owns_or_subject_of = yes }
+                        445 = { owns_or_subject_of = yes }
+                        454 = { owns_or_subject_of = yes }
+                        455 = { owns_or_subject_of = yes }
+                        553 = { owns_or_subject_of = yes }
+                        554 = { owns_or_subject_of = yes }
+                        656 = { owns_or_subject_of = yes }
+                        675 = { owns_or_subject_of = yes }
+                        676 = { owns_or_subject_of = yes }
+                        677 = { owns_or_subject_of = yes }
+                        680 = { owns_or_subject_of = yes }
+                        797 = { owns_or_subject_of = yes }
+                        798 = { owns_or_subject_of = yes }
+                        799 = { owns_or_subject_of = yes }
+                        800 = { owns_or_subject_of = yes }
+                        987 = { owns_or_subject_of = yes }
+                        988 = { owns_or_subject_of = yes }
+                        1000 = { owns_or_subject_of = yes }
+                        1001 = { owns_or_subject_of = yes }
+                        1002 = { owns_or_subject_of = yes }
+                        1003 = { owns_or_subject_of = yes }
+                        1004 = { owns_or_subject_of = yes }
+                        1005 = { owns_or_subject_of = yes }
+                        1006 = { owns_or_subject_of = yes }
+                        1007 = { owns_or_subject_of = yes }
+                        1008 = { owns_or_subject_of = yes }
+                        1009 = { owns_or_subject_of = yes }
+                        1010 = { owns_or_subject_of = yes }
+                        1011 = { owns_or_subject_of = yes }
+                        1012 = { owns_or_subject_of = yes }			
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SEE } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_seleucid_empire
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+		set_cosmetic_tag = AFN_SEE
+			add_stability = 0.20
+			set_capital = { state = 799 }
+			set_province_name = { id = 12029 name = "Antioch" }
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				49 = { add_core_of = ROOT }
+				266 = { add_core_of = ROOT }
+				267 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				339 = { add_core_of = ROOT }
+				340 = { add_core_of = ROOT }
+				341 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				346 = { add_core_of = ROOT }
+				347 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				410 = { add_core_of = ROOT }
+				411 = { add_core_of = ROOT }
+				412 = { add_core_of = ROOT }
+				413 = { add_core_of = ROOT }
+				414 = { add_core_of = ROOT }
+				415 = { add_core_of = ROOT }
+				416 = { add_core_of = ROOT }
+				417 = { add_core_of = ROOT }
+				418 = { add_core_of = ROOT }
+				419 = { add_core_of = ROOT }
+				420 = { add_core_of = ROOT }
+				421 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }
+				454 = { add_core_of = ROOT }
+				455 = { add_core_of = ROOT }
+				553 = { add_core_of = ROOT }
+				554 = { add_core_of = ROOT }
+				656 = { add_core_of = ROOT }
+				675 = { add_core_of = ROOT }
+				676 = { add_core_of = ROOT }
+				677 = { add_core_of = ROOT }
+				680 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
+				798 = { add_core_of = ROOT }
+				799 = { add_core_of = ROOT }
+				800 = { add_core_of = ROOT }
+				987 = { add_core_of = ROOT }
+				988 = { add_core_of = ROOT }
+				1000 = { add_core_of = ROOT }
+				1001 = { add_core_of = ROOT }
+				1002 = { add_core_of = ROOT }
+				1003 = { add_core_of = ROOT }
+				1004 = { add_core_of = ROOT }
+				1005 = { add_core_of = ROOT }
+				1006 = { add_core_of = ROOT }
+				1007 = { add_core_of = ROOT }
+				1008 = { add_core_of = ROOT }
+				1009 = { add_core_of = ROOT }
+				1010 = { add_core_of = ROOT }
+				1011 = { add_core_of = ROOT }
+				1012 = { add_core_of = ROOT }	
+			}
+		}
+	}
+	
+	formable_nations_greater_azerbaijan = {
+	
+		priority = 824
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = AZR
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 229
+				state = 230
+				state = 419
+				state = 420
+				state = 1000
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						229 = { owns_or_subject_of = yes }
+						230 = { owns_or_subject_of = yes }
+						419 = { owns_or_subject_of = yes }
+						420 = { owns_or_subject_of = yes }
+						1000 = { owns_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GAZ } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_greater_azerbaijan
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_GAZ
+			add_stability = 0.05
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				229 = { add_core_of = ROOT }
+				230 = { add_core_of = ROOT }
+				419 = { add_core_of = ROOT }
+				420 = { add_core_of = ROOT }
+				1000 = { add_core_of = ROOT }
+			}	
 		}
 	}
 }
