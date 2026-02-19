@@ -1,5 +1,3 @@
-# awxe's Formable Nations
-
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
 **MOD:** The vanilla version was not released.
@@ -48,7 +46,7 @@ Let’s shape the future of this mod together.
 
 *All reported bugs and localization issues can be viewed publicly on the GitHub Issues page. You can check ongoing fixes, confirmed reports and closed issues there.*
 
-https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues]
+https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues
 
 
 RESTRICTIVE LICENSE AGREEMENT
