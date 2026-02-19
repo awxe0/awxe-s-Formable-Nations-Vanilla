@@ -711,4 +711,24 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_tang"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_tang.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_greater_turkey"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_turkey.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_greater_armenia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_armenia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_akkadian_empire"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_akkadian_empire.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_seleucid_empire"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_seleucid_empire.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_greater_azerbaijan"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_azerbaijan.tga"
+	}
 }
