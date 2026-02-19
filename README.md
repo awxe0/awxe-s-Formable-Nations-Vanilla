@@ -46,7 +46,7 @@ Let’s shape the future of this mod together.
 
 *All reported bugs and localization issues can be viewed publicly on the GitHub Issues page. You can check ongoing fixes, confirmed reports and closed issues there.*
 
-https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues
+https://github.com/awxe0/awxe-s-Formable-Nations-Vanilla/issues
 
 
 RESTRICTIVE LICENSE AGREEMENT
