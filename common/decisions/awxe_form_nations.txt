@@ -438,9 +438,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip 
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 26 "276 state"
 						330 = { owns_or_subject_of = yes }
 						817 = { owns_or_subject_of = yes }
 						818 = { owns_or_subject_of = yes }
@@ -1616,9 +1617,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 61 "78 states"
 						41 = { owns_or_subject_of = yes }
 						165 = { owns_or_subject_of = yes }
 						166 = { owns_or_subject_of = yes }
@@ -2931,9 +2933,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 52 "59 states"
 						42 = { owns_or_subject_of = yes }
 						50 = { owns_or_subject_of = yes }
 						51 = { owns_or_subject_of = yes }
@@ -24758,9 +24761,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 35 "45 states"
 						5 = { owns_or_subject_of = yes }
 				        42 = { owns_or_subject_of = yes }
 				        50 = { owns_or_subject_of = yes }
@@ -31723,7 +31727,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount = 50 "72 states"
+                        amount = 50 "61 states"
 					    49 = { owns_or_subject_of = yes }
 						266 = { owns_or_subject_of = yes }
 						267 = { owns_or_subject_of = yes }
