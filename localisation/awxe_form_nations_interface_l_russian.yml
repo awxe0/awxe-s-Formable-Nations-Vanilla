@@ -1,6 +1,6 @@
 ﻿l_russian:  
  formable_nations_mod_category:0 "Создать Новую Нацию"
- formable_nations_mod_category_desc:0 "§CПеред созданием нации выберите свой путь!\n\n§! Эти формируемые нации не зависят от каких-либо ванильных или RT56 формируемых наций.\n\n Границы, необходимые для формирования, будут подсвечены белым при наведении на название или иконку."
+ formable_nations_mod_category_desc:0 "§CПеред созданием нации выберите свой путь!\n\n§! Эти формаблы не зависят ни от одного ванильного формабла.\n\n Границы, необходимые для формирования, будут подсвечены белым при наведении на название или иконку."
  ############################## Copyrighted by awxe
  extra_ideas:0 "Решения"
  form_nation:0 "Создать Новую Нацию"
@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "Ак-Коюнлу"
  formable_nations_chola:0 "Династия Чола"
  formable_nations_tang:0 "Династия Тан"
+ formable_nations_greater_turkey:0 "Мисак-и Милли"
+ formable_nations_greater_armenia:0 "Великая Армения"
+ formable_nations_akkadian_empire:0 "Аккадская империя"
+ formable_nations_seleucid_empire:0 "Селевкидская империя"
+ formable_nations_greater_azerbaijan:0 "Великий Азербайджан"
  ##############################
  
  ##############################
@@ -431,3 +436,8 @@
  formable_nations_aq_qoyunlu_category:0 "Ак-Коюнлу"
  formable_nations_chola_category:0 "Династия Чола"
  formable_nations_tang_category:0 "Династия Тан"
+ formable_nations_greater_turkey_category:0 "Мисак-и Милли"
+ formable_nations_greater_armenia_category:0 "Великая Армения"
+ formable_nations_akkadian_empire_category:0 "Аккадская империя"
+ formable_nations_seleucid_empire_category:0 "Селевкидская империя"
+ formable_nations_greater_azerbaijan_category:0 "Великий Азербайджан"

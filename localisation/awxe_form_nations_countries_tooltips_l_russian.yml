@@ -1,6 +1,7 @@
 ﻿l_russian:
  germany_expansion_continued_requirement_tooltip:0 "Контролирует §YЭльзас-Лотарингию§! или §YЮжный Тироль§!."
  highlighted_state_tooltip:0 "Контролирует все выделенные регионы."
+ enough_control_requirement:0 "Контролирует достаточно выделенных земель, чтобы провозгласить эту нацию."
  asia_requirement_tooltip:0 "Контролирует всю §YАзию§!, кроме небольших §YТихоокеанских§! островов."
  eurasia_requirement_tooltip:0 "Контролирует всю §YЕвразию§!, кроме небольших §YТихоокеанских§! и §YАтлантических§! островов."
  afro_eurasia_requirement_tooltip:0 "Контролирует §YАфрику§!, §YАзию§! и §YЕвропу§!, исключая небольшие отдалённые острова."

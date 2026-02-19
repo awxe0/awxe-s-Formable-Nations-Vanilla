@@ -1,6 +1,7 @@
 ﻿l_polish:
  germany_expansion_continued_requirement_tooltip:0 "Kontroluje §YAlzację-Lotaryngię§! lub §YAlto Adige§!."
  highlighted_state_tooltip:0 "Kontroluje wszystkie wyróżnione stany."
+ enough_control_requirement:0 "Kontrolowanie wystarczającej ilości wyróżnionych ziem, aby proklamować tę nację."
  asia_requirement_tooltip:0 "Kontroluje całą §YAzję§! poza małymi wyspami §YPacyfiku§!."
  eurasia_requirement_tooltip:0 "Kontroluje całą §YEurazję§! poza małymi wyspami §YPacyfiku§! i §YAtlantyku§!."
  afro_eurasia_requirement_tooltip:0 "Kontroluje §YAfrykę§!, §YAzję§! i §YEuropę§!, z wyłączeniem małych odległych wysp."

@@ -1,6 +1,6 @@
 ﻿l_english:
  formable_nations_mod_category:0 "Form New Nation"
- formable_nations_mod_category_desc:0 "§CBefore form a nation, choose your path!\n\n§!These formables are not dependent on any Vanilla or RT56 formable.\n\nThe borders needed for the formable will highlighted white when you hover over its name or icon."
+ formable_nations_mod_category_desc:0 "§CBefore form a nation, choose your path!\n\n§!These formables are not dependent on any Vanilla formable.\n\nThe borders needed for the formable will highlighted white when you hover over its name or icon."
  ############################## Copyrighted by awxe
  extra_ideas:0 "Decisions"
  form_nation:0 "Form New Nation"
@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "Aq Qoyunlu"
  formable_nations_chola:0 "Chola Dynasty"
  formable_nations_tang:0 "Tang Dynasty"
+ formable_nations_greater_turkey:0 "Misak-ı Milli"
+ formable_nations_greater_armenia:0 "Greater Armenia"
+ formable_nations_akkadian_empire:0 "Akkadian Empire"
+ formable_nations_seleucid_empire:0 "Seleucid Empire"
+ formable_nations_greater_azerbaijan:0 "Greater Azerbaijan"
  ##############################
 
  #############################
@@ -429,3 +434,8 @@
  formable_nations_aq_qoyunlu_category:0 "Aq Qoyunlu"
  formable_nations_chola_category:0 "Chola Dynasty"
  formable_nations_tang_category:0 "Tang Dynasty"
+ formable_nations_greater_turkey_category:0 "Misak-ı Milli"
+ formable_nations_greater_armenia_category:0 "Greater Armenia"
+ formable_nations_akkadian_empire_category:0 "Akkadian Empire"
+ formable_nations_seleucid_empire_category:0 "Seleucid Empire"
+ formable_nations_greater_azerbaijan_category:0 "Greater Azerbaijan"

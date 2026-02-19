@@ -1,6 +1,6 @@
 ﻿l_korean:
  formable_nations_mod_category:0 "새로운 국가 형성"
- formable_nations_mod_category_desc:0 "§C국가를 형성하기 전에 경로를 선택하세요!\n\n§!이 형성 가능 국가들은 바닐라나 RT56 형성 국가에 의존하지 않습니다.\n\n필요한 주(state)는 이름이나 아이콘에 마우스를 올리면 흰색으로 강조 표시됩니다."
+ formable_nations_mod_category_desc:0 "§C국가를 형성하기 전에 경로를 선택하세요!\n\n§!이 포메이블들은 어떤 바닐라 포메이블에도 의존하지 않습니다.\n\n필요한 주(state)는 이름이나 아이콘에 마우스를 올리면 흰색으로 강조 표시됩니다."
  ############################## Copyrighted by awxe
  extra_ideas:0 "결정"
  form_nation:0 "새로운 국가 형성"
@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "아크 코윤루"
  formable_nations_chola:0 "촐라 왕조"
  formable_nations_tang:0 "당나라"
+ formable_nations_greater_turkey:0 "미사크-ı 밀리"
+ formable_nations_greater_armenia:0 "대아르메니아"
+ formable_nations_akkadian_empire:0 "아카드 제국"
+ formable_nations_seleucid_empire:0 "셀레우코스 제국"
+ formable_nations_greater_azerbaijan:0 "대아제르바이잔"
  ##############################
  
  ##############################
@@ -428,3 +433,8 @@
  formable_nations_aq_qoyunlu_category:0 "아크 코윤루"
  formable_nations_chola_category:0 "촐라 왕조"
  formable_nations_tang_category:0 "당나라"
+ formable_nations_greater_turkey_category:0 "미사크-ı 밀리"
+ formable_nations_greater_armenia_category:0 "대아르메니아"
+ formable_nations_akkadian_empire_category:0 "아카드 제국"
+ formable_nations_seleucid_empire_category:0 "셀레우코스 제국"
+ formable_nations_greater_azerbaijan_category:0 "대아제르바이잔"

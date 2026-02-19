@@ -1,6 +1,7 @@
 ﻿l_german:
  germany_expansion_continued_requirement_tooltip:0 "Kontrolliert §YElsass-Lothringen§! oder §YSüdtirol§!."
  highlighted_state_tooltip:0 "Kontrolliert alle hervorgehobenen Staaten."
+ enough_control_requirement:0 "Kontrolliert genug der hervorgehobenen Gebiete, um diese Nation auszurufen."
  asia_requirement_tooltip:0 "Kontrolliert ganz §YAsien§! außer kleinen §YPazifik§!-Inseln."
  eurasia_requirement_tooltip:0 "Kontrolliert ganz §YEurasien§! außer kleinen §YPazifik§!- und §YAtlantik§!-Inseln."
  afro_eurasia_requirement_tooltip:0 "Kontrolliert §YAfrika§!, §YAsien§! und §YEuropa§!, ausgenommen kleine abgelegene Inseln."

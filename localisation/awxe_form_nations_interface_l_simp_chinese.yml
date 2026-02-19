@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  formable_nations_mod_category:0 "成立新国家"
- formable_nations_mod_category_desc:0 "§C 成立国家之前，请选择你的道路！\n\n§! 这些可成立国家不依赖于任何原版或 RT56 的可成立国家。\n\n 当你将鼠标悬停在其名称或图标上时，成立该国家所需的边界将以白色高亮显示。"
+ formable_nations_mod_category_desc:0 "§C 成立国家之前，请选择你的道路！\n\n§! 这些可形成国家不依赖任何原版可形成国家。\n\n 当你将鼠标悬停在其名称或图标上时，成立该国家所需的边界将以白色高亮显示。"
  ############################## Copyrighted by awxe
  extra_ideas:0 "决议"
  form_nation:0 "成立新国家"
@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "白羊王朝"
  formable_nations_chola:0 "朱罗王朝"
  formable_nations_tang:0 "唐朝"
+ formable_nations_greater_turkey:0 "米萨克-米利"
+ formable_nations_greater_armenia:0 "大亚美尼亚"
+ formable_nations_akkadian_empire:0 "阿卡德帝国"
+ formable_nations_seleucid_empire:0 "塞琉古帝国"
+ formable_nations_greater_azerbaijan:0 "大阿塞拜疆"
  ##############################
  
  #############################
@@ -431,4 +436,9 @@
  formable_nations_aq_qoyunlu_category:0 "白羊王朝"
  formable_nations_chola_category:0 "朱罗王朝"
  formable_nations_tang_category:0 "唐朝"
+ formable_nations_greater_turkey_category:0 "米萨克-米利"
+ formable_nations_greater_armenia_category:0 "大亚美尼亚"
+ formable_nations_akkadian_empire_category:0 "阿卡德帝国"
+ formable_nations_seleucid_empire_category:0 "塞琉古帝国"
+ formable_nations_greater_azerbaijan_category:0 "大阿塞拜疆"
  

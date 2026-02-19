@@ -1,6 +1,6 @@
 ﻿l_german:
  formable_nations_mod_category:0 "Neue Nation bilden"
- formable_nations_mod_category_desc:0 "§CBevor Sie eine Nation bilden, wählen Sie Ihren Weg!\n\n§! Diese Formierbaren sind nicht von Vanilla- oder RT56-Formierbaren abhängig.\n\n Die für die Formierung erforderlichen Grenzen werden weiß hervorgehoben, wenn Sie mit der Maus über den Namen oder das Symbol fahren."
+ formable_nations_mod_category_desc:0 "§CBevor Sie eine Nation bilden, wählen Sie Ihren Weg!\n\n§! Diese Formierbaren sind nicht von Vanilla Formierbaren abhängig.\n\n Die für die Formierung erforderlichen Grenzen werden weiß hervorgehoben, wenn Sie mit der Maus über den Namen oder das Symbol fahren."
  ############################## Copyrighted by awxe
  extra_ideas:0 "Entscheidungen"
  form_nation:0 "Neue Nation bilden"
@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "Aq Qoyunlu"
  formable_nations_chola:0 "Chola-Dynastie"
  formable_nations_tang:0 "Tang-Dynastie"
+ formable_nations_greater_turkey:0 "Misak-ı Milli"
+ formable_nations_greater_armenia:0 "Großarmenien"
+ formable_nations_akkadian_empire:0 "Akkadisches Reich"
+ formable_nations_seleucid_empire:0 "Seleukidenreich"
+ formable_nations_greater_azerbaijan:0 "Groß-Aserbaidschan"
  ##############################
  
  ##############################
@@ -431,4 +436,9 @@
  formable_nations_aq_qoyunlu_category:0 "Aq Qoyunlu"
  formable_nations_chola_category:0 "Chola-Dynastie"
  formable_nations_tang_category:0 "Tang-Dynastie"
+ formable_nations_greater_turkey_category:0 "Misak-ı Milli"
+ formable_nations_greater_armenia_category:0 "Großarmenien"
+ formable_nations_akkadian_empire_category:0 "Akkadisches Reich"
+ formable_nations_seleucid_empire_category:0 "Seleukidenreich"
+ formable_nations_greater_azerbaijan_category:0 "Groß-Aserbaidschan"
  

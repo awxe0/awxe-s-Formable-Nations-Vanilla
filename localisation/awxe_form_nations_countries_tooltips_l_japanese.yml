@@ -1,6 +1,7 @@
 ﻿l_japanese:
  germany_expansion_continued_requirement_tooltip:0 "§Yアルザス-ロレーヌ§! または §Yアルト・アディジェ§! を制御します。"
  highlighted_state_tooltip:0 "すべてのハイライトされた州を制御します。"
+ enough_control_requirement:0 "この国家を宣言するために、強調表示された土地を十分に支配しています。"
  asia_requirement_tooltip:0 "小さな§Y太平洋§!島々を除くすべての§Yアジア§!を制御します。"
  eurasia_requirement_tooltip:0 "小さな§Y太平洋§!および§Y大西洋§!島々を除くすべての§Yユーラシア§!を制御します。"
  afro_eurasia_requirement_tooltip:0 "小さな離島を除く§Yアフリカ§!、§Yアジア§!、§Yヨーロッパ§!を制御します。"

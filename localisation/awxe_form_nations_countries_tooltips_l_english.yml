@@ -1,6 +1,7 @@
 ﻿l_english:
  germany_expansion_continued_requirement_tooltip:0 "Controls §YAlsace-Lorraine§! or §YAlto Adige§!."
  highlighted_state_tooltip:0 "Controls all highlighted states."
+ enough_control_requirement:0 "Controls enough of the highlighted lands to proclaim this nation."
  asia_requirement_tooltip:0 "Controls all of §YAsia§! besides small §YPacific§! islands."
  eurasia_requirement_tooltip:0 "Controls all of §YEurasia§! besides small §YPacific§! and §YAtlantic§! islands."
  afro_eurasia_requirement_tooltip:0 "Controls of §YAfrica§!, §YAsia§!, and §YEurope§!, excluding small outlying islands."

@@ -1,6 +1,6 @@
 ﻿l_spanish:
  formable_nations_mod_category:0 "Formar Nueva Nación"
- formable_nations_mod_category_desc:0 "§C¡Antes de formar una nación, elige tu camino!\n\n§! Estas naciones formables no dependen de ninguna formable de Vanilla o RT56.\n\n Los bordes necesarios para la formable se resaltarán en blanco cuando pases el cursor sobre su nombre o ícono."
+ formable_nations_mod_category_desc:0 "§C¡Antes de formar una nación, elige tu camino!\n\n§! Estos formables no dependen de ningún formable de Vanilla.\n\n Los bordes necesarios para la formable se resaltarán en blanco cuando pases el cursor sobre su nombre o ícono."
  ############################## Copyrighted by awxe
  extra_ideas:0 "Decisiones"
  form_nation:0 "Formar Nueva Nación"
@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "Aq Qoyunlu"
  formable_nations_chola:0 "Dinastía Chola"
  formable_nations_tang:0 "Dinastía Tang"
+ formable_nations_greater_turkey:0 "Misak-ı Milli"
+ formable_nations_greater_armenia:0 "Gran Armenia"
+ formable_nations_akkadian_empire:0 "Imperio acadio"
+ formable_nations_seleucid_empire:0 "Imperio seléucida"
+ formable_nations_greater_azerbaijan:0 "Gran Azerbaiyán"
  ##############################
  
  ##############################
@@ -430,3 +435,8 @@
  formable_nations_aq_qoyunlu_category:0 "Aq Qoyunlu"
  formable_nations_chola_category:0 "Dinastía Chola"
  formable_nations_tang_category:0 "Dinastía Tang"
+ formable_nations_greater_turkey_category:0 "Misak-ı Milli"
+ formable_nations_greater_armenia_category:0 "Gran Armenia"
+ formable_nations_akkadian_empire_category:0 "Imperio acadio"
+ formable_nations_seleucid_empire_category:0 "Imperio seléucida"
+ formable_nations_greater_azerbaijan_category:0 "Gran Azerbaiyán"
