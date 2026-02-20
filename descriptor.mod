@@ -1,4 +1,5 @@
 version="1.6"
+picture="thumbnail"
 tags={
 	"Alternative History"
 	"Graphics"
