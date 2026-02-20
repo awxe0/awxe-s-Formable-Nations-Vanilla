@@ -1,3 +1,5 @@
+![AFN - Steam Showcase - Main - 180](https://github.com/user-attachments/assets/febc1146-1886-4522-bc46-60da1d3d99d9)
+
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
 **MOD:** The vanilla version was not released.
