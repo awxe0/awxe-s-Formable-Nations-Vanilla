@@ -3663,6 +3663,7 @@ formable_nations_mod_category = {
 				original_tag = ARM
 				original_tag = GEO
 				original_tag = AZR
+				original_tag = ABK
 			}
 		}
 
