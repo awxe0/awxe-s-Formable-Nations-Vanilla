@@ -26212,6 +26212,13 @@ formable_nations_mod_category = {
 				has_global_flag = no_limit
 				original_tag = DNZ
 				original_tag = PRE
+				original_tag = SHL
+				original_tag = MEK
+				original_tag = HAN
+				original_tag = RHI
+				original_tag = THU
+				original_tag = HES
+				original_tag = SIL
 			}
 		}
 
