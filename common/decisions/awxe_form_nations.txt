@@ -24581,7 +24581,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 36 # "49 states"
+                        amount > 32 # "48 states"
 						5 = { controls_or_subject_of = yes }
 						28 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
@@ -30950,7 +30950,6 @@ formable_nations_mod_category = {
 				state = 1120
 				state = 1121
 				state = 1125
-
 			}
 		}
 		
