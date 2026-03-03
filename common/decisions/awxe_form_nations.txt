@@ -24525,6 +24525,7 @@ formable_nations_mod_category = {
 		highlight_states = {
 			highlight_state_targets = {
 				state = 5
+				state = 28
 				state = 42
 				state = 50
 				state = 51
@@ -24547,9 +24548,12 @@ formable_nations_mod_category = {
 				state = 68
 				state = 85
 				state = 86
+				state = 188
+				state = 762
 				state = 763
 				state = 807
 				state = 909
+				state = 912
 				state = 978
 				
 				state = 541
@@ -24577,8 +24581,9 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 35 # "45 states"
+                        amount > 36 # "49 states"
 						5 = { controls_or_subject_of = yes }
+						28 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
 				        50 = { controls_or_subject_of = yes }
 				        51 = { controls_or_subject_of = yes }
@@ -24601,9 +24606,12 @@ formable_nations_mod_category = {
 				        68 = { controls_or_subject_of = yes }
 				        85 = { controls_or_subject_of = yes }
 				        86 = { controls_or_subject_of = yes }
+						188 = { controls_or_subject_of = yes }
+						762 = { controls_or_subject_of = yes }
 				        763 = { controls_or_subject_of = yes }
 				        807 = { controls_or_subject_of = yes }
 				        909 = { controls_or_subject_of = yes }
+						912 = { controls_or_subject_of = yes }
 				        978 = { controls_or_subject_of = yes }
 				
 						541 = { controls_or_subject_of = yes }
@@ -24640,6 +24648,7 @@ formable_nations_mod_category = {
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				5 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
 				42 = { add_core_of = ROOT }
 				50 = { add_core_of = ROOT }
 				51 = { add_core_of = ROOT }
@@ -24662,9 +24671,12 @@ formable_nations_mod_category = {
 				68 = { add_core_of = ROOT }
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
 				763 = { add_core_of = ROOT }
 				807 = { add_core_of = ROOT }
 				909 = { add_core_of = ROOT }
+				912 = { add_core_of = ROOT }
 				978 = { add_core_of = ROOT }
 		
 				541 = { add_core_of = ROOT }
