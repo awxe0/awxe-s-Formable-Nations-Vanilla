@@ -1,12 +1,47 @@
 RESTRICTIVE LICENSE AGREEMENT
+
 © Ali/awxe 2025. ALL RIGHTS RESERVED.
 
-This mod is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License and CC0 1.0 Universal.
+This mod is protected under international copyright laws.
 
-Copying, reinstalling, or using any part created by awxe, independently of the original mod, is strictly prohibited without explicit permission. Unauthorized use may result in legal action.
+Unless otherwise explicitly stated, all original content created by awxe, including but not limited to:
+
+- Code (scripts, events, decisions, GUI, localization, etc.)
+- Visual assets (icons, flags, graphics, UI elements)
+- Design concepts
+- Custom balance systems
+- Written content and descriptions
+
+is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
+
+Some specifically marked assets may be released under CC0 1.0 Universal and may be used freely where explicitly stated.
+
+Strictly Prohibited Without Explicit Written Permission
+- Reuploading this mod in whole or in part (including to other platforms).
+- Using any part of this mod in another mod
+- Extracting and redistributing assets.
+- Modifying and publishing edited versions.
+- Including this content in paid projects.
+- Using assets in AI training datasets.
+- Uploading to mod packs without permission.
+
+Allowed
+- Personal use.
+- Showcasing gameplay on YouTube, Twitch, etc.
+
+Copying, reinstalling, or using any part created by awxe, independently of the original mod, is strictly prohibited without explicit permission. Unauthorized use, redistribution or modification may result in:
+- DMCA takedown requests.
+- Platform moderation reports.
+- Legal action where applicable.
 
 Please respect the work put into this project and contact me before using any content.
 
-By downloading this mod, you agree to these terms.
+Contact
+For permissions, collaborations or commercial licensing inquiries, please contact:
+- Email: alialsancak37@gmail.com
+- Steam: steamcommunity.com/id/awxe0/
+
+By downloading or using this mod, you agree to these terms.
 
 Thank you.
+
