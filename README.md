@@ -2,9 +2,9 @@
 
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
-**MOD:** The vanilla version was not released.
+**MOD:** https://steamcommunity.com/sharedfiles/filedetails/?id=3677761082
 
-The vanilla version is full of brand new content that has been expanded, translated, optimized and never seen before.
+This is the well-known and beloved Formable Nations mod, fully overhauled. Expanded, translated, optimized and packed with brand-new formable content never seen before.
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
@@ -34,7 +34,15 @@ The vanilla version is full of brand new content that has been expanded, transla
 
 <img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
 
-It may not be compatible with mods that add or modify states.
+It may not be compatible with mods that add or modify states. It is not compatible with Ironman.
+
+https://steamcommunity.com/sharedfiles/filedetails?id=3531061069 RT56 Version - awxe's Formable Nations for RT56
+
+**This mod is officially integrated into the following mod packs:**
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3657180693 New Horizons
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3506850939 Road to 56 : Expanded
 
 <img width="600" height="75" alt="AFN - Steam Banners - Feedback v2" src="https://github.com/user-attachments/assets/a59cd5f1-0305-4e7b-ab2c-0cf6bf63d6a0" />
 
@@ -50,16 +58,46 @@ Let’s shape the future of this mod together.
 
 https://github.com/awxe0/awxe-s-Formable-Nations-Vanilla/issues
 
-
+-------------------------------
 RESTRICTIVE LICENSE AGREEMENT
+
 © Ali/awxe 2025. ALL RIGHTS RESERVED.
 
-This mod is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License and CC0 1.0 Universal.
+This mod is protected under international copyright laws.
 
-Copying, reinstalling or using any part of this mod by AWXE without explicit permission is strictly prohibited. Unauthorized use may result in legal action.
+Unless otherwise explicitly stated, all original content created by awxe, including but not limited to:
+
+- Code (scripts, events, decisions, GUI, localization, etc.)
+- Visual assets (icons, flags, graphics, UI elements)
+- Design concepts
+- Custom balance systems
+- Written content and descriptions
+
+is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
+
+Some specifically marked assets may be released under CC0 1.0 Universal and may be used freely where explicitly stated.
+
+Strictly Prohibited Without Explicit Written Permission
+- Reuploading this mod in whole or in part (including to other platforms).
+- Using any part of this mod in another mod
+- Extracting and redistributing assets.
+- Modifying and publishing edited versions.
+- Including this content in paid projects.
+- Using assets in AI training datasets.
+- Uploading to mod packs without permission.
+
+Allowed
+- Personal use.
+- Showcasing gameplay on YouTube, Twitch, etc.
+
+Copying, reinstalling, or using any part created by awxe, independently of the original mod, is strictly prohibited without explicit permission. Unauthorized use, redistribution or modification may result in:
+- DMCA takedown requests.
+- Platform moderation reports.
+- Legal action where applicable.
 
 Please respect the work put into this project and contact me before using any content.
 
-By downloading this mod, you agree to these terms.
-
-Thank you.
+Contact
+For permissions, collaborations or commercial licensing inquiries, please contact:
+- Email: alialsancak37@gmail.com
+- Steam: steamcommunity.com/id/awxe0/
