@@ -20584,7 +20584,6 @@ formable_nations_mod_category = {
 			highlight_state_targets = {
 				state = 283
 				state = 325
-				state = 326
 				state = 328
 				state = 408
 				state = 409
@@ -20620,8 +20619,6 @@ formable_nations_mod_category = {
 				state = 715
 				state = 716
 				state = 717
-				state = 728
-				state = 729
 				state = 743
 				state = 744
 				state = 745
@@ -20662,7 +20659,6 @@ formable_nations_mod_category = {
 					AND = {
 						283 = { controls_or_subject_of = yes }	
 				        325 = { controls_or_subject_of = yes }
-						326 = { controls_or_subject_of = yes }	
 						328 = { controls_or_subject_of = yes }	
 						408 = { controls_or_subject_of = yes }	
 				        409 = { controls_or_subject_of = yes }	
@@ -20698,8 +20694,6 @@ formable_nations_mod_category = {
 						715 = { controls_or_subject_of = yes }	
 				        716 = { controls_or_subject_of = yes }	
 				        717 = { controls_or_subject_of = yes }	
-						728 = { controls_or_subject_of = yes }
-						729 = { controls_or_subject_of = yes }
 						743 = { controls_or_subject_of = yes }
 				        744 = { controls_or_subject_of = yes }	
 				        745 = { controls_or_subject_of = yes }	
@@ -20748,8 +20742,7 @@ formable_nations_mod_category = {
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				283 = { add_core_of = ROOT }	
-				325 = { add_core_of = ROOT }
-                326 = { add_core_of = ROOT }				
+				325 = { add_core_of = ROOT }			
 				328 = { add_core_of = ROOT }	
 				408 = { add_core_of = ROOT }	
 				409 = { add_core_of = ROOT }	
@@ -20785,9 +20778,7 @@ formable_nations_mod_category = {
 				715 = { add_core_of = ROOT }	
 				716 = { add_core_of = ROOT }	
 				717 = { add_core_of = ROOT }
-				728 = { add_core_of = ROOT }
-				729 = { add_core_of = ROOT }
-                743 = { add_core_of = ROOT }				
+                743 = { add_core_of = ROOT }
 				744 = { add_core_of = ROOT }	
 				745 = { add_core_of = ROOT }	
 				746 = { add_core_of = ROOT }	
@@ -20816,8 +20807,11 @@ formable_nations_mod_category = {
 				1043 = { add_core_of = ROOT }	
 				1044 = { add_core_of = ROOT }	
 				1045 = { add_core_of = ROOT }	
-				1046 = { add_core_of = ROOT }	
+				1046 = { add_core_of = ROOT }
 			}
+			728 = { add_core_of = ROOT }
+			729 = { add_core_of = ROOT }
+			326 = { add_core_of = ROOT }
 		}
 	}
 	
