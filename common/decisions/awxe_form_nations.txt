@@ -29328,25 +29328,27 @@ formable_nations_mod_category = {
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				615 = { add_core_of = ROOT }
 				621 = { add_core_of = ROOT }
+				746 = { add_core_of = ROOT }
 				622 = { add_core_of = ROOT }
 				283 = { add_core_of = ROOT }
 				604 = { add_core_of = ROOT }
 				616 = { add_core_of = ROOT }
+				756 = { add_core_of = ROOT }
+				755 = { add_core_of = ROOT }
+				754 = { add_core_of = ROOT }
+				753 = { add_core_of = ROOT }
 				287 = { add_core_of = ROOT }
 				617 = { add_core_of = ROOT }
 				618 = { add_core_of = ROOT }
 				619 = { add_core_of = ROOT }
-				322 = { add_core_of = ROOT }
-				330 = { add_core_of = ROOT }
-				817 = { add_core_of = ROOT }
-				818 = { add_core_of = ROOT }
-				819 = { add_core_of = ROOT }
-				820 = { add_core_of = ROOT }
+				759 = { add_core_of = ROOT }
+				760 = { add_core_of = ROOT }
 				325 = { add_core_of = ROOT }
 				591 = { add_core_of = ROOT }
 				592 = { add_core_of = ROOT }
 				593 = { add_core_of = ROOT }
 				594 = { add_core_of = ROOT }
+				598 = { add_core_of = ROOT }
 				599 = { add_core_of = ROOT }
 				611 = { add_core_of = ROOT }
 				612 = { add_core_of = ROOT }
@@ -29356,8 +29358,8 @@ formable_nations_mod_category = {
 				715 = { add_core_of = ROOT }
 				716 = { add_core_of = ROOT }
 				717 = { add_core_of = ROOT }
+				761 = { add_core_of = ROOT }
 				609 = { add_core_of = ROOT }
-				657 = { add_core_of = ROOT }
 				602 = { add_core_of = ROOT }
 				603 = { add_core_of = ROOT }
 				605 = { add_core_of = ROOT }
@@ -29373,9 +29375,30 @@ formable_nations_mod_category = {
 				597 = { add_core_of = ROOT }
 				614 = { add_core_of = ROOT }
 				608 = { add_core_of = ROOT }
-				598 = { add_core_of = ROOT }
+				752 = { add_core_of = ROOT }
+				751 = { add_core_of = ROOT }
+				744 = { add_core_of = ROOT }
+				748 = { add_core_of = ROOT }
+				750 = { add_core_of = ROOT }
+				744 = { add_core_of = ROOT }
+				749 = { add_core_of = ROOT }
+				743 = { add_core_of = ROOT }
+				594 = { add_core_of = ROOT }
+				599 = { add_core_of = ROOT }
+				592 = { add_core_of = ROOT }
+				593 = { add_core_of = ROOT }
+				591 = { add_core_of = ROOT }
+				325 = { add_core_of = ROOT }
+				747 = { add_core_of = ROOT }				
+				322 = { add_core_of = ROOT }
 				757 = { add_core_of = ROOT }
 				758 = { add_core_of = ROOT }
+				330 = { add_core_of = ROOT }
+				817 = { add_core_of = ROOT }
+				818 = { add_core_of = ROOT }
+				819 = { add_core_of = ROOT }
+				820 = { add_core_of = ROOT }						
+				329 = { add_core_of = ROOT }
 				
 				717 = { add_core_of = ROOT }
 				
