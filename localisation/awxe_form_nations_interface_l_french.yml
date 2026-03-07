@@ -251,6 +251,11 @@
  formable_nations_akkadian_empire:0 "Empire akkadien"
  formable_nations_seleucid_empire:0 "Empire séleucide"
  formable_nations_greater_azerbaijan:0 "Grand Azerbaïdjan"
+ formable_nations_teutonic:0 "Ordre Teutonique"
+ formable_nations_grossdeutschland_losung:0 "Solution Grande-Allemande"
+ formable_nations_sweden_norway:0 "Union Suédo-Norvégienne"
+ formable_nations_poland_romania:0 "Union Polono-Roumaine"
+ formable_nations_greater_norway:0 "Grande Norvège"
  ##############################
  
  ##############################
@@ -440,3 +445,8 @@
  formable_nations_akkadian_empire_category:0 "Empire akkadien"
  formable_nations_seleucid_empire_category:0 "Empire séleucide"
  formable_nations_greater_azerbaijan_category:0 "Grand Azerbaïdjan"
+ formable_nations_teutonic_category:0 "Ordre Teutonique"
+ formable_nations_grossdeutschland_losung_category:0 "Solution Grande-Allemande"
+ formable_nations_sweden_norway_category:0 "Union Suédo-Norvégienne"
+ formable_nations_poland_romania_category:0 "Union Polono-Roumaine"
+ formable_nations_greater_norway_category:0 "Grande Norvège"

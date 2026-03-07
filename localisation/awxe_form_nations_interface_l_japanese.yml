@@ -252,6 +252,11 @@
  formable_nations_akkadian_empire:0 "アッカド帝国"
  formable_nations_seleucid_empire:0 "セレウコス帝国"
  formable_nations_greater_azerbaijan:0 "大アゼルバイジャン"
+ formable_nations_teutonic:0 "テュートン騎士団"
+ formable_nations_grossdeutschland_losung:0 "大ドイツ解決"
+ formable_nations_sweden_norway:0 "スウェーデン・ノルウェー連合"
+ formable_nations_poland_romania:0 "ポーランド・ルーマニア連合"
+ formable_nations_greater_norway:0 "大ノルウェー"
  ##############################
 
  ##############################
@@ -439,3 +444,8 @@
  formable_nations_akkadian_empire_category:0 "アッカド帝国"
  formable_nations_seleucid_empire_category:0 "セレウコス帝国"
  formable_nations_greater_azerbaijan_category:0 "大アゼルバイジャン"
+ formable_nations_teutonic_category:0 "テュートン騎士団"
+ formable_nations_grossdeutschland_losung_category:0 "大ドイツ解決"
+ formable_nations_sweden_norway_category:0 "スウェーデン・ノルウェー連合"
+ formable_nations_poland_romania_category:0 "ポーランド・ルーマニア連合"
+ formable_nations_greater_norway_category:0 "大ノルウェー"

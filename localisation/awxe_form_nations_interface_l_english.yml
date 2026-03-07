@@ -43,6 +43,7 @@
  formable_nations_assyria:0 "Assyria"
  formable_nations_australasia:0 "Australasia"
  formable_nations_austria_hungary:0 "Austria-Hungary"
+ formable_nations_austria_hungary_desc:0 "To form the §9Großdeutsche-Lösung§!, you must first form either the §9Großdeutschland§! or §9Austria-Hungary§!."
  formable_nations_austria_tt:0 "§YAustria§!: Controlled by §Y[From.GetName]§!"
  formable_nations_balkan:0 "Balkans"
  formable_nations_baltic:0 "Baltic States"
@@ -97,6 +98,7 @@
  formable_nations_great_moravia:0 "Great Moravia"
  formable_nations_greece_tt:0 "§YGreece§!: Controlled by §Y[From.GetName]§!"
  formable_nations_grossdeutschland:0 "Großdeutschland"
+ formable_nations_grossdeutschland_desc:0 "To form the Großdeutsche-Lösung, you must first form either the Großdeutschland or Austria-Hungary."
  formable_nations_guyanas:0 "United Guyana"
  formable_nations_hispaniola:0 "Hispaniola"
  formable_nations_hre:0 "Holy Roman Empire"
@@ -252,6 +254,11 @@
  formable_nations_akkadian_empire:0 "Akkadian Empire"
  formable_nations_seleucid_empire:0 "Seleucid Empire"
  formable_nations_greater_azerbaijan:0 "Greater Azerbaijan"
+ formable_nations_teutonic:0 "Teutonic Order"
+ formable_nations_grossdeutschland_losung:0 "Großdeutsche-Lösung"
+ formable_nations_sweden_norway:0 "Sweden-Norway Union"
+ formable_nations_poland_romania:0 "Poland-Romania Union"
+ formable_nations_greater_norway:0 "Greater Norway"
  ##############################
 
  #############################
@@ -439,3 +446,8 @@
  formable_nations_akkadian_empire_category:0 "Akkadian Empire"
  formable_nations_seleucid_empire_category:0 "Seleucid Empire"
  formable_nations_greater_azerbaijan_category:0 "Greater Azerbaijan"
+ formable_nations_teutonic_category:0 "Teutonic Order"
+ formable_nations_grossdeutschland_losung_category:0 "Großdeutsche-Lösung"
+ formable_nations_sweden_norway_category:0 "Sweden-Norway Union"
+ formable_nations_poland_romania_category:0 "Poland-Romania Union"
+ formable_nations_greater_norway_category:0 "Greater Norway"

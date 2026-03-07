@@ -252,6 +252,11 @@
  formable_nations_akkadian_empire:0 "Akkadisches Reich"
  formable_nations_seleucid_empire:0 "Seleukidenreich"
  formable_nations_greater_azerbaijan:0 "Groß-Aserbaidschan"
+ formable_nations_teutonic:0 "Deutscher Orden"
+ formable_nations_grossdeutschland_losung:0 "Großdeutsche-Lösung"
+ formable_nations_sweden_norway:0 "Schweden-Norwegen Union"
+ formable_nations_poland_romania:0 "Polen-Rumänien Union"
+ formable_nations_greater_norway:0 "Großnorwegen"
  ##############################
  
  ##############################
@@ -441,4 +446,9 @@
  formable_nations_akkadian_empire_category:0 "Akkadisches Reich"
  formable_nations_seleucid_empire_category:0 "Seleukidenreich"
  formable_nations_greater_azerbaijan_category:0 "Groß-Aserbaidschan"
+ formable_nations_teutonic_category:0 "Deutscher Orden"
+ formable_nations_grossdeutschland_losung_category:0 "Großdeutsche-Lösung"
+ formable_nations_sweden_norway_category:0 "Schweden-Norwegen Union"
+ formable_nations_poland_romania_category:0 "Polen-Rumänien Union"
+ formable_nations_greater_norway_category:0 "Großnorwegen"
  

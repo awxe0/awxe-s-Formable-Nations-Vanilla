@@ -252,6 +252,11 @@
  formable_nations_akkadian_empire:0 "阿卡德帝国"
  formable_nations_seleucid_empire:0 "塞琉古帝国"
  formable_nations_greater_azerbaijan:0 "大阿塞拜疆"
+ formable_nations_teutonic:0 "条顿骑士团"
+ formable_nations_grossdeutschland_losung:0 "大德意志方案"
+ formable_nations_sweden_norway:0 "瑞典-挪威联盟"
+ formable_nations_poland_romania:0 "波兰-罗马尼亚联盟"
+ formable_nations_greater_norway:0 "大挪威"
  ##############################
  
  #############################
@@ -441,4 +446,9 @@
  formable_nations_akkadian_empire_category:0 "阿卡德帝国"
  formable_nations_seleucid_empire_category:0 "塞琉古帝国"
  formable_nations_greater_azerbaijan_category:0 "大阿塞拜疆"
+ formable_nations_teutonic_category:0 "条顿骑士团"
+ formable_nations_grossdeutschland_losung_category:0 "大德意志方案"
+ formable_nations_sweden_norway_category:0 "瑞典-挪威联盟"
+ formable_nations_poland_romania_category:0 "波兰-罗马尼亚联盟"
+ formable_nations_greater_norway_category:0 "大挪威"
  

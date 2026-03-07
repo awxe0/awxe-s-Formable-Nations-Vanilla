@@ -252,6 +252,11 @@
  formable_nations_akkadian_empire:0 "Imperium Akadu"
  formable_nations_seleucid_empire:0 "Imperium Seleucydów"
  formable_nations_greater_azerbaijan:0 "Wielki Azerbejdżan"
+ formable_nations_teutonic:0 "Zakon Krzyżacki"
+ formable_nations_grossdeutschland_losung:0 "Wielkoniemieckie Rozwiązanie"
+ formable_nations_sweden_norway:0 "Unia Szwecji-Norwegii"
+ formable_nations_poland_romania:0 "Unia Polski-Rumunii"
+ formable_nations_greater_norway:0 "Wielka Norwegia"
  ##############################
 
  formable_nations_abyssinia_category:0 "Abisynia"
@@ -440,3 +445,8 @@
  formable_nations_akkadian_empire_category:0 "Imperium Akadu"
  formable_nations_seleucid_empire_category:0 "Imperium Seleucydów"
  formable_nations_greater_azerbaijan_category:0 "Wielki Azerbejdżan"
+ formable_nations_teutonic_category:0 "Zakon Krzyżacki"
+ formable_nations_grossdeutschland_losung_category:0 "Wielkoniemieckie Rozwiązanie"
+ formable_nations_sweden_norway_category:0 "Unia Szwecji-Norwegii"
+ formable_nations_poland_romania_category:0 "Unia Polski-Rumunii"
+ formable_nations_greater_norway_category:0 "Wielka Norwegia"

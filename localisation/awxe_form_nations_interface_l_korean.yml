@@ -252,6 +252,11 @@
  formable_nations_akkadian_empire:0 "아카드 제국"
  formable_nations_seleucid_empire:0 "셀레우코스 제국"
  formable_nations_greater_azerbaijan:0 "대아제르바이잔"
+ formable_nations_teutonic:0 "튜턴 기사단"
+ formable_nations_grossdeutschland_losung:0 "대독일 해결"
+ formable_nations_sweden_norway:0 "스웨덴-노르웨이 연합"
+ formable_nations_poland_romania:0 "폴란드-루마니아 연합"
+ formable_nations_greater_norway:0 "대노르웨이"
  ##############################
  
  ##############################
@@ -438,3 +443,8 @@
  formable_nations_akkadian_empire_category:0 "아카드 제국"
  formable_nations_seleucid_empire_category:0 "셀레우코스 제국"
  formable_nations_greater_azerbaijan_category:0 "대아제르바이잔"
+ formable_nations_teutonic_category:0 "튜턴 기사단"
+ formable_nations_grossdeutschland_losung_category:0 "대독일 해결"
+ formable_nations_sweden_norway_category:0 "스웨덴-노르웨이 연합"
+ formable_nations_poland_romania_category:0 "폴란드-루마니아 연합"
+ formable_nations_greater_norway_category:0 "대노르웨이"
