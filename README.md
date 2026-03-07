@@ -30,6 +30,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled. Expan
 • Japanese / 日本語 - ✅ 100%  
 • Korean / 韓國語 - ✅ 100%  
 • Chinese / 中文 - ✅ 100% (by 鸢一折纸)  
+• Turkish / Türkçe - ✅ 100% (by ClickClick)  
 • Portuguese / Português - Work in Progress  
 
 <img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
