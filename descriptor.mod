@@ -1,4 +1,4 @@
-version="1.6"
+version="1.7"
 picture="thumbnail"
 tags={
 	"Alternative History"
@@ -10,3 +10,4 @@ tags={
 }
 name="awxe's Formable Nations"
 supported_version="1.17.*"
+remote_file_id="3677761082"
