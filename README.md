@@ -8,7 +8,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled. Expan
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 6" src="https://github.com/user-attachments/assets/2787af2a-d435-4b08-a4dd-40d08d3693e8" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 7" src="https://github.com/user-attachments/assets/5e9b2a3c-277e-4685-844b-cf9afd8cf3b6" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
@@ -41,6 +41,8 @@ https://steamcommunity.com/sharedfiles/filedetails?id=3531061069 RT56 Version - 
 **This mod is officially integrated into the following mod packs:**
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3657180693 New Horizons
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2782465344 Call of War
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3506850939 Road to 56 : Expanded
 
