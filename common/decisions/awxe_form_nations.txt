@@ -1827,6 +1827,7 @@ formable_nations_mod_category = {
 				original_tag = PRC
 				original_tag = MAN
 				original_tag = MEN
+				original_tag = KUM
 			}
 		}
 
@@ -7212,6 +7213,7 @@ formable_nations_mod_category = {
 				original_tag = UZB
 				original_tag = KYR
 				original_tag = ALT
+				original_tag = KUM
 			}
 		}
 
@@ -22039,6 +22041,8 @@ formable_nations_mod_category = {
 			874 = { add_core_of = ROOT }
 			637 = { add_core_of = ROOT }
 			822 = { add_core_of = ROOT }
+			80 = { add_core_of = ROOT }
+			766 = { add_core_of = ROOT }
 			68 = { add_claim_by = ROOT }
 		}
 	}
@@ -29094,6 +29098,7 @@ formable_nations_mod_category = {
 				original_tag = GDC
 				original_tag = HBC
 				original_tag = MON
+				original_tag = KUM
 			}
 		}
 
@@ -29805,6 +29810,7 @@ formable_nations_mod_category = {
 				original_tag = SIK
 				original_tag = KHM
 				original_tag = BUK
+				original_tag = KUM
 			}
 		}
 
@@ -29914,6 +29920,7 @@ formable_nations_mod_category = {
 				original_tag = KAZ
 				original_tag = SIK
 				original_tag = TAN
+				original_tag = KUM
 			}
 		}
 
@@ -30021,6 +30028,7 @@ formable_nations_mod_category = {
 				original_tag = MAN
 				original_tag = MEN
 				original_tag = TAN
+				original_tag = KUM
 			}
 		}
 
