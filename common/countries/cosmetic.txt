@@ -853,3 +853,26 @@ AFN_GAZ = {
 	color = rgb { 0 151 109 }
 	color_ui = rgb { 0 151 109 }
 }
+AFN_TEU = {
+	color = rgb { 72 81 90 }
+	color_ui = rgb { 72 81 90 }
+}
+AFN_GRL = {
+	color = rgb { 20 20 20 }
+	color_ui = rgb { 20 20 20 }
+}
+
+AFN_SNU = {
+	color = rgb { 22 66 132 }
+	color_ui = rgb { 22 66 132 }
+}
+
+AFN_PRU = {
+	color = rgb { 214 29 57 }
+	color_ui = rgb { 214 29 57 }
+}
+
+AFN_GNO = {
+	color = rgb { 132 19 23 }
+	color_ui = rgb { 132 19 23 }
+}

@@ -731,4 +731,24 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_greater_azerbaijan"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_azerbaijan.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_teutonic"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_teutonic.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_grossdeutschland_losung"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_grossdeutschland_losung.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_sweden_norway"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_sweden_norway.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_poland_romania"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_poland_romania.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_greater_norway"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_norway.tga"
+	}
 }
