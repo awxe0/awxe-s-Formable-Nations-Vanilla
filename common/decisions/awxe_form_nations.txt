@@ -735,6 +735,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_MOE
 			add_stability = 0.2
 			set_capital = { state = 330 }
+			set_victory_points = {
+					province = 4801
+					value = 15
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				330 = { add_core_of = ROOT }
@@ -1250,6 +1254,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_EUR
 			add_stability = 0.2
 			set_capital = { state = 6 }
+			set_victory_points = {
+					province = 516
+					value = 35
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				every_state = {
@@ -1708,6 +1716,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_LAU
 			add_stability = 0.2
 			set_capital = { state = 2 }
+			set_victory_points = {
+					province = 9904
+					value = 50
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				41 = { add_core_of = ROOT }
@@ -2046,6 +2058,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_QIN
 			add_stability = 0.2
 			set_capital = { state = 608 }
+			set_victory_points = {
+					province = 9843
+					value = 35
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				615 = { add_core_of = ROOT }
@@ -2986,6 +3002,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_HRE
 			add_stability = 0.2
 			set_capital = { state = 52 }
+			set_victory_points = {
+					province = 692
+					value = 40
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				42 = { add_core_of = ROOT }
@@ -3304,6 +3324,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_SCA
 			add_stability = 0.15
 			set_capital = { state = 37 }
+			set_victory_points = {
+					province = 6287
+					value = 25
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
@@ -3469,6 +3493,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_ARA
 			add_stability = 0.2
 			set_capital = { state = 291 }
+			set_victory_points = {
+					province = 2097
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				292 = { add_core_of = ROOT }
@@ -3700,6 +3728,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_CAU
 			add_stability = 0.1
 			set_capital = { state = 231 }
+			set_victory_points = {
+					province = 1599
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
@@ -5706,6 +5738,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_MAC
 			add_stability = 0.2
 			set_capital = { state = 731 }
+			set_victory_points = {
+					province = 11818
+					value = 30
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				47 = { add_core_of = ROOT }
@@ -6165,8 +6201,12 @@ formable_nations_mod_category = {
 		icon = formable_nations_ottomans
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_OTT
-			set_capital = { state = 797 }
 			add_stability = 0.2
+			set_capital = { state = 797 }
+			set_victory_points = {
+					province = 9833
+					value = 35
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
@@ -6325,12 +6365,12 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GIS
 			add_stability = 0.1
 			set_capital = { state = 454 }
-			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
-				set_victory_points = {
+			set_victory_points = {
 					province = 1086
 					value = 10
 				}
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				454 = { add_core_of = ROOT }
 				455 = { add_core_of = ROOT }
 				453 = { add_core_of = ROOT }
@@ -7356,6 +7396,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_TKS
 			add_stability = 0.2
 			set_capital = { state = 405 }
+			set_victory_points = {
+					province = 1459
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
@@ -8280,6 +8324,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_HIS
 			add_stability = 0.1
 			set_capital = { state = 318 }
+			set_victory_points = {
+					province = 4641
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				318 = { add_core_of = ROOT }
@@ -8431,6 +8479,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_CAB
 			add_stability = 0.1
 			set_capital = { state = 318 }
+			set_victory_points = {
+					province = 4641
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				315 = { add_core_of = ROOT }
@@ -10067,6 +10119,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_ASS
 			add_stability = 0.15
 			set_capital = { state = 291 }
+			set_victory_points = {
+					province = 2097
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				291 = { add_core_of = ROOT }
@@ -10264,7 +10320,11 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_ASI
 			add_stability = 0.2
-			set_capital = { state = 605 }
+			set_capital = { state = 1035 }
+			set_victory_points = {
+					province = 11913
+					value = 40
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				every_state = {
@@ -11525,8 +11585,7 @@ formable_nations_mod_category = {
 				state = 888
 				state = 889
 				state = 884
-				state = 885
-				
+				state = 885				
 			}
 		}
 		
@@ -11539,11 +11598,8 @@ formable_nations_mod_category = {
 						903 = { controls_or_subject_of = yes }
 						904 = { controls_or_subject_of = yes }
 						905 = { controls_or_subject_of = yes }
-						
-						546 = { controls_or_subject_of = yes }
-						
-						548 = { controls_or_subject_of = yes }
-						
+						546 = { controls_or_subject_of = yes }						
+						548 = { controls_or_subject_of = yes }						
 						768 = { controls_or_subject_of = yes }
 						769 = { controls_or_subject_of = yes }
 						295 = { controls_or_subject_of = yes }
@@ -11551,8 +11607,7 @@ formable_nations_mod_category = {
 						718 = { controls_or_subject_of = yes }
 						890 = { controls_or_subject_of = yes }
 						888 = { controls_or_subject_of = yes }
-						889 = { controls_or_subject_of = yes }
-						
+						889 = { controls_or_subject_of = yes }						
 						884 = { controls_or_subject_of = yes }
 						885 = { controls_or_subject_of = yes }
 					}
@@ -11569,18 +11624,19 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_EAF
 			add_stability = 0.2
-			set_capital = { state = 546 }
+			set_capital = { state = 295 }
+			set_victory_points = {
+					province = 5117
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available		
 				547 = { add_core_of = ROOT }
 				903 = { add_core_of = ROOT }
 				904 = { add_core_of = ROOT }
 				905 = { add_core_of = ROOT }
-
 				546 = { add_core_of = ROOT }
-
 				548 = { add_core_of = ROOT }
-
 				768 = { add_core_of = ROOT }
 				769 = { add_core_of = ROOT }
 				295 = { add_core_of = ROOT }
@@ -11589,7 +11645,6 @@ formable_nations_mod_category = {
 				890 = { add_core_of = ROOT }
 				888 = { add_core_of = ROOT }
 				889 = { add_core_of = ROOT }
-
 				884 = { add_core_of = ROOT }
 				885 = { add_core_of = ROOT }
 			}
@@ -11941,6 +11996,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_AEA
 			add_stability = 0.2
 			set_capital = { state = 797 }
+			set_victory_points = {
+					province = 9833
+					value = 35
+				}
 			set_province_name = { id = 9833 name = "The City" }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
@@ -12508,8 +12567,7 @@ formable_nations_mod_category = {
 				state = 677
 				state = 680
 				state = 454
-				state = 455				
-				
+				state = 455								
 			}
 		}
 		
@@ -12523,8 +12581,7 @@ formable_nations_mod_category = {
 						677 = { controls_or_subject_of = yes }
 						680 = { controls_or_subject_of = yes }
 						454 = { controls_or_subject_of = yes }
-						455 = { controls_or_subject_of = yes }
-						
+						455 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -12540,6 +12597,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_LEV
 			add_stability = 0.1
 			set_capital = { state = 554 }
+			set_victory_points = {
+					province = 4111
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				454 = { add_core_of = ROOT }
@@ -12547,8 +12608,7 @@ formable_nations_mod_category = {
 				553 = { add_core_of = ROOT }
 				554 = { add_core_of = ROOT }
 				677 = { add_core_of = ROOT }
-				680 = { add_core_of = ROOT }
-				
+				680 = { add_core_of = ROOT }				
 			}
 			183 = { add_claim_by = ROOT }
 			799 = { add_claim_by = ROOT }
@@ -12742,6 +12802,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_MID
 			add_stability = 0.2
 			set_capital = { state = 291 }
+			set_victory_points = {
+					province = 2097
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				every_state = {
@@ -13141,8 +13205,7 @@ formable_nations_mod_category = {
 			highlight_state_targets = {
 				state = 309
 				state = 310
-				state = 687
-				
+				state = 687				
 			}
 		}
 		
@@ -13169,6 +13232,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GUY
 			add_stability = 0.1
 			set_capital = { state = 687 }
+			set_victory_points = {
+					province = 4982
+					value = 5
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				309 = { add_core_of = ROOT }
@@ -13351,6 +13418,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_AME
 			add_stability = 0.2
 			set_capital = { state = 304 }
+			set_victory_points = {
+					province = 7630
+					value = 15
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				every_state = {
@@ -14229,6 +14300,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_BYZ
 			add_stability = 0.2
 			set_capital = { state = 797 }
+			set_victory_points = {
+					province = 9833
+					value = 35
+				}
 			set_province_name = { id = 9833 name = "Konstantinoúpolis"}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
@@ -14696,11 +14771,9 @@ formable_nations_mod_category = {
 			131 = { add_claim_by = ROOT }
 			132 = { add_claim_by = ROOT }
 			338 = { add_claim_by = ROOT }
-			1104 = { add_claim_by = ROOT }
 			42 = { add_claim_by = ROOT }
 			51 = { add_claim_by = ROOT }
 			52 = { add_claim_by = ROOT }
-			1053 = { add_claim_by = ROOT }
 			116 = { add_claim_by = ROOT }
 		}
 	}
@@ -16463,7 +16536,11 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 		    set_cosmetic_tag = AFN_DUR
 			add_stability = 0.1
-			set_capital = { state = 1010 }
+			set_capital = { state = 267 }
+			set_victory_points = {
+					province = 10737
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				267 = { add_core_of = ROOT }
@@ -16819,6 +16896,10 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_UMA
 			add_stability = 0.2
 			set_capital = { state = 554 }
+			set_victory_points = {
+					province = 4111
+					value = 25
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available				
 				267 = { add_core_of = ROOT }
@@ -17029,6 +17110,7 @@ formable_nations_mod_category = {
 				state = 998
 				state = 999
 				state = 1017
+				state = 1022
 				state = 1023
 				state = 1024
 				state = 1025
@@ -17081,6 +17163,7 @@ formable_nations_mod_category = {
 				        998 = { controls_or_subject_of = yes }
 				        999 = { controls_or_subject_of = yes }
 						1017 = { controls_or_subject_of = yes }
+						1022 = { controls_or_subject_of = yes }
 				        1023 = { controls_or_subject_of = yes }
 				        1024 = { controls_or_subject_of = yes }
 				        1025 = { controls_or_subject_of = yes }
@@ -17101,6 +17184,10 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_SEA
 			add_stability = 0.2
 			set_capital = { state = 289 }
+			set_victory_points = {
+					province = 7408
+					value = 15
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				286 = { add_core_of = ROOT }
@@ -17142,6 +17229,7 @@ formable_nations_mod_category = {
 				998 = { add_core_of = ROOT }
 				999 = { add_core_of = ROOT }
 				1017 = { add_core_of = ROOT }
+				1022 = { add_core_of = ROOT }
 				1023 = { add_core_of = ROOT }
 				1024 = { add_core_of = ROOT }
 				1025 = { add_core_of = ROOT }
@@ -17244,6 +17332,10 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_GHE
 			add_stability = 0.12
 			set_capital = { state = 415 }
+			set_victory_points = {
+					province = 4893
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				267 = { add_core_of = ROOT }
@@ -17379,6 +17471,10 @@ formable_nations_mod_category = {
 		set_cosmetic_tag = AFN_AFD
 			add_stability = 0.15
 			set_capital = { state = 414 }
+			set_victory_points = {
+					province = 10913
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
@@ -17637,6 +17733,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_BNT
 			add_stability = 0.1
 			set_capital = { state = 771 }
+			set_victory_points = {
+					province = 5199
+					value = 5
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				275 = { add_core_of = ROOT }
@@ -18928,8 +19028,12 @@ formable_nations_mod_category = {
 		icon = formable_nations_great_ottomans
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_GOT
-			set_capital = { state = 797 }
 			add_stability = 0.2
+			set_capital = { state = 797 }
+			set_victory_points = {
+					province = 9833
+					value = 35
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				44 = { add_core_of = ROOT }
@@ -19995,6 +20099,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_QAJ
 			add_stability = 0.15
 			set_capital = { state = 266 }
+			set_victory_points = {
+					province = 10837
+					value = 15
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }	
@@ -20219,6 +20327,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_SEL
 			add_stability = 0.2
 			set_capital = { state = 346 }
+			set_victory_points = {
+					province = 9861
+					value = 25
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }	
@@ -20738,6 +20850,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_MNG
 			add_stability = 0.15
 			set_capital = { state = 613 }
+			set_victory_points = {
+					province = 7014
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				283 = { add_core_of = ROOT }	
@@ -21075,6 +21191,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_BAB
 			add_stability = 0.12
 			set_capital = { state = 291 }
+			set_victory_points = {
+					province = 2097
+					value = 20
+				}
 			set_province_name = { id = 2097 name = "Babylon"}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
@@ -21293,6 +21413,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_HPA
 			add_stability = 0.2
 			set_capital = { state = 277 }
+			set_victory_points = {
+					province = 1965
+					value = 35
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				507 = { add_core_of = ROOT }
@@ -21474,6 +21598,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PHO
 			add_stability = 0.15
 			set_capital = { state = 553 }
+			set_victory_points = {
+					province = 792
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				448 = { add_core_of = ROOT }
@@ -22103,6 +22231,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_TRC
 			add_stability = 0.05
 			set_capital = { state = 184 }
+			set_victory_points = {
+					province = 11905
+					value = 5
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				184 = { add_core_of = ROOT }
@@ -22269,6 +22401,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_SRV
 			add_stability = 0.1
 			set_capital = { state = 672 }
+			set_victory_points = {
+					province = 4652
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				333 = { add_core_of = ROOT }
@@ -23415,6 +23551,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_FTK
 			add_stability = 0.15
 			set_capital = { state = 330 }
+			set_victory_points = {
+					province = 4801
+					value = 15
+				}
 			set_province_name = { id = 4801 name = "Ötüken" }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
@@ -24016,6 +24156,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_TIM
 			add_stability = 0.15
 			set_capital = { state = 415 }
+			set_victory_points = {
+					province = 4893
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }	
@@ -24456,6 +24600,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_CSK
 			add_stability = 0.1
 			set_capital = { state = 200 }
+			set_victory_points = {
+					province = 11405
+					value = 5
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				192 = { add_core_of = ROOT }
@@ -25638,6 +25786,10 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_ABB
 			add_stability = 0.2
 			set_capital = { state = 291 }
+			set_victory_points = {
+					province = 2097
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available				
 				415 = { add_core_of = ROOT }
@@ -25782,6 +25934,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_JRS
 			add_stability = 0.15
 			set_capital = { state = 454 }
+			set_victory_points = {
+					province = 1086
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				453 = { add_core_of = ROOT }
@@ -25870,7 +26026,7 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_ADT
 			add_stability = 0.1
-			set_capital = { state = 103 }
+			set_capital = { state = 160 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				44 = { add_core_of = ROOT }
@@ -26014,6 +26170,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_OUT
 			add_stability = 0.15
 			set_capital = { state = 454 }
+			set_victory_points = {
+					province = 1086
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				453 = { add_core_of = ROOT }
@@ -26518,6 +26678,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_OST
 			add_stability = 0.15
 			set_capital = { state = 161 }
+			set_victory_points = {
+					province = 6606
+					value = 30
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				2 = { add_core_of = ROOT }
@@ -27084,6 +27248,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_RGE
 			add_stability = 0.1
 			set_capital = { state = 161 }
+			set_victory_points = {
+					province = 6606
+					value = 30
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				2 = { add_core_of = ROOT }
@@ -28163,6 +28331,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_BUR
 			add_stability = 0.1
 			set_capital = { state = 8 }
+			set_victory_points = {
+					province = 6583
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				6 = { add_core_of = ROOT }
@@ -28261,6 +28433,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_LOT
 			add_stability = 0.1
 			set_capital = { state = 17 }
+			set_victory_points = {
+					province = 11516
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				7 = { add_core_of = ROOT }
@@ -28480,6 +28656,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GAL
 			add_stability = 0.15
 			set_capital = { state = 51 }
+			set_victory_points = {
+					province = 587
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				6 = { add_core_of = ROOT }
@@ -28754,6 +28934,10 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_CAR
 			add_stability = 0.2
 			set_capital = { state = 28 }
+			set_victory_points = {
+					province = 9559
+					value = 40
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
@@ -29526,6 +29710,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_LIA
 			add_stability = 0.15
 			set_capital = { state = 761 }
+			set_victory_points = {
+					province = 13150
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				328 = { add_core_of = ROOT }
@@ -30298,7 +30486,11 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_ILK
 			add_stability = 0.2
-			set_capital = { state = 419 }
+			set_capital = { state = 1000 }
+			set_victory_points = {
+					province = 1896
+					value = 15
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
@@ -30591,6 +30783,10 @@ formable_nations_mod_category = {
 		set_cosmetic_tag = AFN_QAR
 			add_stability = 0.15
 			set_capital = { state = 800 }
+			set_victory_points = {
+					province = 6935
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
@@ -30727,6 +30923,10 @@ formable_nations_mod_category = {
 		set_cosmetic_tag = AFN_AQQ
 			add_stability = 0.15
 			set_capital = { state = 350 }
+			set_victory_points = {
+					province = 4512
+					value = 10
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
@@ -31365,6 +31565,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_AKE
 			add_stability = 0.15
 			set_capital = { state = 291 }
+			set_victory_points = {
+					province = 2097
+					value = 20
+				}
 			set_province_name = { id = 2097 name = "New Akkad" }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
@@ -31569,6 +31773,10 @@ formable_nations_mod_category = {
 			add_stability = 0.20
 			set_capital = { state = 799 }
 			set_province_name = { id = 12029 name = "Antioch" }
+			set_victory_points = {
+					province = 12029
+					value = 20
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
@@ -31785,6 +31993,10 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_TEU
 			add_stability = 0.10
 			set_capital = { state = 763 }
+			set_victory_points = {
+					province = 6332
+					value = 15
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				5 = { add_core_of = ROOT }
@@ -32005,7 +32217,11 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_GRL
 			add_stability = 0.20
-			set_capital = { state = 64 }
+			set_capital = { state = 52 }
+			set_victory_points = {
+					province = 692
+					value = 50
+				}
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
