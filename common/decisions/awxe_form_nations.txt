@@ -7493,7 +7493,8 @@ formable_nations_mod_category = {
 				state = 724
 				state = 289
 				state = 868
-				state = 869				
+				state = 869
+				state = 1017
 			}
 		}
 		
@@ -7509,7 +7510,8 @@ formable_nations_mod_category = {
 						724 = { controls_or_subject_of = yes }
 						289 = { controls_or_subject_of = yes }
 						868 = { controls_or_subject_of = yes }
-						869 = { controls_or_subject_of = yes }						
+						869 = { controls_or_subject_of = yes }
+						1017 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -7527,14 +7529,15 @@ formable_nations_mod_category = {
 			set_capital = { state = 289 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				286 = { add_core_of = ROOT }
+				671 = { add_core_of = ROOT }
+				741 = { add_core_of = ROOT }
+				670 = { add_core_of = ROOT }
+				724 = { add_core_of = ROOT }
 				289 = { add_core_of = ROOT }
 				868 = { add_core_of = ROOT }
 				869 = { add_core_of = ROOT }
-				724 = { add_core_of = ROOT }
-				741 = { add_core_of = ROOT }
-				670 = { add_core_of = ROOT }
-				286 = { add_core_of = ROOT }
-				671 = { add_core_of = ROOT }
+				1017 = { add_core_of = ROOT }
 			}
 		}
 	}
