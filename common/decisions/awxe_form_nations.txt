@@ -440,7 +440,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 26 # "276 states"
+                        amount = 26 # "276 states"
 						330 = { controls_or_subject_of = yes }
 						817 = { controls_or_subject_of = yes }
 						818 = { controls_or_subject_of = yes }
@@ -1622,7 +1622,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 61 # "78 states"
+                        amount = 61 # "78 states"
 						41 = { controls_or_subject_of = yes }
 						165 = { controls_or_subject_of = yes }
 						166 = { controls_or_subject_of = yes }
@@ -2928,7 +2928,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 52 # "59 states"
+                        amount = 52 # "59 states"
 						42 = { controls_or_subject_of = yes }
 						50 = { controls_or_subject_of = yes }
 						51 = { controls_or_subject_of = yes }
@@ -24661,7 +24661,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 32 # "48 states"
+                        amount = 32 # "48 states"
 						5 = { controls_or_subject_of = yes }
 						28 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
@@ -31632,7 +31632,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 50 # "61 states"
+                        amount = 50 # "61 states"
 					    49 = { controls_or_subject_of = yes }
 						266 = { controls_or_subject_of = yes }
 						267 = { controls_or_subject_of = yes }
