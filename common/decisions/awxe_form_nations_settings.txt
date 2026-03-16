@@ -39,6 +39,14 @@ formable_nations_mod_category = {
 		cost = 0
 		visible = {
 			is_ai = no
+			NOT = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
 			has_country_flag = unhide_options_formable_nations
 		}
 		days_re_enable = 0
@@ -55,6 +63,14 @@ formable_nations_mod_category = {
 		cost = 0
 		visible = {
 			is_ai = no
+			NOT = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
 			NOT = { has_country_flag = unhide_options_formable_nations }
 		}
 		days_re_enable = 0
@@ -106,40 +122,40 @@ formable_nations_mod_category = {
 			hidden_effect = { clr_global_flag = ai_disabled }
 		}
 	}
-	allow_puppets = {
-		ai_will_do = {
-			factor = 0
-		}
-		cost = 0
-		visible = {
-			is_ai = no
-			NOT = { has_global_flag = puppets_allowed }
-			has_country_flag = unhide_options_formable_nations
-		}
-		days_re_enable = 0
-		
-		icon = generic_decision
-		complete_effect = {
-			hidden_effect = { set_global_flag = puppets_allowed }
-		}
-	}
-	disallow_puppets = {
-		ai_will_do = {
-			factor = 0
-		}
-		cost = 0
-		visible = {
-			is_ai = no
-			has_global_flag = puppets_allowed
-			has_country_flag = unhide_options_formable_nations
-		}
-		days_re_enable = 0
-		
-		icon = generic_decision
-		complete_effect = {
-			hidden_effect = { clr_global_flag = puppets_allowed }
-		}
-	}
+#	allow_puppets = {
+#		ai_will_do = {
+#			factor = 0
+#		}
+#		cost = 0
+#		visible = {
+#			is_ai = no
+#			NOT = { has_global_flag = puppets_allowed }
+#			has_country_flag = unhide_options_formable_nations
+#		}
+#		days_re_enable = 0
+#		
+#		icon = generic_decision
+#		complete_effect = {
+#			hidden_effect = { set_global_flag = puppets_allowed }
+#		}
+#	}
+#	disallow_puppets = {
+#		ai_will_do = {
+#			factor = 0
+#		}
+#		cost = 0
+#		visible = {
+#			is_ai = no
+#			has_global_flag = puppets_allowed
+#			has_country_flag = unhide_options_formable_nations
+#		}
+#		days_re_enable = 0
+#		
+#		icon = generic_decision
+#		complete_effect = {
+#			hidden_effect = { clr_global_flag = puppets_allowed }
+#		}
+#	}
 	enable_debug_mode = {
 		ai_will_do = {
 			factor = 0
