@@ -3468,6 +3468,7 @@ formable_nations_mod_category = {
 				state = 1011
 				state = 1014
 				state = 1015
+				state = 1016
 			}
 		}
 		
@@ -3505,7 +3506,8 @@ formable_nations_mod_category = {
 				        1010 = { controls_or_subject_of = yes }
 				        1011 = { controls_or_subject_of = yes }
 				        1014 = { controls_or_subject_of = yes }
-				        1015 = { controls_or_subject_of = yes }						
+				        1015 = { controls_or_subject_of = yes }			
+					    1016 = { controls_or_subject_of = yes }	
 					}
 					AND = {
 						is_ai = no
@@ -3556,7 +3558,8 @@ formable_nations_mod_category = {
 				1010 = { add_core_of = ROOT }
 				1011 = { add_core_of = ROOT }
 				1014 = { add_core_of = ROOT }
-				1015 = { add_core_of = ROOT }				
+				1015 = { add_core_of = ROOT }
+                1016 = { add_core_of = ROOT }				
 			}
 			799 = { add_claim_by = ROOT }
 		}
