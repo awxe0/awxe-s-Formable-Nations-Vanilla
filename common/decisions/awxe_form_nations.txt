@@ -6033,7 +6033,7 @@ formable_nations_mod_category = {
 		available = {
 			OR = {
 				AND = {
-					OR = { is_subject = no has_global_flag = puppets_allowed }
+					# OR = { is_subject = no has_global_flag = puppets_allowed }
 					all_state = { controls_or_subject_of = yes }
 					
 				}
