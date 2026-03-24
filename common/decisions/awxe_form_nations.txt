@@ -67,6 +67,9 @@ formable_nations_mod_category = {
 							controls_state = 298 #Liberia
 							controls_state = 907 #Cairo
 							controls_state = 907 #Cape Town
+							controls_state = 295 #Leopoldville
+							controls_state = 271 #Addis Ababa
+							controls_state = 558 #Lagos
 						}
 					#	OR = { 
 					#		is_subject = no 
@@ -451,8 +454,16 @@ formable_nations_mod_category = {
 			custom_trigger_tooltip = {
 				tooltip = enough_control_requirement
 				OR = {
-					count_triggers = {
-                        amount = 26 # "276 states"
+					AND = {
+						AND = {
+							330 = { controls_or_subject_of = yes } #Ulaanbaatar
+							329 = { controls_or_subject_of = yes } #Tannu Tuva
+							217 = { controls_or_subject_of = yes } #Stalingrad
+							1037 = { controls_or_subject_of = yes } #Chongqing
+							266 = { controls_or_subject_of = yes } #Tehran
+						}
+					count_triggers = { # (yes, we are recounting the previous ones twice)
+                        amount = 250 # "276 states"
 						330 = { controls_or_subject_of = yes }
 						817 = { controls_or_subject_of = yes }
 						818 = { controls_or_subject_of = yes }
@@ -731,6 +742,7 @@ formable_nations_mod_category = {
 						1044 = { controls_or_subject_of = yes }	
 						1045 = { controls_or_subject_of = yes }	
 						1046 = { controls_or_subject_of = yes }	
+						}
 					}
 					AND = {
 						is_ai = no
@@ -1099,11 +1111,17 @@ formable_nations_mod_category = {
 					AND = {
 						AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
 							controls_state = 219 #Moscow
+							controls_state = 217 #Stalingrad
+							controls_state = 195 #Leningrad
 							controls_state = 64 #Berlin
 							controls_state = 2 #Rome
 							controls_state = 16 #Paris
 							controls_state = 141 #Stockolm
-						#	controls_state = 126 #London
+						 	controls_state = 126 #London
+						    controls_state = 46 #Bucharest
+							controls_state = 107 #Belgrade
+							controls_state = 10 #Warsaw
+							controls_state = 43 #Budapest
 						}
 					#	OR = { 
 					#			is_subject = no 
@@ -3506,8 +3524,8 @@ formable_nations_mod_category = {
 				        1010 = { controls_or_subject_of = yes }
 				        1011 = { controls_or_subject_of = yes }
 				        1014 = { controls_or_subject_of = yes }
-				        1015 = { controls_or_subject_of = yes }			
-					    1016 = { controls_or_subject_of = yes }	
+				        1015 = { controls_or_subject_of = yes }
+					    1016 = { controls_or_subject_of = yes }
 					}
 					AND = {
 						is_ai = no
@@ -4866,59 +4884,65 @@ formable_nations_mod_category = {
 				state = 971
 				#bosforous straight
 				state = 341
+				state = 797
 			}
 		}
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
-						45 = { controls_or_subject_of = yes }
-						102 = { controls_or_subject_of = yes }
-						853 = { controls_or_subject_of = yes }
-						103 = { controls_or_subject_of = yes }
-						104 = { controls_or_subject_of = yes }
-						804 = { controls_or_subject_of = yes }
-						105 = { controls_or_subject_of = yes }
-						106 = { controls_or_subject_of = yes }
-						107 = { controls_or_subject_of = yes }
-						108 = { controls_or_subject_of = yes }
-						802 = { controls_or_subject_of = yes }
-						803 = { controls_or_subject_of = yes }
-						109 = { controls_or_subject_of = yes }
-						764 = { controls_or_subject_of = yes }					
-						48 = { controls_or_subject_of = yes }
-						211 = { controls_or_subject_of = yes }
-						212 = { controls_or_subject_of = yes }
-						801 = { controls_or_subject_of = yes }						
-						44 = { controls_or_subject_of = yes }
-						805 = { controls_or_subject_of = yes }						
-						47 = { controls_or_subject_of = yes }
-						182 = { controls_or_subject_of = yes }
-						184 = { controls_or_subject_of = yes }
-						185 = { controls_or_subject_of = yes }
-						186 = { controls_or_subject_of = yes }
-						187 = { controls_or_subject_of = yes }
-						731 = { controls_or_subject_of = yes }
-						164 = { controls_or_subject_of = yes }						
-						76 = { controls_or_subject_of = yes }
-						77 = { controls_or_subject_of = yes }
-						78 = { controls_or_subject_of = yes }
-						79 = { controls_or_subject_of = yes }
-						80 = { controls_or_subject_of = yes }
-						46 = { controls_or_subject_of = yes }
-						81 = { controls_or_subject_of = yes }
-						82 = { controls_or_subject_of = yes }
-						83 = { controls_or_subject_of = yes }
-						84 = { controls_or_subject_of = yes }
-						766 = { controls_or_subject_of = yes }
-						
-						934 = { controls_or_subject_of = yes }
-				        970 = { controls_or_subject_of = yes }
-						971 = { controls_or_subject_of = yes }
-						#bosforous straight
-				        341 = { controls_or_subject_of = yes }
+					    count_triggers = {
+							amount = 39 #total is 46
+							45 = { controls_or_subject_of = yes }
+							102 = { controls_or_subject_of = yes }
+							853 = { controls_or_subject_of = yes }
+							103 = { controls_or_subject_of = yes }
+							104 = { controls_or_subject_of = yes }
+							804 = { controls_or_subject_of = yes }
+							105 = { controls_or_subject_of = yes }
+							106 = { controls_or_subject_of = yes }
+							107 = { controls_or_subject_of = yes }
+							108 = { controls_or_subject_of = yes }
+							802 = { controls_or_subject_of = yes }
+							803 = { controls_or_subject_of = yes }
+							109 = { controls_or_subject_of = yes }
+							764 = { controls_or_subject_of = yes }					
+							48 = { controls_or_subject_of = yes }
+							211 = { controls_or_subject_of = yes }
+							212 = { controls_or_subject_of = yes }
+							801 = { controls_or_subject_of = yes }						
+							44 = { controls_or_subject_of = yes }
+							805 = { controls_or_subject_of = yes }						
+							47 = { controls_or_subject_of = yes }
+							182 = { controls_or_subject_of = yes }
+							184 = { controls_or_subject_of = yes }
+							185 = { controls_or_subject_of = yes }
+							186 = { controls_or_subject_of = yes }
+							187 = { controls_or_subject_of = yes }
+							731 = { controls_or_subject_of = yes }
+							164 = { controls_or_subject_of = yes }						
+							76 = { controls_or_subject_of = yes }
+							77 = { controls_or_subject_of = yes }
+							78 = { controls_or_subject_of = yes }
+							79 = { controls_or_subject_of = yes }
+							80 = { controls_or_subject_of = yes }
+							46 = { controls_or_subject_of = yes }
+							81 = { controls_or_subject_of = yes }
+							82 = { controls_or_subject_of = yes }
+							83 = { controls_or_subject_of = yes }
+							84 = { controls_or_subject_of = yes }
+							766 = { controls_or_subject_of = yes }
+							
+							934 = { controls_or_subject_of = yes }
+					        970 = { controls_or_subject_of = yes }
+							971 = { controls_or_subject_of = yes }	
+							
+							#bosforous straight
+							341 = { controls_or_subject_of = yes }
+							797 = { controls_or_subject_of = yes }
+						}
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -4980,6 +5004,7 @@ formable_nations_mod_category = {
 				971 = { add_core_of = ROOT }
 				
 				341 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
 			}
 			163 = { add_core_of = ROOT }	
 			797 = { add_claim_by = ROOT }
@@ -6037,8 +6062,7 @@ formable_nations_mod_category = {
 			OR = {
 				AND = {
 					# OR = { is_subject = no has_global_flag = puppets_allowed }
-					all_state = { controls_or_subject_of = yes }
-					
+					all_state = { controls_or_subject_of = yes }					
 				}
 				AND = {
 					is_ai = no
@@ -7545,15 +7569,17 @@ formable_nations_mod_category = {
 				tooltip = highlighted_state_tooltip
 				OR = {
 					AND = {
+					    # Indochina
 						286 = { controls_or_subject_of = yes }
 						671 = { controls_or_subject_of = yes }						
 						741 = { controls_or_subject_of = yes }						
-						670 = { controls_or_subject_of = yes }						
+						670 = { controls_or_subject_of = yes }
+						1017 = { controls_or_subject_of = yes }	
+						# SIAM	
 						724 = { controls_or_subject_of = yes }
 						289 = { controls_or_subject_of = yes }
 						868 = { controls_or_subject_of = yes }
 						869 = { controls_or_subject_of = yes }
-						1017 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -8783,9 +8809,11 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
+						count_triggers = {
+							amount = 55 # "75 States"
 						361 = { controls_or_subject_of = yes }
 						374 = { controls_or_subject_of = yes }
 						369 = { controls_or_subject_of = yes }
@@ -8839,20 +8867,21 @@ formable_nations_mod_category = {
 						485 = { controls_or_subject_of = yes }
 						
 						929 = { controls_or_subject_of = yes }
-				        930 = { controls_or_subject_of = yes }
-				        931 = { controls_or_subject_of = yes }
+						930 = { controls_or_subject_of = yes }
+						931 = { controls_or_subject_of = yes }
 						932 = { controls_or_subject_of = yes }
-				        937 = { controls_or_subject_of = yes }
-				        972 = { controls_or_subject_of = yes }
+						937 = { controls_or_subject_of = yes }
+						972 = { controls_or_subject_of = yes }
 						994 = { controls_or_subject_of = yes }
-				        1051 = { controls_or_subject_of = yes }
-				        1079 = { controls_or_subject_of = yes }
-				        1080 = { controls_or_subject_of = yes }
-				        1081 = { controls_or_subject_of = yes }
-				        1082 = { controls_or_subject_of = yes }
-				        1083 = { controls_or_subject_of = yes }
-				        1084 = { controls_or_subject_of = yes }
-				        1085 = { controls_or_subject_of = yes }
+						1051 = { controls_or_subject_of = yes }
+						1079 = { controls_or_subject_of = yes }
+						1080 = { controls_or_subject_of = yes }
+						1081 = { controls_or_subject_of = yes }
+						1082 = { controls_or_subject_of = yes }
+						1083 = { controls_or_subject_of = yes }
+						1084 = { controls_or_subject_of = yes }
+						1085 = { controls_or_subject_of = yes }
+						}
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -9587,32 +9616,51 @@ formable_nations_mod_category = {
 
 		highlight_states = {
 			highlight_state_targets = {
+				# Swiss
 				state = 3
-				state = 4
 				state = 151
 				state = 845
 				state = 846
 				state = 847
+
+				# Austria
+				state = 4
 				state = 152
 				state = 153
 				state = 848
+			#	state = 975
+				state = 976
+
+				# Ita
+				state = 39
+				state = 850
 			}
 		}
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
-						3 = { controls_or_subject_of = yes }
-						4 = { controls_or_subject_of = yes }
-						151 = { controls_or_subject_of = yes }
-						845 = { controls_or_subject_of = yes }
-						846 = { controls_or_subject_of = yes }
-						847 = { controls_or_subject_of = yes }						
-						152 = { controls_or_subject_of = yes }
-						153 = { controls_or_subject_of = yes }
-						848 = { controls_or_subject_of = yes }
+						count_triggers = {
+							amount = 9
+							# Swiss
+							3 = { controls_or_subject_of = yes }
+							151 = { controls_or_subject_of = yes }
+							845 = { controls_or_subject_of = yes }
+							846 = { controls_or_subject_of = yes }
+							847 = { controls_or_subject_of = yes }
+							# Austria
+							4 = { controls_or_subject_of = yes }
+							152 = { controls_or_subject_of = yes }
+							153 = { controls_or_subject_of = yes }
+							848 = { controls_or_subject_of = yes }
+						#	975 = { controls_or_subject_of = yes }
+							976 = { controls_or_subject_of = yes }
+							# Ita
+							39 = { controls_or_subject_of = yes }
+							850 = { controls_or_subject_of = yes }
+						}
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -9631,18 +9679,29 @@ formable_nations_mod_category = {
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				3 = { add_core_of = ROOT }
-				4 = { add_core_of = ROOT }
 				151 = { add_core_of = ROOT }
 				845 = { add_core_of = ROOT }
 				846 = { add_core_of = ROOT }
 				847 = { add_core_of = ROOT }
+
+				4 = { add_core_of = ROOT }
 				152 = { add_core_of = ROOT }
 				153 = { add_core_of = ROOT }
 				848 = { add_core_of = ROOT }
-			}
-			39 = { add_core_of = ROOT }
-			850 = { add_core_of = ROOT }
-			52 = { add_core_of = ROOT }
+
+			#	975 = { add_core_of = ROOT }
+				976 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				850 = { add_core_of = ROOT }
+			}	
+			52 = { add_claim_by = ROOT }
+			975 = { add_claim_by = ROOT }
+			#ita
+			158 = { add_claim_by = ROOT }
+			#fra
+			735 = { add_claim_by = ROOT }
+			851 = { add_claim_by = ROOT }
+			21 = { add_claim_by = ROOT }
 		}
 	}
 
@@ -10246,6 +10305,20 @@ formable_nations_mod_category = {
 				tooltip = asia_requirement_tooltip 
 				OR = {
 					AND = {
+						AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							controls_state = 292 #Nejd
+							controls_state = 282 #Tokyo
+							controls_state = 439 #Delhi
+							controls_state = 291 #Baghdad
+							controls_state = 554 #Damascus
+							controls_state = 613 #Shanghai
+							controls_state = 266 #Tehran
+							controls_state = 330 #Ulaanbaatar
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						all_state = {
 							OR = {
 								AND = {
@@ -10457,6 +10530,35 @@ formable_nations_mod_category = {
 				tooltip = eurasia_requirement_tooltip 
 				OR = {
 					AND = {
+					    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							# Asia (same as singular formable)
+							controls_state = 292 #Nejd
+							controls_state = 282 #Tokyo
+							controls_state = 439 #Delhi
+							controls_state = 291 #Baghdad
+							controls_state = 554 #Damascus
+							controls_state = 613 #Shanghai
+							controls_state = 266 #Tehran
+							controls_state = 330 #Ulaanbaatar
+
+							# Europe (same as singular formable)
+							controls_state = 219 #Moscow
+							controls_state = 217 #Stalingrad
+							controls_state = 195 #Leningrad
+							controls_state = 64 #Berlin
+							controls_state = 2 #Rome
+							controls_state = 16 #Paris
+							controls_state = 141 #Stockolm
+							controls_state = 126 #London
+							controls_state = 46 #Bucharest
+							controls_state = 107 #Belgrade
+							controls_state = 10 #Warsaw
+							controls_state = 43 #Budapest
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						all_state = {
 							OR = {
 								AND = {
@@ -10956,238 +11058,249 @@ formable_nations_mod_category = {
 
 		available = {
 			custom_trigger_tooltip = { 
-				tooltip = highlighted_state_tooltip 
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {	
-						40 = { controls_or_subject_of = yes }
-						137 = { controls_or_subject_of = yes }
-						192 = { controls_or_subject_of = yes }
-						193 = { controls_or_subject_of = yes }
-						194 = { controls_or_subject_of = yes }
-						195 = { controls_or_subject_of = yes }
-						196 = { controls_or_subject_of = yes }
-						197	= { controls_or_subject_of = yes }
-						198 = { controls_or_subject_of = yes }
-						199 = { controls_or_subject_of = yes }
-						200 = { controls_or_subject_of = yes }
-						201 = { controls_or_subject_of = yes }
-						202 = { controls_or_subject_of = yes }
-						203 = { controls_or_subject_of = yes }
-						204 = { controls_or_subject_of = yes }
-						205 = { controls_or_subject_of = yes }
-						206 = { controls_or_subject_of = yes }
-						207 = { controls_or_subject_of = yes }
-						208 = { controls_or_subject_of = yes }
-						209 = { controls_or_subject_of = yes }
-						210 = { controls_or_subject_of = yes }
-						217 = { controls_or_subject_of = yes }
-						218 = { controls_or_subject_of = yes }
-						219 = { controls_or_subject_of = yes }
-						220 = { controls_or_subject_of = yes }
-						221 = { controls_or_subject_of = yes }
-						222 = { controls_or_subject_of = yes }
-						223 = { controls_or_subject_of = yes }
-						224 = { controls_or_subject_of = yes }
-						225 = { controls_or_subject_of = yes }
-						226 = { controls_or_subject_of = yes }
-						227 = { controls_or_subject_of = yes }
-						228 = { controls_or_subject_of = yes }
-						232 = { controls_or_subject_of = yes }
-						233 = { controls_or_subject_of = yes }
-						234 = { controls_or_subject_of = yes }
-						235 = { controls_or_subject_of = yes }
-						236 = { controls_or_subject_of = yes }
-						237 = { controls_or_subject_of = yes }
-						238 = { controls_or_subject_of = yes }
-						239 = { controls_or_subject_of = yes }
-						240 = { controls_or_subject_of = yes }
-						241 = { controls_or_subject_of = yes }
-						242 = { controls_or_subject_of = yes }
-						243 = { controls_or_subject_of = yes }
-						244 = { controls_or_subject_of = yes }
-						245 = { controls_or_subject_of = yes }
-						246 = { controls_or_subject_of = yes }
-						247 = { controls_or_subject_of = yes }
-						248 = { controls_or_subject_of = yes }
-						249 = { controls_or_subject_of = yes }
-						250 = { controls_or_subject_of = yes }
-						251 = { controls_or_subject_of = yes }
-						252 = { controls_or_subject_of = yes }
-						253 = { controls_or_subject_of = yes }
-						254 = { controls_or_subject_of = yes }
-						255 = { controls_or_subject_of = yes }
-						256 = { controls_or_subject_of = yes }
-						257 = { controls_or_subject_of = yes }
-						258 = { controls_or_subject_of = yes }
-						259 = { controls_or_subject_of = yes }
-						260 = { controls_or_subject_of = yes }
-						263 = { controls_or_subject_of = yes }
-						264 = { controls_or_subject_of = yes }
-						265 = { controls_or_subject_of = yes }
-						351 = { controls_or_subject_of = yes }
-						398 = { controls_or_subject_of = yes }
-						399 = { controls_or_subject_of = yes }
-						400 = { controls_or_subject_of = yes }
-						401 = { controls_or_subject_of = yes }
-						402 = { controls_or_subject_of = yes }
-						403 = { controls_or_subject_of = yes }
-						404 = { controls_or_subject_of = yes }
-						405 = { controls_or_subject_of = yes }
-						406 = { controls_or_subject_of = yes }
-						407 = { controls_or_subject_of = yes }
-						408 = { controls_or_subject_of = yes }
-						409 = { controls_or_subject_of = yes }
-						560 = { controls_or_subject_of = yes }
-						561 = { controls_or_subject_of = yes }
-						563 = { controls_or_subject_of = yes }
-						564 = { controls_or_subject_of = yes }
-						565 = { controls_or_subject_of = yes }
-						566 = { controls_or_subject_of = yes }
-						567 = { controls_or_subject_of = yes }
-						568 = { controls_or_subject_of = yes }
-						569 = { controls_or_subject_of = yes }
-						570 = { controls_or_subject_of = yes }
-						571 = { controls_or_subject_of = yes }
-						572 = { controls_or_subject_of = yes }
-						573 = { controls_or_subject_of = yes }
-						578 = { controls_or_subject_of = yes }
-						582 = { controls_or_subject_of = yes }
-						583 = { controls_or_subject_of = yes }
-						584 = { controls_or_subject_of = yes }
-						585 = { controls_or_subject_of = yes }
-						586 = { controls_or_subject_of = yes }
-						587 = { controls_or_subject_of = yes }
-						588 = { controls_or_subject_of = yes }
-						589 = { controls_or_subject_of = yes }
-						590 = { controls_or_subject_of = yes }
-						651 = { controls_or_subject_of = yes }
-						652 = { controls_or_subject_of = yes }
-						653 = { controls_or_subject_of = yes }
-						654 = { controls_or_subject_of = yes }
-						657 = { controls_or_subject_of = yes }
-						732 = { controls_or_subject_of = yes }
-						742 = { controls_or_subject_of = yes }
-						826 = { controls_or_subject_of = yes }
-						231 = { controls_or_subject_of = yes }
-						229 = { controls_or_subject_of = yes }
-						230 = { controls_or_subject_of = yes }
-						406 = { controls_or_subject_of = yes }
-						407 = { controls_or_subject_of = yes }
-						402 = { controls_or_subject_of = yes }
-						584 = { controls_or_subject_of = yes }
-						585 = { controls_or_subject_of = yes }
-						587 = { controls_or_subject_of = yes }
-						583 = { controls_or_subject_of = yes }
-						590 = { controls_or_subject_of = yes }
-						588 = { controls_or_subject_of = yes }
-						404 = { controls_or_subject_of = yes }
-						589 = { controls_or_subject_of = yes }
-						586 = { controls_or_subject_of = yes }
-						881 = { controls_or_subject_of = yes }
-						882 = { controls_or_subject_of = yes }
-						823 = { controls_or_subject_of = yes }
-						831 = { controls_or_subject_of = yes }
-						585 = { controls_or_subject_of = yes }
-						830 = { controls_or_subject_of = yes }
-						405 = { controls_or_subject_of = yes }
-						584 = { controls_or_subject_of = yes }
-						832 = { controls_or_subject_of = yes }
-						742 = { controls_or_subject_of = yes }
-						732 = { controls_or_subject_of = yes }
-						199 = { controls_or_subject_of = yes }
-						201 = { controls_or_subject_of = yes }
-						198 = { controls_or_subject_of = yes }
-						202 = { controls_or_subject_of = yes }
-						203 = { controls_or_subject_of = yes }
-						226 = { controls_or_subject_of = yes }
-						193 = { controls_or_subject_of = yes }
-						259 = { controls_or_subject_of = yes }
-						225 = { controls_or_subject_of = yes }
-						196 = { controls_or_subject_of = yes }
-						200 = { controls_or_subject_of = yes }
-						227 = { controls_or_subject_of = yes }
-						221 = { controls_or_subject_of = yes }
-						228 = { controls_or_subject_of = yes }
-						192 = { controls_or_subject_of = yes }
-						197 = { controls_or_subject_of = yes }
-						834 = { controls_or_subject_of = yes }
-						204 = { controls_or_subject_of = yes }
-						206 = { controls_or_subject_of = yes }
-						207 = { controls_or_subject_of = yes }
-						194 = { controls_or_subject_of = yes }
-						241 = { controls_or_subject_of = yes }
-						827 = { controls_or_subject_of = yes }
-						828 = { controls_or_subject_of = yes }
-						821 = { controls_or_subject_of = yes }
-						829 = { controls_or_subject_of = yes }
-						833 = { controls_or_subject_of = yes }
-						213 = { controls_or_subject_of = yes }
-						215 = { controls_or_subject_of = yes }
-						216 = { controls_or_subject_of = yes }
-						879 = { controls_or_subject_of = yes }
-						214 = { controls_or_subject_of = yes }
-						880 = { controls_or_subject_of = yes }
-						825 = { controls_or_subject_of = yes }
-						262 = { controls_or_subject_of = yes }
-						397 = { controls_or_subject_of = yes }
-						581 = { controls_or_subject_of = yes }
-						579 = { controls_or_subject_of = yes }
-						580 = { controls_or_subject_of = yes }
-						577 = { controls_or_subject_of = yes }
-						824 = { controls_or_subject_of = yes }
-						516 = { controls_or_subject_of = yes }
-						576 = { controls_or_subject_of = yes }
-						878 = { controls_or_subject_of = yes }
-						575 = { controls_or_subject_of = yes }
-						876 = { controls_or_subject_of = yes }
-						877 = { controls_or_subject_of = yes }
-						574 = { controls_or_subject_of = yes }
-						562 = { controls_or_subject_of = yes }
-						644 = { controls_or_subject_of = yes }
-						874 = { controls_or_subject_of = yes }
-						822 = { controls_or_subject_of = yes }
-						637 = { controls_or_subject_of = yes }						
-						111 = { controls_or_subject_of = yes }
-						145 = { controls_or_subject_of = yes }
-						146 = { controls_or_subject_of = yes }
-						147 = { controls_or_subject_of = yes }
-						148 = { controls_or_subject_of = yes }
-						149 = { controls_or_subject_of = yes }
-						150 = { controls_or_subject_of = yes }						
-						87 = { controls_or_subject_of = yes }
-						90 = { controls_or_subject_of = yes }
-						10 = { controls_or_subject_of = yes }
-						98 = { controls_or_subject_of = yes }
-						92 = { controls_or_subject_of = yes }
-						93 = { controls_or_subject_of = yes }
-						94 = { controls_or_subject_of = yes }
-						95 = { controls_or_subject_of = yes }
-						96 = { controls_or_subject_of = yes }
-						97 = { controls_or_subject_of = yes }
-						784 = { controls_or_subject_of = yes }						
-						11 = { controls_or_subject_of = yes }
-						784 = { controls_or_subject_of = yes }
-						814 = { controls_or_subject_of = yes }
-						815 = { controls_or_subject_of = yes }
-						189 = { controls_or_subject_of = yes }
-						12 = { controls_or_subject_of = yes }
-						190 = { controls_or_subject_of = yes }
-						809 = { controls_or_subject_of = yes }
-						808 = { controls_or_subject_of = yes }
-						810 = { controls_or_subject_of = yes }
-						13 = { controls_or_subject_of = yes }
-						812 = { controls_or_subject_of = yes }
-						811 = { controls_or_subject_of = yes }
-						191 = { controls_or_subject_of = yes }
-						813 = { controls_or_subject_of = yes }						
-						766 = { controls_or_subject_of = yes }
-						78 = { controls_or_subject_of = yes }
-						
-						926 = { controls_or_subject_of = yes }
-				        927 = { controls_or_subject_of = yes }
-				        928 = { controls_or_subject_of = yes }
-				        929 = { controls_or_subject_of = yes }
-				        930 = { controls_or_subject_of = yes }
+					    AND = {
+							219 = { controls_or_subject_of = yes } #Moscow
+							217 = { controls_or_subject_of = yes } #Stalingrad
+							195 = { controls_or_subject_of = yes } #Leningrad
+							563 = { controls_or_subject_of = yes } #Chita
+							810 = { controls_or_subject_of = yes } #Daugavpils
+							150 = { controls_or_subject_of = yes } #Koupio
+						}	
+						count_triggers = {
+							amount = 224 # "228 states"
+							40 = { controls_or_subject_of = yes }
+							137 = { controls_or_subject_of = yes }
+							192 = { controls_or_subject_of = yes }
+							193 = { controls_or_subject_of = yes }
+							194 = { controls_or_subject_of = yes }
+							195 = { controls_or_subject_of = yes }
+							196 = { controls_or_subject_of = yes }
+							197	= { controls_or_subject_of = yes }
+							198 = { controls_or_subject_of = yes }
+							199 = { controls_or_subject_of = yes }
+							200 = { controls_or_subject_of = yes }
+							201 = { controls_or_subject_of = yes }
+							202 = { controls_or_subject_of = yes }
+							203 = { controls_or_subject_of = yes }
+							204 = { controls_or_subject_of = yes }
+							205 = { controls_or_subject_of = yes }
+							206 = { controls_or_subject_of = yes }
+							207 = { controls_or_subject_of = yes }
+							208 = { controls_or_subject_of = yes }
+							209 = { controls_or_subject_of = yes }
+							210 = { controls_or_subject_of = yes }
+							217 = { controls_or_subject_of = yes }
+							218 = { controls_or_subject_of = yes }
+							219 = { controls_or_subject_of = yes }
+							220 = { controls_or_subject_of = yes }
+							221 = { controls_or_subject_of = yes }
+							222 = { controls_or_subject_of = yes }
+							223 = { controls_or_subject_of = yes }
+							224 = { controls_or_subject_of = yes }
+							225 = { controls_or_subject_of = yes }
+							226 = { controls_or_subject_of = yes }
+							227 = { controls_or_subject_of = yes }
+							228 = { controls_or_subject_of = yes }
+							232 = { controls_or_subject_of = yes }
+							233 = { controls_or_subject_of = yes }
+							234 = { controls_or_subject_of = yes }
+							235 = { controls_or_subject_of = yes }
+							236 = { controls_or_subject_of = yes }
+							237 = { controls_or_subject_of = yes }
+							238 = { controls_or_subject_of = yes }
+							239 = { controls_or_subject_of = yes }
+							240 = { controls_or_subject_of = yes }
+							241 = { controls_or_subject_of = yes }
+							242 = { controls_or_subject_of = yes }
+							243 = { controls_or_subject_of = yes }
+							244 = { controls_or_subject_of = yes }
+							245 = { controls_or_subject_of = yes }
+							246 = { controls_or_subject_of = yes }
+							247 = { controls_or_subject_of = yes }
+							248 = { controls_or_subject_of = yes }
+							249 = { controls_or_subject_of = yes }
+							250 = { controls_or_subject_of = yes }
+							251 = { controls_or_subject_of = yes }
+							252 = { controls_or_subject_of = yes }
+							253 = { controls_or_subject_of = yes }
+							254 = { controls_or_subject_of = yes }
+							255 = { controls_or_subject_of = yes }
+							256 = { controls_or_subject_of = yes }
+							257 = { controls_or_subject_of = yes }
+							258 = { controls_or_subject_of = yes }
+							259 = { controls_or_subject_of = yes }
+							260 = { controls_or_subject_of = yes }
+							263 = { controls_or_subject_of = yes }
+							264 = { controls_or_subject_of = yes }
+							265 = { controls_or_subject_of = yes }
+							351 = { controls_or_subject_of = yes }
+							398 = { controls_or_subject_of = yes }
+							399 = { controls_or_subject_of = yes }
+							400 = { controls_or_subject_of = yes }
+							401 = { controls_or_subject_of = yes }
+							402 = { controls_or_subject_of = yes }
+							403 = { controls_or_subject_of = yes }
+							404 = { controls_or_subject_of = yes }
+							405 = { controls_or_subject_of = yes }
+							406 = { controls_or_subject_of = yes }
+							407 = { controls_or_subject_of = yes }
+							408 = { controls_or_subject_of = yes }
+							409 = { controls_or_subject_of = yes }
+							560 = { controls_or_subject_of = yes }
+							561 = { controls_or_subject_of = yes }
+							563 = { controls_or_subject_of = yes }
+							564 = { controls_or_subject_of = yes }
+							565 = { controls_or_subject_of = yes }
+							566 = { controls_or_subject_of = yes }
+							567 = { controls_or_subject_of = yes }
+							568 = { controls_or_subject_of = yes }
+							569 = { controls_or_subject_of = yes }
+							570 = { controls_or_subject_of = yes }
+							571 = { controls_or_subject_of = yes }
+							572 = { controls_or_subject_of = yes }
+							573 = { controls_or_subject_of = yes }
+							578 = { controls_or_subject_of = yes }
+							582 = { controls_or_subject_of = yes }
+							583 = { controls_or_subject_of = yes }
+							584 = { controls_or_subject_of = yes }
+							585 = { controls_or_subject_of = yes }
+							586 = { controls_or_subject_of = yes }
+							587 = { controls_or_subject_of = yes }
+							588 = { controls_or_subject_of = yes }
+							589 = { controls_or_subject_of = yes }
+							590 = { controls_or_subject_of = yes }
+							651 = { controls_or_subject_of = yes }
+							652 = { controls_or_subject_of = yes }
+							653 = { controls_or_subject_of = yes }
+							654 = { controls_or_subject_of = yes }
+							657 = { controls_or_subject_of = yes }
+							732 = { controls_or_subject_of = yes }
+							742 = { controls_or_subject_of = yes }
+							826 = { controls_or_subject_of = yes }
+							231 = { controls_or_subject_of = yes }
+							229 = { controls_or_subject_of = yes }
+							230 = { controls_or_subject_of = yes }
+							406 = { controls_or_subject_of = yes }
+							407 = { controls_or_subject_of = yes }
+							402 = { controls_or_subject_of = yes }
+							584 = { controls_or_subject_of = yes }
+							585 = { controls_or_subject_of = yes }
+							587 = { controls_or_subject_of = yes }
+							583 = { controls_or_subject_of = yes }
+							590 = { controls_or_subject_of = yes }
+							588 = { controls_or_subject_of = yes }
+							404 = { controls_or_subject_of = yes }
+							589 = { controls_or_subject_of = yes }
+							586 = { controls_or_subject_of = yes }
+							881 = { controls_or_subject_of = yes }
+							882 = { controls_or_subject_of = yes }
+							823 = { controls_or_subject_of = yes }
+							831 = { controls_or_subject_of = yes }
+							585 = { controls_or_subject_of = yes }
+							830 = { controls_or_subject_of = yes }
+							405 = { controls_or_subject_of = yes }
+							584 = { controls_or_subject_of = yes }
+							832 = { controls_or_subject_of = yes }
+							742 = { controls_or_subject_of = yes }
+							732 = { controls_or_subject_of = yes }
+							199 = { controls_or_subject_of = yes }
+							201 = { controls_or_subject_of = yes }
+							198 = { controls_or_subject_of = yes }
+							202 = { controls_or_subject_of = yes }
+							203 = { controls_or_subject_of = yes }
+							226 = { controls_or_subject_of = yes }
+							193 = { controls_or_subject_of = yes }
+							259 = { controls_or_subject_of = yes }
+							225 = { controls_or_subject_of = yes }
+							196 = { controls_or_subject_of = yes }
+							200 = { controls_or_subject_of = yes }
+							227 = { controls_or_subject_of = yes }
+							221 = { controls_or_subject_of = yes }
+							228 = { controls_or_subject_of = yes }
+							192 = { controls_or_subject_of = yes }
+							197 = { controls_or_subject_of = yes }
+							834 = { controls_or_subject_of = yes }
+							204 = { controls_or_subject_of = yes }
+							206 = { controls_or_subject_of = yes }
+							207 = { controls_or_subject_of = yes }
+							194 = { controls_or_subject_of = yes }
+							241 = { controls_or_subject_of = yes }
+							827 = { controls_or_subject_of = yes }
+							828 = { controls_or_subject_of = yes }
+							821 = { controls_or_subject_of = yes }
+							829 = { controls_or_subject_of = yes }
+							833 = { controls_or_subject_of = yes }
+							213 = { controls_or_subject_of = yes }
+							215 = { controls_or_subject_of = yes }
+							216 = { controls_or_subject_of = yes }
+							879 = { controls_or_subject_of = yes }
+							214 = { controls_or_subject_of = yes }
+							880 = { controls_or_subject_of = yes }
+							825 = { controls_or_subject_of = yes }
+							262 = { controls_or_subject_of = yes }
+							397 = { controls_or_subject_of = yes }
+							581 = { controls_or_subject_of = yes }
+							579 = { controls_or_subject_of = yes }
+							580 = { controls_or_subject_of = yes }
+							577 = { controls_or_subject_of = yes }
+							824 = { controls_or_subject_of = yes }
+							516 = { controls_or_subject_of = yes }
+							576 = { controls_or_subject_of = yes }
+							878 = { controls_or_subject_of = yes }
+							575 = { controls_or_subject_of = yes }
+							876 = { controls_or_subject_of = yes }
+							877 = { controls_or_subject_of = yes }
+							574 = { controls_or_subject_of = yes }
+							562 = { controls_or_subject_of = yes }
+							644 = { controls_or_subject_of = yes }
+							874 = { controls_or_subject_of = yes }
+							822 = { controls_or_subject_of = yes }
+							637 = { controls_or_subject_of = yes }						
+							111 = { controls_or_subject_of = yes }
+							145 = { controls_or_subject_of = yes }
+							146 = { controls_or_subject_of = yes }
+							147 = { controls_or_subject_of = yes }
+							148 = { controls_or_subject_of = yes }
+							149 = { controls_or_subject_of = yes }
+							150 = { controls_or_subject_of = yes }						
+							87 = { controls_or_subject_of = yes }
+							90 = { controls_or_subject_of = yes }
+							10 = { controls_or_subject_of = yes }
+							98 = { controls_or_subject_of = yes }
+							92 = { controls_or_subject_of = yes }
+							93 = { controls_or_subject_of = yes }
+							94 = { controls_or_subject_of = yes }
+							95 = { controls_or_subject_of = yes }
+							96 = { controls_or_subject_of = yes }
+							97 = { controls_or_subject_of = yes }
+							784 = { controls_or_subject_of = yes }						
+							11 = { controls_or_subject_of = yes }
+							784 = { controls_or_subject_of = yes }
+							814 = { controls_or_subject_of = yes }
+							815 = { controls_or_subject_of = yes }
+							189 = { controls_or_subject_of = yes }
+							12 = { controls_or_subject_of = yes }
+							190 = { controls_or_subject_of = yes }
+							809 = { controls_or_subject_of = yes }
+							808 = { controls_or_subject_of = yes }
+							810 = { controls_or_subject_of = yes }
+							13 = { controls_or_subject_of = yes }
+							812 = { controls_or_subject_of = yes }
+							811 = { controls_or_subject_of = yes }
+							191 = { controls_or_subject_of = yes }
+							813 = { controls_or_subject_of = yes }						
+							766 = { controls_or_subject_of = yes }
+							78 = { controls_or_subject_of = yes }
+							
+							926 = { controls_or_subject_of = yes }
+					        927 = { controls_or_subject_of = yes }
+					        928 = { controls_or_subject_of = yes }
+					        929 = { controls_or_subject_of = yes }
+					        930 = { controls_or_subject_of = yes }	
+						}
 					}
 					AND = {
 						is_ai = no
@@ -11655,7 +11768,7 @@ formable_nations_mod_category = {
 						903 = { controls_or_subject_of = yes }
 						904 = { controls_or_subject_of = yes }
 						905 = { controls_or_subject_of = yes }
-						546 = { controls_or_subject_of = yes }						
+						546 = { controls_or_subject_of = yes }
 						548 = { controls_or_subject_of = yes }						
 						768 = { controls_or_subject_of = yes }
 						769 = { controls_or_subject_of = yes }
@@ -11931,14 +12044,21 @@ formable_nations_mod_category = {
 							controls_state = 554 #Damascus
 							controls_state = 613 #Shanghai
 							controls_state = 266 #Tehran
+							controls_state = 330 #Ulaanbaatar
 
 							# Europe (same as singular formable)
 							controls_state = 219 #Moscow
+							controls_state = 217 #Stalingrad
+							controls_state = 195 #Leningrad
 							controls_state = 64 #Berlin
 							controls_state = 2 #Rome
 							controls_state = 16 #Paris
 							controls_state = 141 #Stockolm
 							controls_state = 126 #London
+							controls_state = 46 #Bucharest
+							controls_state = 107 #Belgrade
+							controls_state = 10 #Warsaw
+							controls_state = 43 #Budapest
 
 							# Africa (same as singular formable)
 							controls_state = 275 #Pretoria
@@ -11946,6 +12066,9 @@ formable_nations_mod_category = {
 							controls_state = 298 #Liberia
 							controls_state = 907 #Cairo
 							controls_state = 907 #Cape Town
+							controls_state = 295 #Leopoldville
+							controls_state = 271 #Addis Ababa
+							controls_state = 558 #Lagos
 
 							# Middle East (same as singular formable)
 							controls_state = 292 #Nejd
@@ -12988,6 +13111,7 @@ formable_nations_mod_category = {
 		}
 		highlight_states = {
 			highlight_state_targets = {
+				# Japan & Manchu
 				state = 528
 				state = 530
 				state = 529
@@ -13014,76 +13138,131 @@ formable_nations_mod_category = {
 				state = 609
 				state = 716
 				state = 610
-				state = 608
-				state = 614
-				state = 597
-				state = 743
-				state = 598
-				state = 613
+				state = 524
+				state = 1018
+				state = 1019
+				state = 1020
+
+				 # Korea
 				state = 525
 				state = 527
-				
 				state = 1028
 				state = 1029
 				state = 1030
 				state = 1031
+				
+				 # Soviet
+				state = 408
+				state = 409
+				state = 655
+				state = 657
+				
+				 # China
+				state = 608
+				state = 614
+				state = 597
+				state = 598 
+				state = 613 
 				state = 1034
-				state = 1035
 				state = 1038
 				state = 1039
 				state = 1043
+				state = 596
+				state = 595
 			}
 		}
 		
 		available = {
 			custom_trigger_tooltip = { 
-				tooltip = highlighted_state_tooltip 
+			#	tooltip = greater_japan_tt 
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
-						528 = { controls_or_subject_of = yes }
-						530 = { controls_or_subject_of = yes }
-						529 = { controls_or_subject_of = yes }
-						531 = { controls_or_subject_of = yes }
-						532 = { controls_or_subject_of = yes }
-						535 = { controls_or_subject_of = yes }
-						282 = { controls_or_subject_of = yes }
-						534 = { controls_or_subject_of = yes }
-						533 = { controls_or_subject_of = yes }
-						536 = { controls_or_subject_of = yes }
-						526 = { controls_or_subject_of = yes }
-						537 = { controls_or_subject_of = yes }
-						555 = { controls_or_subject_of = yes }						
-						611 = { controls_or_subject_of = yes }
-						612 = { controls_or_subject_of = yes }
-						328 = { controls_or_subject_of = yes }
-						610 = { controls_or_subject_of = yes }
-						714 = { controls_or_subject_of = yes }
-						715 = { controls_or_subject_of = yes }
-						716 = { controls_or_subject_of = yes }
-						717 = { controls_or_subject_of = yes }
-						761 = { controls_or_subject_of = yes }						
-						745 = { controls_or_subject_of = yes }
-						609 = { controls_or_subject_of = yes }
-						716 = { controls_or_subject_of = yes }
-						610 = { controls_or_subject_of = yes }
-						608 = { controls_or_subject_of = yes }
-						614 = { controls_or_subject_of = yes }
-						597 = { controls_or_subject_of = yes }
-						743 = { controls_or_subject_of = yes }
-						598 = { controls_or_subject_of = yes }
-						613 = { controls_or_subject_of = yes }						
-						525 = { controls_or_subject_of = yes }
-						527 = { controls_or_subject_of = yes }
+						count_triggers = {
+							amount = 40 # "49 States"
 						
-						1028 = { controls_or_subject_of = yes }
-				        1029 = { controls_or_subject_of = yes }
-				        1030 = { controls_or_subject_of = yes }
-				        1031 = { controls_or_subject_of = yes }
-				        1034 = { controls_or_subject_of = yes }
-				        1035 = { controls_or_subject_of = yes }
-				        1038 = { controls_or_subject_of = yes }
-				        1039 = { controls_or_subject_of = yes }
-				        1043 = { controls_or_subject_of = yes }
+							# Japan & Manchu (28)
+							528 = { controls_or_subject_of = yes }
+							530 = { controls_or_subject_of = yes }
+							529 = { controls_or_subject_of = yes }
+							531 = { controls_or_subject_of = yes }
+							532 = { controls_or_subject_of = yes }
+							535 = { controls_or_subject_of = yes }
+							282 = { controls_or_subject_of = yes }
+							534 = { controls_or_subject_of = yes }
+							533 = { controls_or_subject_of = yes }
+							536 = { controls_or_subject_of = yes }
+							526 = { controls_or_subject_of = yes }
+							537 = { controls_or_subject_of = yes }
+							555 = { controls_or_subject_of = yes }
+							611 = { controls_or_subject_of = yes }
+							612 = { controls_or_subject_of = yes }
+							328 = { controls_or_subject_of = yes }
+							610 = { controls_or_subject_of = yes }
+							714 = { controls_or_subject_of = yes }
+							715 = { controls_or_subject_of = yes }
+							716 = { controls_or_subject_of = yes }
+							717 = { controls_or_subject_of = yes }
+							761 = { controls_or_subject_of = yes }
+							745 = { controls_or_subject_of = yes }
+							609 = { controls_or_subject_of = yes }
+						 	524 = { controls_or_subject_of = yes }
+							1018 = { controls_or_subject_of = yes } 
+							1019 = { controls_or_subject_of = yes }
+							1020 = { controls_or_subject_of = yes }
+
+							# Korea (6)
+							525 = { controls_or_subject_of = yes }
+							527 = { controls_or_subject_of = yes }
+							1028 = { controls_or_subject_of = yes } 
+							1029 = { controls_or_subject_of = yes }
+							1030 = { controls_or_subject_of = yes }
+							1031 = { controls_or_subject_of = yes }
+
+							# Chinese (11)
+							614 = { controls_or_subject_of = yes }
+							608 = { controls_or_subject_of = yes } 
+							597 = { controls_or_subject_of = yes }
+							598 = { controls_or_subject_of = yes }
+							613 = { controls_or_subject_of = yes }
+							1034 = { controls_or_subject_of = yes }
+							1038 = { controls_or_subject_of = yes }
+							1039 = { controls_or_subject_of = yes }
+							1043 = { controls_or_subject_of = yes }
+							596 = { controls_or_subject_of = yes }
+							595 = { controls_or_subject_of = yes }
+
+							# Soviet (4)
+							408 = { controls_or_subject_of = yes }
+							409 = { controls_or_subject_of = yes } 
+							655 = { controls_or_subject_of = yes }
+							657 = { controls_or_subject_of = yes }
+
+						#	OR = { 
+						#		AND = {
+						#			# Chinese
+						#		614 = { controls_or_subject_of = yes }
+						#		608 = { controls_or_subject_of = yes } 
+						#		597 = { controls_or_subject_of = yes }
+						#		598 = { controls_or_subject_of = yes }
+						#		613 = { controls_or_subject_of = yes }
+						#		1034 = { controls_or_subject_of = yes }
+						#		1038 = { controls_or_subject_of = yes }
+						#		1039 = { controls_or_subject_of = yes }
+						#		1043 = { controls_or_subject_of = yes }
+						#		596 = { controls_or_subject_of = yes }
+						#		595 = { controls_or_subject_of = yes }
+						#		}	
+						#		AND = {
+						#			# Soviet
+						#		408 = { controls_or_subject_of = yes }
+						#		409 = { controls_or_subject_of = yes } 
+						#		655 = { controls_or_subject_of = yes }
+						#		657 = { controls_or_subject_of = yes }
+						#		}	
+						#	}
+                        
+						}
 					}
 					AND = {
 						is_ai = no
@@ -13131,23 +13310,43 @@ formable_nations_mod_category = {
 				409 = { add_core_of = ROOT }
 				611 = { add_core_of = ROOT }
 				612 = { add_core_of = ROOT }
-				
-				1028 = { add_core_of = ROOT }
+				524 = { add_core_of = ROOT }
+				1018 = { add_core_of = ROOT } 
+				1019 = { add_core_of = ROOT }
+				1020 = { add_core_of = ROOT }
+				# Korea
+				525 = { add_core_of = ROOT }
+				527 = { add_core_of = ROOT }
+				1028 = { add_core_of = ROOT } 
 				1029 = { add_core_of = ROOT }
 				1030 = { add_core_of = ROOT }
 				1031 = { add_core_of = ROOT }
+				# Chinese
+				608 = { add_core_of = ROOT }
+				614 = { add_core_of = ROOT }
+				597 = { add_core_of = ROOT }
+				598 = { add_core_of = ROOT }
+				613 = { add_core_of = ROOT }
 				1034 = { add_core_of = ROOT }
-				1035 = { add_core_of = ROOT }
 				1038 = { add_core_of = ROOT }
 				1039 = { add_core_of = ROOT }
 				1043 = { add_core_of = ROOT }
+				596 = { add_core_of = ROOT }
+				595 = { add_core_of = ROOT }
+				# Soviet
+				408 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				655 = { add_core_of = ROOT }
+				657 = { add_core_of = ROOT }
 			}
-			608 = { add_core_of = ROOT }
-			614 = { add_core_of = ROOT }
-			597 = { add_core_of = ROOT }
+			# China
 			743 = { add_core_of = ROOT }
-			598 = { add_core_of = ROOT }
-			613 = { add_core_of = ROOT }
+			# Soviets
+			560 = { add_claim_by = ROOT }
+			637 = { add_claim_by = ROOT }
+			# USA
+			650 = { add_claim_by = ROOT } #attu island
+			638 = { add_claim_by = ROOT } # Guam
 		}
 	}
 
@@ -23660,7 +23859,7 @@ formable_nations_mod_category = {
 				817 = { add_core_of = ROOT }	
 				818 = { add_core_of = ROOT }	
 				819 = { add_core_of = ROOT }	
-				820 = { add_core_of = ROOT }		
+				820 = { add_core_of = ROOT }
 
 				217 = { add_core_of = ROOT }
 				232 = { add_core_of = ROOT }
