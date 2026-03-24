@@ -1884,6 +1884,14 @@ formable_nations_mod_category = {
 				original_tag = PRC
 				original_tag = MAN
 				original_tag = MEN
+				original_tag = SIC
+				original_tag = KHM
+				original_tag = NXM
+				original_tag = XIC
+				original_tag = SND
+				original_tag = GSM
+				original_tag = GDC
+				original_tag = HBC
 				original_tag = KUM
 			}
 		}
@@ -8813,7 +8821,7 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 55 # "75 States"
+							amount = 55 # "66 States"
 						361 = { controls_or_subject_of = yes }
 						374 = { controls_or_subject_of = yes }
 						369 = { controls_or_subject_of = yes }
@@ -11853,7 +11861,6 @@ formable_nations_mod_category = {
 				state = 786
 				state = 701
 				state = 272
-				
 			}
 		}
 		
@@ -11941,8 +11948,7 @@ formable_nations_mod_category = {
 				state = 887
 				state = 551
 				state = 883
-				state = 886
-				
+				state = 886				
 			}
 		}
 		
@@ -12319,8 +12325,7 @@ formable_nations_mod_category = {
 
                         972 = { controls_or_subject_of = yes }
 				        975 = { controls_or_subject_of = yes }
-				        976 = { controls_or_subject_of = yes }
-				
+				        976 = { controls_or_subject_of = yes }				
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -12362,7 +12367,6 @@ formable_nations_mod_category = {
                 972 = { add_core_of = ROOT }
 				975 = { add_core_of = ROOT }
 				976 = { add_core_of = ROOT }
-
 			}
 			72 = { add_core_of = ROOT }
 		}
@@ -12912,6 +12916,7 @@ formable_nations_mod_category = {
 				1030 = { add_core_of = ROOT }
 				1031 = { add_core_of = ROOT }
 			}
+			745 = { add_claim_by = ROOT }
 		}
 	}
 
@@ -13143,7 +13148,7 @@ formable_nations_mod_category = {
 				state = 1019
 				state = 1020
 
-				 # Korea
+				# Korea
 				state = 525
 				state = 527
 				state = 1028
@@ -13151,13 +13156,13 @@ formable_nations_mod_category = {
 				state = 1030
 				state = 1031
 				
-				 # Soviet
+				# Soviet
 				state = 408
 				state = 409
 				state = 655
 				state = 657
 				
-				 # China
+				# China
 				state = 608
 				state = 614
 				state = 597
@@ -16562,7 +16567,6 @@ formable_nations_mod_category = {
 				state = 444
 				state = 445
 				state = 423
-				state = 320
 				state = 432
 				state = 434
 				state = 424
@@ -16586,9 +16590,7 @@ formable_nations_mod_category = {
 				state = 640
 				state = 324
 				state = 323
-				state = 422
 				state = 601
-				state = 321
 				state = 322
 				state = 733
 				state = 757
@@ -16634,7 +16636,6 @@ formable_nations_mod_category = {
 						444 = { controls_or_subject_of = yes }
 						445 = { controls_or_subject_of = yes }					
 						423 = { controls_or_subject_of = yes }
-						320 = { controls_or_subject_of = yes }
 						432 = { controls_or_subject_of = yes }
 						434 = { controls_or_subject_of = yes }
 						424 = { controls_or_subject_of = yes }
@@ -16657,8 +16658,7 @@ formable_nations_mod_category = {
 						288 = { controls_or_subject_of = yes }
 						640 = { controls_or_subject_of = yes }				
 						324 = { controls_or_subject_of = yes }						
-						323 = { controls_or_subject_of = yes }					
-						422 = { controls_or_subject_of = yes }						
+						323 = { controls_or_subject_of = yes }										
 						322 = { controls_or_subject_of = yes }
 						757 = { controls_or_subject_of = yes }
 						758 = { controls_or_subject_of = yes }
@@ -16711,7 +16711,6 @@ formable_nations_mod_category = {
 				444 = { add_core_of = ROOT }
 				445 = { add_core_of = ROOT }
 				423 = { add_core_of = ROOT }
-				320 = { add_core_of = ROOT }
 				432 = { add_core_of = ROOT }
 				434 = { add_core_of = ROOT }
 				424 = { add_core_of = ROOT }
@@ -16735,7 +16734,6 @@ formable_nations_mod_category = {
 				640 = { add_core_of = ROOT }
 				324 = { add_core_of = ROOT }
 				323 = { add_core_of = ROOT }
-				422 = { add_core_of = ROOT }
 				322 = { add_core_of = ROOT }
 				757 = { add_core_of = ROOT }
 				758 = { add_core_of = ROOT }
@@ -16766,6 +16764,9 @@ formable_nations_mod_category = {
 				1012 = { add_core_of = ROOT }				
 			}
 			281 = { add_core_of = ROOT }
+			320 = { add_claim_by = ROOT }
+			321 = { add_claim_by = ROOT }
+			422 = { add_claim_by = ROOT }
 		}
 	}
 	
@@ -20961,13 +20962,20 @@ formable_nations_mod_category = {
 			OR = { 
 				has_global_flag = no_limit
 				original_tag = CHI
-				original_tag = XSM
-				original_tag = PRC
-				original_tag = SHX
-				original_tag = MEN
-				original_tag = MAN
 				original_tag = YUN
 				original_tag = GXC
+				original_tag = XSM
+				original_tag = SHX
+				original_tag = PRC
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = SIC
+				original_tag = NXM
+				original_tag = XIC
+				original_tag = SND
+				original_tag = GSM
+				original_tag = GDC
+				original_tag = HBC
 			}
 		}
 
