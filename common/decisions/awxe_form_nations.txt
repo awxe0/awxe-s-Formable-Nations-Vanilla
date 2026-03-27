@@ -26866,6 +26866,8 @@ formable_nations_mod_category = {
 				original_tag = TOS
 				original_tag = PAP
 				original_tag = TTS
+				original_tag = SWI
+				original_tag = AUS
 			}
 		}
 
@@ -27361,6 +27363,8 @@ formable_nations_mod_category = {
 				original_tag = ALG
 				original_tag = LBA
 				original_tag = COR
+				original_tag = SWI
+				original_tag = AUS
 			}
 			OR = {
 				has_cosmetic_tag = AFN_VIK
