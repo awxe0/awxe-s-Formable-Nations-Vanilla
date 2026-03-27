@@ -13266,7 +13266,7 @@ formable_nations_mod_category = {
 						#		657 = { controls_or_subject_of = yes }
 						#		}	
 						#	}
-                        
+
 						}
 					}
 					AND = {
@@ -25446,6 +25446,7 @@ formable_nations_mod_category = {
 			OR = { 
 				has_global_flag = no_limit
 				original_tag = POR
+				original_tag = BRA
 			}
 		}
 
