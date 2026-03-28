@@ -6493,87 +6493,114 @@ formable_nations_mod_category = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 440
-				state = 787
-				state = 442
-				state = 443
-				state = 444
-				state = 445
-				state = 424
-				state = 425
-				state = 426
-				state = 427
-				state = 428
-				state = 429
-				state = 431
-				state = 433
-				state = 435
-				state = 436
-				state = 437
-				state = 438
-				state = 439
-				state = 441
-				state = 430
-				state = 267
+				# India 18
 				state = 415
-				state = 1008
-				state = 1009
-				state = 1010
-				
-				state = 983
-				state = 984
-				state = 986
-				state = 987
-				state = 988
-				state = 989
-				state = 991
+				state = 320 
+				state =	321	
+				state =	424
+				state =	425
+				state =	426
+				state =	427
+				state =	428
+				state =	429
+				state =	431
+				state =	433
+				state =	435
+				state =	436
+				state =	437
+				state =	438
+				state =	439
+				state =	991
+				state =	983
+				state =	984
+
+			# Bengal  1
+
+				state =	430
+
+			# Pakistan 13
+				state = 1012
+				state = 989 
+				state = 988 
+				state = 987 
+				state = 986 
+				state = 972 
+				state = 440 
+				state = 441 
+				state = 442 
+				state = 443 
+				state = 444 
+				state = 445 	
+				state = 787 
+
+			# Afganistan 7
+
+				state = 267 
+				state = 415
 				state = 1005
 				state = 1006
 				state = 1007
-				state = 1012				
+				state = 1008
+				state = 1009				
 			}
 		}
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
-						440 = { controls_or_subject_of = yes }
-						787 = { controls_or_subject_of = yes }
-						442 = { controls_or_subject_of = yes }
-						443 = { controls_or_subject_of = yes }
-						444 = { controls_or_subject_of = yes }
-						445 = { controls_or_subject_of = yes }						
-						424 = { controls_or_subject_of = yes }
-						425 = { controls_or_subject_of = yes }
-						426 = { controls_or_subject_of = yes }
-						427 = { controls_or_subject_of = yes }
-						428 = { controls_or_subject_of = yes }
-						429 = { controls_or_subject_of = yes }
-						431 = { controls_or_subject_of = yes }
-						433 = { controls_or_subject_of = yes }
-						435 = { controls_or_subject_of = yes }
-						436 = { controls_or_subject_of = yes }
-						437 = { controls_or_subject_of = yes }
-						438 = { controls_or_subject_of = yes }
-						439 = { controls_or_subject_of = yes }
-						441 = { controls_or_subject_of = yes }						
-						430 = { controls_or_subject_of = yes }						
-						267 = { controls_or_subject_of = yes }
-						415 = { controls_or_subject_of = yes }
+						count_triggers = {
+							amount = 33 #total is 39
 						
-						983 = { controls_or_subject_of = yes }
-						984 = { controls_or_subject_of = yes }
-						986 = { controls_or_subject_of = yes }
-						987 = { controls_or_subject_of = yes }
-						988 = { controls_or_subject_of = yes }
-				        989 = { controls_or_subject_of = yes }
-				        991 = { controls_or_subject_of = yes }
-				        1005 = { controls_or_subject_of = yes }
-				        1006 = { controls_or_subject_of = yes }
-				        1007 = { controls_or_subject_of = yes }
-				        1012 = { controls_or_subject_of = yes }						
+							# India 18
+							320 = { controls_or_subject_of = yes }
+							321	= { controls_or_subject_of = yes }	
+							424 = { controls_or_subject_of = yes }
+							425 = { controls_or_subject_of = yes }
+							426 = { controls_or_subject_of = yes }
+							427 = { controls_or_subject_of = yes }
+							428 = { controls_or_subject_of = yes }
+							429 = { controls_or_subject_of = yes }
+							431 = { controls_or_subject_of = yes }
+							433 = { controls_or_subject_of = yes }
+							435 = { controls_or_subject_of = yes }
+							436 = { controls_or_subject_of = yes }
+							437 = { controls_or_subject_of = yes }
+							438 = { controls_or_subject_of = yes }
+							439 = { controls_or_subject_of = yes }
+							991 = { controls_or_subject_of = yes }
+							983 = { controls_or_subject_of = yes }
+							984 = { controls_or_subject_of = yes }
+
+							# Bengal 1
+
+							430 = { controls_or_subject_of = yes }
+
+							# Pakistan 13
+							1012 = { controls_or_subject_of = yes }
+							989 = { controls_or_subject_of = yes }
+							988 = { controls_or_subject_of = yes }
+							987 = { controls_or_subject_of = yes }
+							986 = { controls_or_subject_of = yes }
+							972 = { controls_or_subject_of = yes }
+							440 = { controls_or_subject_of = yes }
+							441 = { controls_or_subject_of = yes }
+							442 = { controls_or_subject_of = yes }
+							443 = { controls_or_subject_of = yes }
+							444 = { controls_or_subject_of = yes }
+							445 = { controls_or_subject_of = yes }	
+							787 = { controls_or_subject_of = yes }
+
+							# Afganistan 7
+							267 = { controls_or_subject_of = yes }
+							415 = { controls_or_subject_of = yes }
+							1005 = { controls_or_subject_of = yes }
+							1006 = { controls_or_subject_of = yes }
+							1007 = { controls_or_subject_of = yes }
+							1008 = { controls_or_subject_of = yes }
+							1009 = { controls_or_subject_of = yes }	
+						}						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -6591,12 +6618,9 @@ formable_nations_mod_category = {
 			set_capital = { state = 439 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
-				440 = { add_core_of = ROOT }
-				787 = { add_core_of = ROOT }
-				442 = { add_core_of = ROOT }
-				443 = { add_core_of = ROOT }
-				444 = { add_core_of = ROOT }
-				445 = { add_core_of = ROOT }						
+				# India 18
+				320 = { add_core_of = ROOT }
+				321	= { add_core_of = ROOT }	
 				424 = { add_core_of = ROOT }
 				425 = { add_core_of = ROOT }
 				426 = { add_core_of = ROOT }
@@ -6610,24 +6634,37 @@ formable_nations_mod_category = {
 				437 = { add_core_of = ROOT }
 				438 = { add_core_of = ROOT }
 				439 = { add_core_of = ROOT }
-				441 = { add_core_of = ROOT }						
-				430 = { add_core_of = ROOT }
-				267 = { add_core_of = ROOT }
-				415 = { add_core_of = ROOT }
-				
+				991 = { add_core_of = ROOT }
 				983 = { add_core_of = ROOT }
 				984 = { add_core_of = ROOT }
-				986 = { add_core_of = ROOT }
-				987 = { add_core_of = ROOT }
-				988 = { add_core_of = ROOT }
+				
+				# Bengal 1
+				430 = { add_core_of = ROOT }
+
+				# Pakistan 11
+				1012 = { add_core_of = ROOT }
 				989 = { add_core_of = ROOT }
-				991 = { add_core_of = ROOT }
+				988 = { add_core_of = ROOT }
+				987 = { add_core_of = ROOT }
+				986 = { add_core_of = ROOT }
+				972 = { add_core_of = ROOT }
+				440 = { add_core_of = ROOT }
+				441 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }	
+				787 = { add_core_of = ROOT }
+
+				# Afganistan 7
+				267 =  { add_core_of = ROOT }
+				415 =  { add_core_of = ROOT }
 				1005 = { add_core_of = ROOT }
 				1006 = { add_core_of = ROOT }
 				1007 = { add_core_of = ROOT }
-				1012 = { add_core_of = ROOT }
+				1008 = { add_core_of = ROOT }
+				1009 = { add_core_of = ROOT }
 			}
-			321 = { add_core_of = ROOT }
 		}
 	}
 	
@@ -16629,9 +16666,7 @@ formable_nations_mod_category = {
 				state = 323
 				state = 601
 				state = 322
-				state = 733
 				state = 757
-				state = 758
 				state = 758
 				
 				state = 982
@@ -16656,7 +16691,6 @@ formable_nations_mod_category = {
 				state = 1007
 				state = 1008
 				state = 1009
-				state = 1010
 				state = 1012				
 			}
 		}
@@ -16694,7 +16728,8 @@ formable_nations_mod_category = {
 						415 = { controls_or_subject_of = yes }						
 						288 = { controls_or_subject_of = yes }
 						640 = { controls_or_subject_of = yes }				
-						324 = { controls_or_subject_of = yes }						
+						324 = { controls_or_subject_of = yes }		
+						601 = { controls_or_subject_of = yes }	
 						323 = { controls_or_subject_of = yes }										
 						322 = { controls_or_subject_of = yes }
 						757 = { controls_or_subject_of = yes }
@@ -16722,7 +16757,6 @@ formable_nations_mod_category = {
 						1007 = { controls_or_subject_of = yes }
 						1008 = { controls_or_subject_of = yes }
 						1009 = { controls_or_subject_of = yes }
-						1010 = { controls_or_subject_of = yes }
 						1012 = { controls_or_subject_of = yes }						
 					}
 					AND = {
@@ -16771,6 +16805,7 @@ formable_nations_mod_category = {
 				640 = { add_core_of = ROOT }
 				324 = { add_core_of = ROOT }
 				323 = { add_core_of = ROOT }
+				601 = { add_core_of = ROOT }
 				322 = { add_core_of = ROOT }
 				757 = { add_core_of = ROOT }
 				758 = { add_core_of = ROOT }
@@ -16797,13 +16832,13 @@ formable_nations_mod_category = {
 				1007 = { add_core_of = ROOT }
 				1008 = { add_core_of = ROOT }
 				1009 = { add_core_of = ROOT }
-				1010 = { add_core_of = ROOT }
 				1012 = { add_core_of = ROOT }				
 			}
 			281 = { add_core_of = ROOT }
 			320 = { add_claim_by = ROOT }
 			321 = { add_claim_by = ROOT }
 			422 = { add_claim_by = ROOT }
+			733 = { add_claim_by = ROOT }
 		}
 	}
 	
