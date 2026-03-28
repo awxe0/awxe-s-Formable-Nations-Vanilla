@@ -6623,7 +6623,7 @@ formable_nations_mod_category = {
 				state = 1006
 				state = 1007
 				state = 1008
-				state = 1009				
+				state = 1009			
 			}
 		}
 		
@@ -25109,7 +25109,7 @@ formable_nations_mod_category = {
 		}
 
 		highlight_states = {
-			highlight_state_targets = {				
+			highlight_state_targets = {
 				# Germany
 				state = 5
 				state = 42
@@ -25841,7 +25841,7 @@ formable_nations_mod_category = {
 				891 = { add_core_of = ROOT }
 				892 = { add_core_of = ROOT }
 				896 = { add_core_of = ROOT }
-				897 = { add_core_of = ROOT }	
+				897 = { add_core_of = ROOT }
 			}
 			906 = { add_core_of = ROOT }
 			668 = { add_core_of = ROOT }
@@ -32269,7 +32269,7 @@ formable_nations_mod_category = {
 				        454 = { controls_or_subject_of = yes } # Palestine
 				        455 = { controls_or_subject_of = yes } # Jordan
 				        553 = { controls_or_subject_of = yes } # Lebanon
-				        656 = { controls_or_subject_of = yes } # Kuwait		
+				        656 = { controls_or_subject_of = yes } # Kuwait
 					}
 					AND = {
 						has_global_flag = debug_mode
