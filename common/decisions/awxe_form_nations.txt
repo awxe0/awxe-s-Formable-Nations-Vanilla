@@ -34295,7 +34295,7 @@ formable_nations_mod_category = {
 					}
 				}
 			}
-			custom_trigger_tooltip = { tooltip = must_be_spanish_subject_tt OR = { is_subject_of = SPR } }
+			custom_trigger_tooltip = { tooltip = must_be_spanish_subject_tt OR = { is_subject_of = SPR is_subject_of = SPA } }
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_VNS } } }
 			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
