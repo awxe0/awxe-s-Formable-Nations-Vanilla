@@ -751,4 +751,28 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_greater_norway"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_norway.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_greater_brazil"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_brazil.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_maya"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_maya.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_chibchan"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_chibchan.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_greater_usa"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_greater_usa.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_guarani"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_guarani.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_viceroyalty_new_spain"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_viceroyalty_new_spain.tga"
+	}
 }

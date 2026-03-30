@@ -2759,3 +2759,33 @@ AFN_GNO = {
 	color = rgb { 132 19 23 }
 	color_ui = rgb { 132 19 23 }
 }
+
+AFN_GBR = {
+	color = rgb { 40 102 5 }
+	color_ui = rgb { 40 102 5 }
+}
+
+AFN_MYA = {
+	color = rgb { 23 77 178 }
+	color_ui = rgb { 23 77 178 }
+}
+
+AFN_CHB = {
+	color = rgb { 151 61 58 }
+	color_ui = rgb { 151 61 58 }
+}
+
+AFN_GUS = {
+	color = rgb { 21 79 150 }
+	color_ui = rgb { 21 79 150 }
+}
+
+AFN_GUI = {
+	color = rgb { 146 201 66 }
+	color_ui = rgb { 146 201 66 }
+}
+
+AFN_VNS = {
+	color = rgb { 206 82 20 }
+	color_ui = rgb { 206 82 20 }
+}
