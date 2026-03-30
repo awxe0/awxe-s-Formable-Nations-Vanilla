@@ -1,4 +1,4 @@
-![AFN - Steam Showcase - Main - 180](https://github.com/user-attachments/assets/febc1146-1886-4522-bc46-60da1d3d99d9)
+![AFNV Vanilla - Steam Showcase - Main - 190](https://github.com/user-attachments/assets/98564fdb-8081-495e-a076-086245f59153)
 
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
@@ -8,11 +8,11 @@ This is the well-known and beloved Formable Nations mod, fully overhauled. Expan
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 7" src="https://github.com/user-attachments/assets/5e9b2a3c-277e-4685-844b-cf9afd8cf3b6" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 8" src="https://github.com/user-attachments/assets/a15aa756-49a8-4f23-9bef-7cf70d0bbbe4" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
-• +180 Formable Nations  
+• +190 Formable Nations  
 • Custom flags, colors, decisions, and cores  
 • Accurate historical & cultural naming  
 • Regular updates, new content monthly  
@@ -36,7 +36,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled. Expan
 
 <img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
 
-It may not be compatible with mods that add or modify states. It is not compatible with Ironman.
+Not compatible with mods that add, modify, or remove states, or include cosmetic (color) files. It is not compatible with Ironman.
 
 https://steamcommunity.com/sharedfiles/filedetails?id=3531061069 RT56 Version - awxe's Formable Nations for RT56
 
