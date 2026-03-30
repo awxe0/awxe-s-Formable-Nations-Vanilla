@@ -6,7 +6,9 @@ The following table shows which versions of the project are currently supported 
 
 | Version | Supported                |
 | ------- | ------------------------ |
-| 1.6  | ✅ (Latest, fully supported) |
+| 1.8  | ✅ (Latest, fully supported) |
+| 1.7  | ⚠️ Critical fixes only       |
+| 1.6  | ❌ Not supported             |
 | 1.5  | ❌ Not supported             |
 | 1.4  | ❌ Not supported             |
 | 1.3  | ❌ Not supported             |
