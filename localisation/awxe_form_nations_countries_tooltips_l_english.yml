@@ -12,4 +12,6 @@
  middle_east_requirement_tooltip:0 "Controls all of §YMiddle East§!."
  britain_requirement_tooltip:0 "Controls all of §YBritish Isles§!."
  
- is_puppet_tooltip:0 "Is not a puppet."
+ is_puppet_tooltip:0 "Is not a puppet." 
+ must_be_spanish_subject_tt:0 "You need to be a §Ypuppet§! of §YSpain§!."
+ greater_japan_tt:0 "Requires either the 3 states from the USSR or the 5 states from China" # GIAMPIERX3
