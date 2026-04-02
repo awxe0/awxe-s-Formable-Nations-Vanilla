@@ -13,3 +13,5 @@
  britain_requirement_tooltip:0 "すべての§Yイギリス諸島§!を制御します。"
  
  is_puppet_tooltip:0 "人形ではない。"
+ must_be_spanish_subject_tt:0 "§Yスペイン§!の§Y傀儡§!である必要があります。"
+ greater_japan_tt:0 "ソ連の3州または中国の5州のいずれかが必要です。" # GIAMPIERX3

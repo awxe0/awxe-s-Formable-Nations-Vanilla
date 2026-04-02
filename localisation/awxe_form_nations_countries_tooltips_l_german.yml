@@ -13,3 +13,5 @@
  britain_requirement_tooltip:0 "Kontrolliert alle §YBritischen Inseln§!."
 
  is_puppet_tooltip:0 "Ist keine Marionette."
+ must_be_spanish_subject_tt:0 "Sie müssen ein §YPuppet§! von §YSpanien§! sein."
+ greater_japan_tt:0 "Erfordert entweder die 3 Staaten der UdSSR oder die 5 Staaten Chinas." # GIAMPIERX3

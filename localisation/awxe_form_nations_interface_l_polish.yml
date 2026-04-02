@@ -259,8 +259,15 @@
  formable_nations_sweden_norway:0 "Unia Szwecji-Norwegii"
  formable_nations_poland_romania:0 "Unia Polski-Rumunii"
  formable_nations_greater_norway:0 "Wielka Norwegia"
+ formable_nations_greater_brazil:0 "Wielka Brazylia"
+ formable_nations_maya:0 "Imperium Majów"
+ formable_nations_chibchan:0 "Państwo Chibcha"
+ formable_nations_greater_usa:0 "Wielkie Zjednoczone Stany"
+ formable_nations_guarani:0 "Państwo Guaranów"
+ formable_nations_viceroyalty_new_spain:0 "Wicekrólestwo Nowej Hiszpanii"
  ##############################
-
+ 
+ ##############################
  formable_nations_abyssinia_category:0 "Abisynia"
  formable_nations_africa_category:0 "Afryka"
  formable_nations_afro_eurasia_category:0 "Afro-Eurazja"
@@ -450,3 +457,9 @@
  formable_nations_sweden_norway_category:0 "Unia Szwecji-Norwegii"
  formable_nations_poland_romania_category:0 "Unia Polski-Rumunii"
  formable_nations_greater_norway_category:0 "Wielka Norwegia"
+ formable_nations_greater_brazil_category:0 "Wielka Brazylia"
+ formable_nations_maya_category:0 "Imperium Majów"
+ formable_nations_chibchan_category:0 "Państwo Chibcha"
+ formable_nations_greater_usa_category:0 "Wielkie Zjednoczone Stany"
+ formable_nations_guarani_category:0 "Państwo Guaranów"
+ formable_nations_viceroyalty_new_spain_category:0 "Wicekrólestwo Nowej Hiszpanii"

@@ -13,3 +13,5 @@
  britain_requirement_tooltip:0 "Контролирует все §YБританские острова§!."
 
  is_puppet_tooltip:0 "Не является марионеткой."
+ must_be_spanish_subject_tt:0 "Вы должны быть §Yмарионеткой§! §YИспании§!."
+ greater_japan_tt:0 "Требуется либо 3 штата СССР, либо 5 штатов Китая." # GIAMPIERX3

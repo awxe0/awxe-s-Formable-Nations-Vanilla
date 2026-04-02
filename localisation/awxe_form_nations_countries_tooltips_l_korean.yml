@@ -13,3 +13,5 @@
  britain_requirement_tooltip:0 "§Y영국 제도§! 전체를 점령하고 있어야 합니다."
  
  is_puppet_tooltip:0 "괴뢰국이 아닙니다."
+ must_be_spanish_subject_tt:0 "§Y스페인§!의 §Y괴뢰국§!이어야 합니다."
+ greater_japan_tt:0 "소련의 3개 주 또는 중국의 5개 주가 필요합니다." # GIAMPIERX3

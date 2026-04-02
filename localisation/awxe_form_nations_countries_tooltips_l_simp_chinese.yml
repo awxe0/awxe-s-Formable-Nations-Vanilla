@@ -13,3 +13,5 @@
  britain_requirement_tooltip:0 "控制整个§Y不列颠群岛§!。"
  
  is_puppet_tooltip:0 "不是傀儡。"
+ must_be_spanish_subject_tt:0 "必须是§Y西班牙§!的§Y傀儡§!。"
+ greater_japan_tt:0 "需要苏联的3个州或中国的5个州。" # GIAMPIERX3

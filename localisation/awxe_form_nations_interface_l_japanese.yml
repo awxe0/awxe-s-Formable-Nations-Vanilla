@@ -259,6 +259,12 @@
  formable_nations_sweden_norway:0 "スウェーデン・ノルウェー連合"
  formable_nations_poland_romania:0 "ポーランド・ルーマニア連合"
  formable_nations_greater_norway:0 "大ノルウェー"
+ formable_nations_greater_brazil:0 "大ブラジル"
+ formable_nations_maya:0 "マヤ帝国"
+ formable_nations_chibchan:0 "チブチャ国家"
+ formable_nations_greater_usa:0 "大アメリカ合衆国"
+ formable_nations_guarani:0 "グアラニー国家"
+ formable_nations_viceroyalty_new_spain:0 "ヌエバ・エスパーニャ副王領"
  ##############################
 
  ##############################
@@ -451,3 +457,9 @@
  formable_nations_sweden_norway_category:0 "スウェーデン・ノルウェー連合"
  formable_nations_poland_romania_category:0 "ポーランド・ルーマニア連合"
  formable_nations_greater_norway_category:0 "大ノルウェー"
+ formable_nations_greater_brazil_category:0 "大ブラジル"
+ formable_nations_maya_category:0 "マヤ帝国"
+ formable_nations_chibchan_category:0 "チブチャ国家"
+ formable_nations_greater_usa_category:0 "大アメリカ合衆国"
+ formable_nations_guarani_category:0 "グアラニー国家"
+ formable_nations_viceroyalty_new_spain_category:0 "ヌエバ・エスパーニャ副王領"

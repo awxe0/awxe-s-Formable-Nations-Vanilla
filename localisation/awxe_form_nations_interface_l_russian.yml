@@ -259,6 +259,12 @@
  formable_nations_sweden_norway:0 "Шведско-Норвежский союз"
  formable_nations_poland_romania:0 "Польско-Румынский союз"
  formable_nations_greater_norway:0 "Великая Норвегия"
+ formable_nations_greater_brazil:0 "Великая Бразилия"
+ formable_nations_maya:0 "Империя майя"
+ formable_nations_chibchan:0 "Чибчанское государство"
+ formable_nations_greater_usa:0 "Великие Соединённые Штаты"
+ formable_nations_guarani:0 "Государство гуарани"
+ formable_nations_viceroyalty_new_spain:0 "Вице-королевство Новой Испании"
  ##############################
  
  ##############################
@@ -451,3 +457,9 @@
  formable_nations_sweden_norway_category:0 "Шведско-Норвежский союз"
  formable_nations_poland_romania_category:0 "Польско-Румынский союз"
  formable_nations_greater_norway_category:0 "Великая Норвегия"
+ formable_nations_greater_brazil_category:0 "Великая Бразилия"
+ formable_nations_maya_category:0 "Империя майя"
+ formable_nations_chibchan_category:0 "Чибчанское государство"
+ formable_nations_greater_usa_category:0 "Великие Соединённые Штаты"
+ formable_nations_guarani_category:0 "Государство гуарани"
+ formable_nations_viceroyalty_new_spain_category:0 "Вице-королевство Новой Испании"

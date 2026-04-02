@@ -13,3 +13,5 @@
  britain_requirement_tooltip:0 "Controla todas las §YIslas Británicas§!."
  
  is_puppet_tooltip:0 "No es una marioneta."
+ must_be_spanish_subject_tt:0 "Necesitas ser un §Ytítere§! de §YEspaña§!."
+ greater_japan_tt:0 "Requiere ya sea los 3 estados de la URSS o los 5 estados de China." # GIAMPIERX3

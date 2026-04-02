@@ -258,6 +258,12 @@
  formable_nations_sweden_norway:0 "Schweden-Norwegen Union"
  formable_nations_poland_romania:0 "Polen-Rumänien Union"
  formable_nations_greater_norway:0 "Großnorwegen"
+ formable_nations_greater_brazil:0 "Großbrasilien"
+ formable_nations_maya:0 "Maya-Reich"
+ formable_nations_chibchan:0 "Chibcha-Staat"
+ formable_nations_greater_usa:0 "Große Vereinigte Staaten"
+ formable_nations_guarani:0 "Guarani-Staat"
+ formable_nations_viceroyalty_new_spain:0 "Vizekönigreich Neuspanien"
  ##############################
  
  ##############################
@@ -452,4 +458,10 @@
  formable_nations_sweden_norway_category:0 "Schweden-Norwegen Union"
  formable_nations_poland_romania_category:0 "Polen-Rumänien Union"
  formable_nations_greater_norway_category:0 "Großnorwegen"
+ formable_nations_greater_brazil_category:0 "Großbrasilien"
+ formable_nations_maya_category:0 "Maya-Reich"
+ formable_nations_chibchan_category:0 "Chibcha-Staat"
+ formable_nations_greater_usa_category:0 "Große Vereinigte Staaten"
+ formable_nations_guarani_category:0 "Guarani-Staat"
+ formable_nations_viceroyalty_new_spain_category:0 "Vizekönigreich Neuspanien"
  

@@ -259,6 +259,12 @@
  formable_nations_sweden_norway:0 "瑞典-挪威联盟"
  formable_nations_poland_romania:0 "波兰-罗马尼亚联盟"
  formable_nations_greater_norway:0 "大挪威"
+ formable_nations_greater_brazil:0 "大巴西"
+ formable_nations_maya:0 "玛雅帝国"
+ formable_nations_chibchan:0 "奇布查国家"
+ formable_nations_greater_usa:0 "大美利坚合众国"
+ formable_nations_guarani:0 "瓜拉尼国家"
+ formable_nations_viceroyalty_new_spain:0 "新西班牙总督辖区"
  ##############################
  
  #############################
@@ -451,4 +457,10 @@
  formable_nations_sweden_norway_category:0 "瑞典-挪威联盟"
  formable_nations_poland_romania_category:0 "波兰-罗马尼亚联盟"
  formable_nations_greater_norway_category:0 "大挪威"
+ formable_nations_greater_brazil_category:0 "大巴西"
+ formable_nations_maya_category:0 "玛雅帝国"
+ formable_nations_chibchan_category:0 "奇布查国家"
+ formable_nations_greater_usa_category:0 "大美利坚合众国"
+ formable_nations_guarani_category:0 "瓜拉尼国家"
+ formable_nations_viceroyalty_new_spain_category:0 "新西班牙总督辖区"
  
