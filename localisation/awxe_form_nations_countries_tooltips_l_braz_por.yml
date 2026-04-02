@@ -1,0 +1,17 @@
+﻿l_braz_por:
+ germany_expansion_continued_requirement_tooltip:0 "Controla §YAlsácia-Lorena§! ou §YAlto Adige§!."
+ highlighted_state_tooltip:0 "Controla, diretamente ou via súdito, todos os estados destacados."
+ enough_control_requirement:0 "Controla, diretamente ou via súdito, terras suficientes destacadas para proclamar esta nação."
+ asia_requirement_tooltip:0 "Controla toda a §YÁsia§! exceto pequenas ilhas do §YPacífico§!."
+ eurasia_requirement_tooltip:0 "Controla toda a §YEurásia§! exceto pequenas ilhas do §YPacífico§! e do §YAtlântico§!."
+ afro_eurasia_requirement_tooltip:0 "Controla a §YÁfrica§!, §YÁsia§! e §YEuropa§!, excluindo pequenas ilhas periféricas."
+ africa_requirement_tooltip:0 "Controla todos os estados §Ycontinentais§! na §YÁfrica§!."
+ europe_requirement_tooltip:0 "Controla todos os estados §Ycontinentais§! na §YEuropa§!"
+ south_america_requirement_tooltip:0 "Controla toda a §YAmérica do Sul§! e ilhas com conexão ao continente."
+ north_america_requirement_tooltip:0 "Controla todas as partes continentais da §YAmérica do Norte§!, bem como ilhas §Ycanadenses§! periféricas."
+ middle_east_requirement_tooltip:0 "Controla todo o §YOriente Médio§!."
+ britain_requirement_tooltip:0 "Controla todas as §YIlhas Britânicas§!."
+ 
+ is_puppet_tooltip:0 "Não é um fantoche." 
+ must_be_spanish_subject_tt:0 "Você precisa ser um §Yfantoche§! da §YEspanha§!."
+ greater_japan_tt:0 "Requer ou os 3 estados da URSS ou os 5 estados da China." # GIAMPIERX3
