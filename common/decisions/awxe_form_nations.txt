@@ -3018,7 +3018,8 @@ formable_nations_mod_category = {
 					AND = {
 					    count_triggers = {
                         amount = 51 # "58 states"
-				        42 = { controls_or_subject_of = yes }
+				        # Germany (22)
+						42 = { controls_or_subject_of = yes }
 				        50 = { controls_or_subject_of = yes }
 				        51 = { controls_or_subject_of = yes }
 				        52 = { controls_or_subject_of = yes }
