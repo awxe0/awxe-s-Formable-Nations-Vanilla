@@ -3015,9 +3015,9 @@ formable_nations_mod_category = {
 			custom_trigger_tooltip = {
 				tooltip = enough_control_requirement
 				OR = {
-					count_triggers = {
-                        amount = 41 # "58 states"
-						# Germany (22)
+					AND = {
+					    count_triggers = {
+                        amount = 51 # "58 states"
 				        42 = { controls_or_subject_of = yes }
 				        50 = { controls_or_subject_of = yes }
 				        51 = { controls_or_subject_of = yes }
@@ -3091,6 +3091,7 @@ formable_nations_mod_category = {
 				        74 = { controls_or_subject_of = yes }
 				        75 = { controls_or_subject_of = yes }
 				        972 = { controls_or_subject_of = yes }
+						}
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -7873,6 +7874,7 @@ formable_nations_mod_category = {
 			810 = { add_claim_by = ROOT }
 			809 = { add_claim_by = ROOT }
 			143 = { add_claim_by = ROOT }
+			190 = { add_claim_by = ROOT }
 		}
 	}
 
@@ -17040,7 +17042,6 @@ formable_nations_mod_category = {
 			}
 			416 = { add_core_of = ROOT }
 			439 = { add_core_of = ROOT }
-			1101 = { add_core_of = ROOT }
 		}
 	}
 	
@@ -17576,7 +17577,6 @@ formable_nations_mod_category = {
 				state = 628
 				state = 640
 				state = 672
-				state = 721
 				state = 993
 				state = 994
 				state = 995
@@ -17629,7 +17629,6 @@ formable_nations_mod_category = {
 				        628 = { controls_or_subject_of = yes }
 				        640 = { controls_or_subject_of = yes }
 				        672 = { controls_or_subject_of = yes }
-				        721 = { controls_or_subject_of = yes }
 				        993 = { controls_or_subject_of = yes }
 						994 = { controls_or_subject_of = yes }
 				        995 = { controls_or_subject_of = yes }
@@ -17695,7 +17694,6 @@ formable_nations_mod_category = {
 				628 = { add_core_of = ROOT }
 				640 = { add_core_of = ROOT }
 				672 = { add_core_of = ROOT }
-				721 = { add_core_of = ROOT }
 				993 = { add_core_of = ROOT }
 				994 = { add_core_of = ROOT }
 				995 = { add_core_of = ROOT }
@@ -17711,6 +17709,7 @@ formable_nations_mod_category = {
 				1026 = { add_core_of = ROOT }
 				1027 = { add_core_of = ROOT }
 			}
+			721 = { add_core_of = ROOT }
 		}
 	}
 	
