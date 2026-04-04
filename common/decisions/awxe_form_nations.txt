@@ -19973,7 +19973,6 @@ formable_nations_mod_category = {
 				717 = { add_core_of = ROOT }
 				745 = { add_core_of = ROOT }
 				
-				409 = { controls_or_subject_of = yes }
 				408 = { add_core_of = ROOT }
 				409 = { add_core_of = ROOT }
 				
