@@ -7677,15 +7677,29 @@ formable_nations_mod_category = {
 
 		highlight_states = {
 			highlight_state_targets = {
+				# Indochina
 				state = 286
-				state = 671
-				state = 741
-				state = 670
+				state = 671 						
+				state = 741 						
+				state = 670 
+				state = 1017	
+				
+				# Siam	
 				state = 724
 				state = 289
 				state = 868
 				state = 869
-				state = 1017
+				
+				# Burma
+				state = 288
+				state = 640
+				state = 993
+				state = 994
+				state = 995
+				state = 996
+				state = 997
+				state = 998
+				state = 999	
 			}
 		}
 		
@@ -7700,11 +7714,23 @@ formable_nations_mod_category = {
 						741 = { controls_or_subject_of = yes }						
 						670 = { controls_or_subject_of = yes }
 						1017 = { controls_or_subject_of = yes }	
-						# SIAM	
+						
+						# Siam	
 						724 = { controls_or_subject_of = yes }
 						289 = { controls_or_subject_of = yes }
 						868 = { controls_or_subject_of = yes }
 						869 = { controls_or_subject_of = yes }
+						
+						# Burma
+						288 = { controls_or_subject_of = yes }
+						640 = { controls_or_subject_of = yes }
+						993 = { controls_or_subject_of = yes }
+						994 = { controls_or_subject_of = yes }
+						995 = { controls_or_subject_of = yes }
+						996 = { controls_or_subject_of = yes }
+						997 = { controls_or_subject_of = yes }
+						998 = { controls_or_subject_of = yes }
+						999 = { controls_or_subject_of = yes }	
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -7722,15 +7748,27 @@ formable_nations_mod_category = {
 			set_capital = { state = 289 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				# Indochina
 				286 = { add_core_of = ROOT }
-				671 = { add_core_of = ROOT }
-				741 = { add_core_of = ROOT }
-				670 = { add_core_of = ROOT }
+				671 = { add_core_of = ROOT } 						
+				741 = { add_core_of = ROOT } 						
+				670 = { add_core_of = ROOT } 
+				1017 = { add_core_of = ROOT }					
+				# Siam	
 				724 = { add_core_of = ROOT }
 				289 = { add_core_of = ROOT }
 				868 = { add_core_of = ROOT }
-				869 = { add_core_of = ROOT }
-				1017 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }				
+				# Burma
+				288 = { add_core_of = ROOT }
+				640 = { add_core_of = ROOT }
+				993 = { add_core_of = ROOT }
+				994 = { add_core_of = ROOT }
+				995 = { add_core_of = ROOT }
+				996 = { add_core_of = ROOT }
+				997 = { add_core_of = ROOT }
+				998 = { add_core_of = ROOT }
+				999 = { add_core_of = ROOT }	
 			}
 		}
 	}
