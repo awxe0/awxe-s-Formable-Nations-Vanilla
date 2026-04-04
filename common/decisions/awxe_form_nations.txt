@@ -31659,6 +31659,12 @@ formable_nations_mod_category = {
 				original_tag = SRL
 				original_tag = MYS
 				original_tag = RAS
+				original_tag = BRM
+				original_tag = SIA
+				original_tag = CAM
+				original_tag = VIN
+				original_tag = MAL
+				original_tag = INS
 			}
 		}
 
