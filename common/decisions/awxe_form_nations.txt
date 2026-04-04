@@ -9833,15 +9833,15 @@ formable_nations_mod_category = {
 				846 = { add_core_of = ROOT }
 				847 = { add_core_of = ROOT }
 				# Austria
-				state = 4 = { add_core_of = ROOT }
-				state = 152 = { add_core_of = ROOT }
-				state = 153 = { add_core_of = ROOT }
-				state = 848 = { add_core_of = ROOT }
-			#	state = 975 = { add_core_of = ROOT }
-				state = 976 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				153 = { add_core_of = ROOT }
+				848 = { add_core_of = ROOT }
+			#	975 = { add_core_of = ROOT }
+				976 = { add_core_of = ROOT }
 				# Italy
-				state = 39 = { add_core_of = ROOT }
-				state = 850 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				850 = { add_core_of = ROOT }
 			}	
 			52 = { add_claim_by = ROOT }
 			975 = { add_claim_by = ROOT }
@@ -14450,7 +14450,7 @@ formable_nations_mod_category = {
 				762 = { add_core_of = ROOT }
 				807 = { add_core_of = ROOT }
 
-				909 = { controls_or_subject_of = yes }
+				909 = { add_core_of = ROOT }
 			}
 		}
 	}
@@ -19973,13 +19973,14 @@ formable_nations_mod_category = {
 				717 = { add_core_of = ROOT }
 				745 = { add_core_of = ROOT }
 				
-				408 = { controls_or_subject_of = yes }
 				409 = { controls_or_subject_of = yes }
+				408 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
 				
-				1028 = { controls_or_subject_of = yes }
-				1029 = { controls_or_subject_of = yes }
-				1030 = { controls_or_subject_of = yes }
-				1031 = { controls_or_subject_of = yes }
+				1028 = { add_core_of = ROOT }
+				1029 = { add_core_of = ROOT }
+				1030 = { add_core_of = ROOT }
+				1031 = { add_core_of = ROOT }
 			}
 		}
 	}
