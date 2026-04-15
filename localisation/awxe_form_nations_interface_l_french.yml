@@ -14,7 +14,7 @@
  unhide_settings:0 "Paramètres"
  debug_mode:0 "Mode débogage"
  enable_debug_mode:0 "Activer le mode débogage"
- enable_debug_mode_desc:0 "L'activation du mode débogage supprimera tous les critères d'état pour toutes les nations formables. Si un bug vous empêche de former une nation, vous pouvez utiliser cette fonctionnalité comme solution de contournement. L'IA aura toujours besoin des états. §RLe mode débogage n'est pas recommandé pour les sessions multijoueurs§!"
+ enable_debug_mode_desc:0 "L'activation du mode débogage supprimera tous les critères d'état pour toutes les nations formables. Si un bug vous empêche de former une nation, vous pouvez utiliser cette fonctionnalité comme solution de contournement. L'IA aura toujours besoin des états."
  disable_debug_mode:0 "Désactiver le mode débogage"
  enable_ai:0 "Activer l'IA"
  enable_ai_desc:0 "Permet à l'IA de former des nations."

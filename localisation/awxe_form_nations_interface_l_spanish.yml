@@ -14,7 +14,7 @@
  unhide_settings:0 "Ajustes"
  debug_mode:0 "Modo depuración"
  enable_debug_mode:0 "Activar modo depuración"
- enable_debug_mode_desc:0 "Activar el modo depuración eliminará todos los requisitos de estados de todas las naciones formables. Si un error te impide formar una nación, puedes usar esta función como solución temporal. La IA seguirá necesitando los estados. §R¡El modo depuración no se recomienda para partidas multijugador§!"
+ enable_debug_mode_desc:0 "Activar el modo depuración eliminará todos los requisitos de estados de todas las naciones formables. Si un error te impide formar una nación, puedes usar esta función como solución temporal. La IA seguirá necesitando los estados."
  disable_debug_mode:0 "Desactivar modo depuración"
  enable_ai:0 "Activar IA"
  enable_ai_desc:0 "Permite a la IA formar naciones."

@@ -14,7 +14,7 @@
  unhide_settings:0 "Settings"
  debug_mode:0 "Debug Mode"
  enable_debug_mode:0 "Enable Debug Mode"
- enable_debug_mode_desc:0 "Enabling debug mode will remove all state criteria from all the formables. If a bug prevents you from forming a nation, you can use this feature as a workaround. The AI will still need the states. §RDebug Mode is not recommended for Multiplayer sessions§"
+ enable_debug_mode_desc:0 "Enabling debug mode will remove all state criteria from all the formables. If a bug prevents you from forming a nation, you can use this feature as a workaround. The AI will still need the states."
  disable_debug_mode:0 "Disable Debug Mode"
  enable_ai:0 "Enable AI"
  enable_ai_desc:0 "Allows AI to form nations."

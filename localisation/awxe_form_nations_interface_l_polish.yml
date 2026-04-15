@@ -14,7 +14,7 @@
  unhide_settings:0 "Ustawienia"
  debug_mode:0 "Tryb debugowania"
  enable_debug_mode:0 "Włącz tryb debugowania"
- enable_debug_mode_desc:0 "Włączenie trybu debugowania usunie wszystkie wymagania stanowe ze wszystkich formowalnych nacji. Jeśli błąd uniemożliwia utworzenie państwa, możesz użyć tej funkcji jako obejścia. AI nadal będzie potrzebować stanów. §RTryb debugowania nie jest zalecany w sesjach multiplayer§!"
+ enable_debug_mode_desc:0 "Włączenie trybu debugowania usunie wszystkie wymagania stanowe ze wszystkich formowalnych nacji. Jeśli błąd uniemożliwia utworzenie państwa, możesz użyć tej funkcji jako obejścia. AI nadal będzie potrzebować stanów."
  disable_debug_mode:0 "Wyłącz tryb debugowania"
  enable_ai:0 "Włącz SI"
  enable_ai_desc:0 "Pozwala SI tworzyć państwa."

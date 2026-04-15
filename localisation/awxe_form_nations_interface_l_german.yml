@@ -14,7 +14,7 @@
  unhide_settings:0 "Einstellungen"
  debug_mode:0 "Debug-Modus"
  enable_debug_mode:0 "Debug-Modus aktivieren"
- enable_debug_mode_desc:0 "Das Aktivieren des Debug-Modus entfernt alle Staatskriterien von allen formbaren Nationen. Falls ein Bug das Formen einer Nation verhindert, können Sie diese Funktion als Workaround nutzen. Die KI benötigt die Staaten weiterhin. §RDebug-Modus wird für Multiplayer-Sitzungen nicht empfohlen§!"
+ enable_debug_mode_desc:0 "Das Aktivieren des Debug-Modus entfernt alle Staatskriterien von allen formbaren Nationen. Falls ein Bug das Formen einer Nation verhindert, können Sie diese Funktion als Workaround nutzen. Die KI benötigt die Staaten weiterhin."
  disable_debug_mode:0 "Debug-Modus deaktivieren"
  enable_ai:0 "KI aktivieren"
  enable_ai_desc:0 "Erlaubt der KI, Nationen zu formen."

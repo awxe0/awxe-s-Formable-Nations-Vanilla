@@ -14,7 +14,7 @@
  unhide_settings:0 "Configurações"
  debug_mode:0 "Modo Debug"
  enable_debug_mode:0 "Ativar Modo Debug"
- enable_debug_mode_desc:0 "Ativar o modo debug removerá todos os critérios de estados de todos os formáveis. Se um bug impedir você de formar uma nação, pode usar isso como solução temporária. A IA ainda precisará dos estados. §RO Modo Debug não é recomendado para sessões multiplayer§"
+ enable_debug_mode_desc:0 "Ativar o modo debug removerá todos os critérios de estados de todos os formáveis. Se um bug impedir você de formar uma nação, pode usar isso como solução temporária. A IA ainda precisará dos estados."
  disable_debug_mode:0 "Desativar Modo Debug"
  enable_ai:0 "Ativar IA"
  enable_ai_desc:0 "Permite que a IA forme nações."
