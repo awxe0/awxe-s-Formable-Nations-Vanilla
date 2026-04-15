@@ -25325,7 +25325,6 @@ formable_nations_mod_category = {
 				state = 67
 				state = 68
 				state = 763
-				state = 807
 				state = 909
 				state = 912
 				state = 978
@@ -25370,8 +25369,8 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount = 36 # "51 states"
-						# Germany (26)
+                        amount = 36 # "50 states"
+						# Germany (25)
 				        5 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
 				        50 = { controls_or_subject_of = yes }
@@ -25394,7 +25393,6 @@ formable_nations_mod_category = {
 				        67 = { controls_or_subject_of = yes }
 				        68 = { controls_or_subject_of = yes }
 				        763 = { controls_or_subject_of = yes }
-						807 = { controls_or_subject_of = yes }
 				        909 = { controls_or_subject_of = yes }
 						912 = { controls_or_subject_of = yes }
 						978 = { controls_or_subject_of = yes }
@@ -25473,14 +25471,14 @@ formable_nations_mod_category = {
 				807 = { add_core_of = ROOT }
 				909 = { add_core_of = ROOT }
 				912 = { add_core_of = ROOT }
-				978 = { add_core_of = ROOT }				
+				978 = { add_core_of = ROOT }
 				# Poland
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
 				762 = { add_core_of = ROOT }
-				807 = { add_core_of = ROOT }				
+				807 = { add_core_of = ROOT }
 				# Lithuania Memel
-				188 = { add_core_of = ROOT }				
+				188 = { add_core_of = ROOT }
 				# France
 				28 = { add_core_of = ROOT }				
 				# Colonial Provinces
