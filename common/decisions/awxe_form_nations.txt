@@ -25328,6 +25328,7 @@ formable_nations_mod_category = {
 				state = 807
 				state = 909
 				state = 912
+				state = 978
 				
 				# Poland
 				state = 85
@@ -25352,6 +25353,8 @@ formable_nations_mod_category = {
 				state = 684
 				state = 725
 				state = 737
+				state = 768
+				state = 769
 				state = 773
 				state = 777
 				state = 893
@@ -25367,8 +25370,8 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount = 32 # "48 states"
-						# Germany (24)
+                        amount = 36 # "51 states"
+						# Germany (26)
 				        5 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
 				        50 = { controls_or_subject_of = yes }
@@ -25391,7 +25394,9 @@ formable_nations_mod_category = {
 				        67 = { controls_or_subject_of = yes }
 				        68 = { controls_or_subject_of = yes }
 				        763 = { controls_or_subject_of = yes }
+						807 = { controls_or_subject_of = yes }
 				        909 = { controls_or_subject_of = yes }
+						912 = { controls_or_subject_of = yes }
 						978 = { controls_or_subject_of = yes }
 				
 				        # Poland (4)
@@ -25406,7 +25411,7 @@ formable_nations_mod_category = {
 				        # France (1)
 				        28 = { controls_or_subject_of = yes }
 				
-						# Colonial Provinces (18)
+						# Colonial Provinces (19)
 				        541 = { controls_or_subject_of = yes }
 				        546 = { controls_or_subject_of = yes }
 				        633 = { controls_or_subject_of = yes }
@@ -25417,13 +25422,14 @@ formable_nations_mod_category = {
 				        684 = { controls_or_subject_of = yes }
 				        725 = { controls_or_subject_of = yes }
 				        737 = { controls_or_subject_of = yes }
+						768 = { controls_or_subject_of = yes }
+				        769 = { controls_or_subject_of = yes }
 				        773 = { controls_or_subject_of = yes }
 				        777 = { controls_or_subject_of = yes }
 				        893 = { controls_or_subject_of = yes }
 				        894 = { controls_or_subject_of = yes }
 				        895 = { controls_or_subject_of = yes }
 				        634 = { controls_or_subject_of = yes }
-						912 = { controls_or_subject_of = yes }
 				        979 = { controls_or_subject_of = yes }
 					}
 					AND = {
@@ -25467,19 +25473,16 @@ formable_nations_mod_category = {
 				807 = { add_core_of = ROOT }
 				909 = { add_core_of = ROOT }
 				912 = { add_core_of = ROOT }
-				
+				978 = { add_core_of = ROOT }				
 				# Poland
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
 				762 = { add_core_of = ROOT }
-				807 = { add_core_of = ROOT }
-				
+				807 = { add_core_of = ROOT }				
 				# Lithuania Memel
-				188 = { add_core_of = ROOT }
-				
+				188 = { add_core_of = ROOT }				
 				# France
-				28 = { add_core_of = ROOT }
-				
+				28 = { add_core_of = ROOT }				
 				# Colonial Provinces
 				541 = { add_core_of = ROOT }
 				546 = { add_core_of = ROOT }
@@ -25491,6 +25494,8 @@ formable_nations_mod_category = {
 				684 = { add_core_of = ROOT }
 				725 = { add_core_of = ROOT }
 				737 = { add_core_of = ROOT }
+				768 = { add_core_of = ROOT }
+				769 = { add_core_of = ROOT }
 				773 = { add_core_of = ROOT }
 				777 = { add_core_of = ROOT }
 				893 = { add_core_of = ROOT }
