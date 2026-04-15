@@ -18,7 +18,7 @@ formable_nations_mod_category = {
 		target_trigger = {
 			FROM = {
 				OR = {
-					state = 271
+				state = 271
 				state = 835
 				state = 836
 				state = 837
@@ -38,8 +38,8 @@ formable_nations_mod_category = {
 			}
 		}
 		zoom = 800
-	}
-}
+	    }
+	}	
   
     formable_nations_latin_africa_category = {
     icon = formable_nations_latin_africa
@@ -47,17 +47,11 @@ formable_nations_mod_category = {
         highlight_state_targets = {
             state = 774
             state = 775
-
             state = 660
-
             state = 773
-
             state = 297
-
             state = 539
-
             state = 772
-
             state = 540
             state = 891
             state = 892
@@ -70,9 +64,9 @@ formable_nations_mod_category = {
             state = 890
             state = 888
             state = 889
+            }
         }
     }
-}
 
     formable_nations_polynesia_category = {
     icon = formable_nations_polynesia
@@ -80,17 +74,14 @@ formable_nations_mod_category = {
         highlight_state_targets = {
             state = 284
             state = 723
-
             state = 641
             state = 775
-
             state = 629
             state = 630
             state = 727
             state = 642
-
             state = 643
-        }
-    }
-}
+            }
+       }
+   }
 }

@@ -13148,7 +13148,7 @@ formable_nations_mod_category = {
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_states_trigger = {
-			    OR {
+			    OR = {
 				is_on_continent = middle_east	
 				state = 341
 				state = 797
