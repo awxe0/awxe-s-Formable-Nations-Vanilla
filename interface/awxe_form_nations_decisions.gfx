@@ -775,4 +775,28 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_viceroyalty_new_spain"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_viceroyalty_new_spain.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_bohemian_crownlands"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_bohemian_crownlands.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_dach"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_dach.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_kalmar"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_kalmar.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_dacia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_dacia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_hanseatic"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_hanseatic.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_livonia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_livonia.tga"
+	}
 }
