@@ -34434,4 +34434,846 @@ formable_nations_mod_category = {
 			1025 = { add_claim_by = ROOT }
 		}
 	}	
+	
+	formable_nations_bohemian_crownlands = {
+	
+		priority = 812
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = CZE
+				original_tag = SIL
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 9
+				state = 66
+				state = 67
+				state = 69
+				state = 72
+				state = 74
+				state = 75
+				state = 972
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						9 = { controls_or_subject_of = yes }
+						66 = { controls_or_subject_of = yes }
+				        67 = { controls_or_subject_of = yes }
+				        69 = { controls_or_subject_of = yes }
+				        72 = { controls_or_subject_of = yes }
+				        74 = { controls_or_subject_of = yes }
+				        75 = { controls_or_subject_of = yes }
+				        972 = { controls_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BCL } } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_bohemian_crownlands
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_BCL
+			add_stability = 0.05
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				9 = { add_core_of = ROOT }
+				66 = { add_core_of = ROOT }
+				67 = { add_core_of = ROOT }
+				69 = { add_core_of = ROOT }
+				72 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
+				972 = { add_core_of = ROOT }
+			}
+			64 = { add_claim_by = ROOT }
+			65 = { add_claim_by = ROOT }
+			68 = { add_claim_by = ROOT }
+			762 = { add_claim_by = ROOT }
+		}
+	}
+	
+	formable_nations_dach = {
+	
+		priority = 811
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = GER
+				original_tag = AUS
+				original_tag = SWI
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				# Germany
+				state = 42
+				state = 50
+				state = 51
+				state = 52
+				state = 53
+				state = 54
+				state = 55
+				state = 56
+				state = 57
+				state = 58
+				state = 59
+				state = 60
+				state = 61
+				state = 62
+				state = 63
+				state = 64
+				state = 65
+				state = 66
+				state = 67
+				state = 68
+				state = 909
+				state = 978
+				
+				# Austria
+				state = 4
+				state = 152
+				state = 153
+				state = 848
+				state = 975
+				state = 976
+				
+				# Switzerland
+				state = 3
+				state = 151
+				state = 845
+				state = 846
+				state = 847
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						# Germany
+						42 = { controls_or_subject_of = yes }
+				        50 = { controls_or_subject_of = yes }
+				        51 = { controls_or_subject_of = yes }
+				        52 = { controls_or_subject_of = yes }
+				        53 = { controls_or_subject_of = yes }
+				        54 = { controls_or_subject_of = yes }
+				        55 = { controls_or_subject_of = yes }
+				        56 = { controls_or_subject_of = yes }
+				        57 = { controls_or_subject_of = yes }
+				        58 = { controls_or_subject_of = yes }
+				        59 = { controls_or_subject_of = yes }
+				        60 = { controls_or_subject_of = yes }
+				        61 = { controls_or_subject_of = yes }
+				        62 = { controls_or_subject_of = yes }
+				        63 = { controls_or_subject_of = yes }
+				        64 = { controls_or_subject_of = yes }
+				        65 = { controls_or_subject_of = yes }
+				        66 = { controls_or_subject_of = yes }
+				        67 = { controls_or_subject_of = yes }
+				        68 = { controls_or_subject_of = yes }
+				        909 = { controls_or_subject_of = yes }
+				        978 = { controls_or_subject_of = yes }
+						
+						# Austria
+				        4 = { controls_or_subject_of = yes }
+				        152 = { controls_or_subject_of = yes }
+				        153 = { controls_or_subject_of = yes }
+				        848 = { controls_or_subject_of = yes }
+				        975 = { controls_or_subject_of = yes }
+				        976 = { controls_or_subject_of = yes }
+						
+						# Switzerland
+						3 = { controls_or_subject_of = yes }
+				        151 = { controls_or_subject_of = yes }
+				        845 = { controls_or_subject_of = yes }
+				        846 = { controls_or_subject_of = yes }
+				        847 = { controls_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DAC } } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_dach
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_DAC
+			add_stability = 0.1
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				# Germany
+				42 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				58 = { add_core_of = ROOT }
+				59 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT }
+				61 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				63 = { add_core_of = ROOT }
+				64 = { add_core_of = ROOT }
+				65 = { add_core_of = ROOT }
+				66 = { add_core_of = ROOT }
+				67 = { add_core_of = ROOT }
+				68 = { add_core_of = ROOT }
+				909 = { add_core_of = ROOT }
+				978 = { add_core_of = ROOT }
+				# Austria
+				4 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				153 = { add_core_of = ROOT }
+				848 = { add_core_of = ROOT }
+				975 = { add_core_of = ROOT }
+				976 = { add_core_of = ROOT }
+				# Switzerland
+				3 = { add_core_of = ROOT }
+				151 = { add_core_of = ROOT }
+				845 = { add_core_of = ROOT }
+				846 = { add_core_of = ROOT }
+				847 = { add_core_of = ROOT }
+			}
+		}
+	}
+	
+	formable_nations_kalmar = {
+	
+		priority = 810
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = DEN
+				original_tag = SWE
+				original_tag = NOR
+				original_tag = FIN
+				original_tag = ICE
+				original_tag = SMI
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 37
+				state = 99
+				state = 38
+				state = 124
+				state = 138
+				state = 139
+				state = 140
+				state = 141
+				state = 666
+				state = 110
+				state = 142
+				state = 143
+				state = 144
+				state = 145
+				state = 910
+				state = 914
+
+				state = 100
+				state = 337
+                state = 912
+                state = 913
+				state = 915
+				state = 916
+				state = 917
+				state = 918
+				state = 919
+				state = 920
+				state = 921
+				state = 922
+				state = 923
+				state = 924
+				state = 925
+				
+				state = 111
+				state = 148
+				state = 149
+				state = 926
+				state = 927
+				state = 928
+				state = 929
+				state = 930
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+						37 = { controls_or_subject_of = yes }
+						99 = { controls_or_subject_of = yes }
+						38 = { controls_or_subject_of = yes }
+						124 = { controls_or_subject_of = yes }
+						138 = { controls_or_subject_of = yes }
+						139 = { controls_or_subject_of = yes }
+						140 = { controls_or_subject_of = yes }
+						141 = { controls_or_subject_of = yes }
+						666 = { controls_or_subject_of = yes }
+						110 = { controls_or_subject_of = yes }
+						142 = { controls_or_subject_of = yes }
+						143 = { controls_or_subject_of = yes }
+						144 = { controls_or_subject_of = yes }
+						145 = { controls_or_subject_of = yes }
+						910 = { controls_or_subject_of = yes }
+						914 = { controls_or_subject_of = yes }
+
+                        100 = { controls_or_subject_of = yes }
+				        337 = { controls_or_subject_of = yes }
+                        912 = { controls_or_subject_of = yes }
+                        913 = { controls_or_subject_of = yes }
+				        915 = { controls_or_subject_of = yes }
+				        916 = { controls_or_subject_of = yes }
+				        917 = { controls_or_subject_of = yes }
+				        918 = { controls_or_subject_of = yes }
+				        919 = { controls_or_subject_of = yes }
+				        920 = { controls_or_subject_of = yes }
+				        921 = { controls_or_subject_of = yes }
+				        922 = { controls_or_subject_of = yes }
+				        923 = { controls_or_subject_of = yes }
+				        924 = { controls_or_subject_of = yes }
+				        925 = { controls_or_subject_of = yes }
+						
+						111 = { controls_or_subject_of = yes }
+				        148 = { controls_or_subject_of = yes }
+				        149 = { controls_or_subject_of = yes }
+				        926 = { controls_or_subject_of = yes }
+				        927 = { controls_or_subject_of = yes }
+				        928 = { controls_or_subject_of = yes }
+				        929 = { controls_or_subject_of = yes }
+				        930 = { controls_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_KAL } } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_kalmar
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_KAL
+			add_stability = 0.15
+			set_capital = { state = 37 }
+			set_victory_points = {
+					province = 6287
+					value = 25
+				}
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				37 = { add_core_of = ROOT }
+				99 = { add_core_of = ROOT }
+				337 = { add_core_of = ROOT }
+				38 = { add_core_of = ROOT }
+				124 = { add_core_of = ROOT }
+				138 = { add_core_of = ROOT }
+				139 = { add_core_of = ROOT }
+				140 = { add_core_of = ROOT }
+				141 = { add_core_of = ROOT }
+				666 = { add_core_of = ROOT }
+				110 = { add_core_of = ROOT }
+				142 = { add_core_of = ROOT }
+				143 = { add_core_of = ROOT }
+				144 = { add_core_of = ROOT }
+				145 = { add_core_of = ROOT }
+				910 = { add_core_of = ROOT }
+				914 = { add_core_of = ROOT }
+
+                100 = { add_core_of = ROOT }
+				337 = { add_core_of = ROOT }
+				912 = { add_core_of = ROOT }
+				913 = { add_core_of = ROOT }
+				915 = { add_core_of = ROOT }
+				916 = { add_core_of = ROOT }
+				917 = { add_core_of = ROOT }
+				918 = { add_core_of = ROOT }
+				919 = { add_core_of = ROOT }
+				920 = { add_core_of = ROOT }
+				921 = { add_core_of = ROOT }
+				922 = { add_core_of = ROOT }
+				923 = { add_core_of = ROOT }
+				924 = { add_core_of = ROOT }
+				925 = { add_core_of = ROOT }
+				
+				111 = { add_core_of = ROOT }
+				148 = { add_core_of = ROOT }
+				149 = { add_core_of = ROOT }
+				926 = { add_core_of = ROOT }
+				927 = { add_core_of = ROOT }
+				928 = { add_core_of = ROOT }
+				929 = { add_core_of = ROOT }
+				930 = { add_core_of = ROOT }
+			}
+			146 = { add_core_of = ROOT }
+			150 = { add_core_of = ROOT }
+			147 = { add_core_of = ROOT }
+			722 = { add_core_of = ROOT }
+			101 = { add_core_of = ROOT }
+			933 = { add_claim_by = ROOT }
+			909 = { add_claim_by = ROOT }
+			58 = { add_claim_by = ROOT }
+		}
+	}
+	
+	formable_nations_dacia = {
+	
+		priority = 809
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = ROM
+				original_tag = TRA
+				original_tag = MOL
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 46
+				state = 76
+				state = 77
+				state = 78
+				state = 79
+				state = 80
+				state = 81
+				state = 82
+				state = 83
+				state = 84
+				state = 766
+				state = 971
+				
+				state = 48
+				state = 211
+				state = 801
+								
+				state = 70
+				state = 71
+				state = 73
+				state = 664
+				
+				state = 43
+				state = 89	
+				state = 154
+				state = 155
+				state = 973
+				state = 974
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+						46 = { controls_or_subject_of = yes }
+						76 = { controls_or_subject_of = yes }
+				        77 = { controls_or_subject_of = yes }
+				        78 = { controls_or_subject_of = yes }
+				        79 = { controls_or_subject_of = yes }
+				        80 = { controls_or_subject_of = yes }
+				        81 = { controls_or_subject_of = yes }
+				        82 = { controls_or_subject_of = yes }
+				        83 = { controls_or_subject_of = yes }
+				        84 = { controls_or_subject_of = yes }
+				        766 = { controls_or_subject_of = yes }
+				        971 = { controls_or_subject_of = yes }
+				        
+				        48 = { controls_or_subject_of = yes }
+				        211 = { controls_or_subject_of = yes }
+				        801 = { controls_or_subject_of = yes }
+				        		
+				        70 = { controls_or_subject_of = yes }
+				        71 = { controls_or_subject_of = yes }
+				        73 = { controls_or_subject_of = yes }
+				        664 = { controls_or_subject_of = yes }
+				        
+				        43 = { controls_or_subject_of = yes }
+				        89 = { controls_or_subject_of = yes }	
+				        154 = { controls_or_subject_of = yes }
+				        155 = { controls_or_subject_of = yes }
+				        973 = { controls_or_subject_of = yes }
+				        974 = { controls_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DAI } } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_dacia
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_DAI
+			add_stability = 0.15
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				46 = { add_core_of = ROOT }
+				76 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				79 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				81 = { add_core_of = ROOT }
+				82 = { add_core_of = ROOT }
+				83 = { add_core_of = ROOT }
+				84 = { add_core_of = ROOT }
+				766 = { add_core_of = ROOT }
+				971 = { add_core_of = ROOT }
+				
+				48 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				801 = { add_core_of = ROOT }
+						
+				70 = { add_core_of = ROOT }
+				71 = { add_core_of = ROOT }
+				73 = { add_core_of = ROOT }
+				664 = { add_core_of = ROOT }
+				
+				43 = { add_core_of = ROOT }
+				89 = { add_core_of = ROOT }	
+				154 = { add_core_of = ROOT }
+				155 = { add_core_of = ROOT }
+				973 = { add_core_of = ROOT }
+				974 = { add_core_of = ROOT }
+			}
+			107 = { add_core_of = ROOT }
+			764 = { add_core_of = ROOT }
+			45 = { add_core_of = ROOT }
+			975 = { add_claim_by = ROOT }
+			4 = { add_claim_by = ROOT }
+		}
+	}
+	
+	formable_nations_hanseatic = {
+	
+		priority = 808
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = HOL
+				original_tag = RHI
+				original_tag = HAN
+				original_tag = SHL
+				original_tag = MEK
+				original_tag = PRE
+				original_tag = KSH
+				original_tag = POL
+				original_tag = DNZ
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				# Netherlands
+				state = 7
+				state = 35
+				state = 36
+				
+				# German Minors
+				state = 5
+				state = 51
+				state = 56
+				state = 57
+				state = 58
+				state = 59
+				state = 61
+				state = 62
+				state = 63
+				state = 64
+				state = 763
+				
+				# Poland
+				state = 85
+				state = 807
+				
+				# Baltics
+				state = 12
+				state = 13
+				state = 188
+				state = 189
+				state = 190
+				state = 808
+				state = 809
+				state = 811
+				state = 812
+				state = 813
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+						# Netherlands
+				        7 = { controls_or_subject_of = yes }
+				        35 = { controls_or_subject_of = yes }
+				        36 = { controls_or_subject_of = yes }
+				
+						# German Minors
+				        5 = { controls_or_subject_of = yes }
+				        51 = { controls_or_subject_of = yes }
+				        56 = { controls_or_subject_of = yes }
+				        57 = { controls_or_subject_of = yes }
+				        58 = { controls_or_subject_of = yes }
+				        59 = { controls_or_subject_of = yes }
+				        61 = { controls_or_subject_of = yes }
+				        62 = { controls_or_subject_of = yes }
+				        63 = { controls_or_subject_of = yes }
+				        64 = { controls_or_subject_of = yes }
+				        763 = { controls_or_subject_of = yes }
+				
+				        # Poland
+				        85 = { controls_or_subject_of = yes }
+				        807 = { controls_or_subject_of = yes }
+				
+				        # Baltics
+				        12 = { controls_or_subject_of = yes }
+				        13 = { controls_or_subject_of = yes }
+				        188 = { controls_or_subject_of = yes }
+				        189 = { controls_or_subject_of = yes }
+				        190 = { controls_or_subject_of = yes }
+				        808 = { controls_or_subject_of = yes }
+				        809 = { controls_or_subject_of = yes }
+				        811 = { controls_or_subject_of = yes }
+				        812 = { controls_or_subject_of = yes }
+				        813 = { controls_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_HNS } } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_hanseatic
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_HNS
+			add_stability = 0.10
+			set_capital = { state = 61 }
+			set_victory_points = {
+					province = 11305
+					value = 25
+				}
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				# Netherlands
+				7 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }				
+				# German Minors
+				5 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				58 = { add_core_of = ROOT }
+				59 = { add_core_of = ROOT }
+				61 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				63 = { add_core_of = ROOT }
+				64 = { add_core_of = ROOT }
+				763 = { add_core_of = ROOT }			
+				# Poland
+				85 = { add_core_of = ROOT }
+				807 = { add_core_of = ROOT }			
+				# Baltics
+				12 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				808 = { add_core_of = ROOT }
+				809 = { add_core_of = ROOT }
+				811 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }
+				813 = { add_core_of = ROOT }
+			}
+			909 = { add_core_of = ROOT }
+			814 = { add_core_of = ROOT }
+			11 = { add_core_of = ROOT }
+			815 = { add_core_of = ROOT }
+			810 = { add_core_of = ROOT }
+		    191 = { add_core_of = ROOT }
+			124 = { add_claim_by = ROOT }
+			139 = { add_claim_by = ROOT }
+			208 = { add_claim_by = ROOT }
+			195 = { add_claim_by = ROOT }
+		}
+	}
+	
+	formable_nations_livonia = {
+	
+		priority = 807
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = EST
+				original_tag = LAT
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 12
+				state = 13
+				state = 190
+				state = 191
+				state = 808
+				state = 809
+				state = 810
+				state = 811
+				state = 812
+				state = 813
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+				        12 = { controls_or_subject_of = yes }
+						13 = { controls_or_subject_of = yes }
+				        190 = { controls_or_subject_of = yes }
+				        191 = { controls_or_subject_of = yes }
+				        808 = { controls_or_subject_of = yes }
+				        809 = { controls_or_subject_of = yes }
+				        810 = { controls_or_subject_of = yes }
+				        811 = { controls_or_subject_of = yes }
+				        812 = { controls_or_subject_of = yes }
+				        813 = { controls_or_subject_of = yes }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_LIV } } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_livonia
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_LIV
+			add_stability = 0.10
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				12 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				190 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				808 = { add_core_of = ROOT }
+				809 = { add_core_of = ROOT }
+				810 = { add_core_of = ROOT }
+				811 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }
+				813 = { add_core_of = ROOT }
+			}
+			124 = { add_claim_by = ROOT }
+		}
+	}
 }
