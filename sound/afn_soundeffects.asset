@@ -1,0 +1,12 @@
+sound = {
+	name = formable_complete_wav
+	file = "formable_complete.wav"
+}
+
+soundeffect = {
+	name = formable_complete
+	sounds = {
+		sound = formable_complete_wav
+	}
+	volume = 1
+}
