@@ -2791,13 +2791,13 @@ AFN_VNS = {
 }
 
 AFN_BCL = {
-	color = rgb { 68 80 66 }
-	color_ui = rgb { 68 80 66 }
+	color = rgb { 220 28 28 }
+	color_ui = rgb { 220 28 28 }
 }
 
 AFN_DAC = {
-	color = rgb { 223 31 8 }
-	color_ui = rgb { 223 31 8 }
+	color = rgb { 223 17 0 }
+	color_ui = rgb { 223 17 0 }
 }
 
 AFN_KAL = {
