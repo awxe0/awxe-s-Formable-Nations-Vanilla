@@ -9522,7 +9522,7 @@ formable_nations_mod_category = {
 		icon = formable_nations_visegrad
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_VIS
-			add_stability = 0.1
+			add_stability = 0.15
 			set_capital = { state = 43 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
@@ -14219,7 +14219,7 @@ formable_nations_mod_category = {
 		icon = formable_nations_zapadoslavia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_ZAP
-			add_stability = 0.1
+			add_stability = 0.15
 			set_capital = { state = 88 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
