@@ -28120,6 +28120,7 @@ formable_nations_mod_category = {
 				has_global_flag = no_limit
 				original_tag = AUS
 				original_tag = CZE
+				original_tag = SLO
 			}
 		}
 
