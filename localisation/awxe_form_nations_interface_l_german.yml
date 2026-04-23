@@ -264,6 +264,12 @@
  formable_nations_greater_usa:0 "Große Vereinigte Staaten"
  formable_nations_guarani:0 "Guarani-Staat"
  formable_nations_viceroyalty_new_spain:0 "Vizekönigreich Neuspanien"
+ formable_nations_bohemian_crownlands:0 "Böhmische Kronländer"
+ formable_nations_dach:0 "D-A-CH"
+ formable_nations_kalmar:0 "Kalmarer Union"
+ formable_nations_dacia:0 "Geto-Dakien"
+ formable_nations_hanseatic:0 "Hansebund"
+ formable_nations_livonia:0 "Königreich Livland"
  ##############################
  
  ##############################
@@ -464,4 +470,10 @@
  formable_nations_greater_usa_category:0 "Große Vereinigte Staaten"
  formable_nations_guarani_category:0 "Guarani-Staat"
  formable_nations_viceroyalty_new_spain_category:0 "Vizekönigreich Neuspanien"
+ formable_nations_bohemian_crownlands_category:0 "Böhmische Kronländer"
+ formable_nations_dach_category:0 "D-A-CH"
+ formable_nations_kalmar_category:0 "Kalmarer Union"
+ formable_nations_dacia_category:0 "Geto-Dakien"
+ formable_nations_hanseatic_category:0 "Hansebund"
+ formable_nations_livonia_category:0 "Königreich Livland"
  

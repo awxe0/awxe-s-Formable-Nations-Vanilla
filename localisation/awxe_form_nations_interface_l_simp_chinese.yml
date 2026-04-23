@@ -265,6 +265,12 @@
  formable_nations_greater_usa:0 "大美利坚合众国"
  formable_nations_guarani:0 "瓜拉尼国家"
  formable_nations_viceroyalty_new_spain:0 "新西班牙总督辖区"
+ formable_nations_bohemian_crownlands:0 "波希米亚王领"
+ formable_nations_dach:0 "D-A-CH"
+ formable_nations_kalmar:0 "卡尔马联盟"
+ formable_nations_dacia:0 "盖托-达契亚"
+ formable_nations_hanseatic:0 "汉萨同盟"
+ formable_nations_livonia:0 "利沃尼亚王国"
  ##############################
  
  #############################
@@ -463,4 +469,10 @@
  formable_nations_greater_usa_category:0 "大美利坚合众国"
  formable_nations_guarani_category:0 "瓜拉尼国家"
  formable_nations_viceroyalty_new_spain_category:0 "新西班牙总督辖区"
+ formable_nations_bohemian_crownlands_category:0 "波希米亚王领"
+ formable_nations_dach_category:0 "D-A-CH"
+ formable_nations_kalmar_category:0 "卡尔马联盟"
+ formable_nations_dacia_category:0 "盖托-达契亚"
+ formable_nations_hanseatic_category:0 "汉萨同盟"
+ formable_nations_livonia_category:0 "利沃尼亚王国"
  

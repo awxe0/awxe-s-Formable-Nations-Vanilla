@@ -265,6 +265,12 @@
  formable_nations_greater_usa:0 "Wielkie Zjednoczone Stany"
  formable_nations_guarani:0 "Państwo Guaranów"
  formable_nations_viceroyalty_new_spain:0 "Wicekrólestwo Nowej Hiszpanii"
+ formable_nations_bohemian_crownlands:0 "Czeskie Ziemie Koronne"
+ formable_nations_dach:0 "D-A-CH"
+ formable_nations_kalmar:0 "Unia Kalmarska"
+ formable_nations_dacia:0 "Geto-Dacja"
+ formable_nations_hanseatic:0 "Liga Hanzeatycka"
+ formable_nations_livonia:0 "Królestwo Inflant"
  ##############################
  
  ##############################
@@ -463,3 +469,9 @@
  formable_nations_greater_usa_category:0 "Wielkie Zjednoczone Stany"
  formable_nations_guarani_category:0 "Państwo Guaranów"
  formable_nations_viceroyalty_new_spain_category:0 "Wicekrólestwo Nowej Hiszpanii"
+ formable_nations_bohemian_crownlands_category:0 "Czeskie Ziemie Koronne"
+ formable_nations_dach_category:0 "D-A-CH"
+ formable_nations_kalmar_category:0 "Unia Kalmarska"
+ formable_nations_dacia_category:0 "Geto-Dacja"
+ formable_nations_hanseatic_category:0 "Liga Hanzeatycka"
+ formable_nations_livonia_category:0 "Królestwo Inflant"

@@ -265,6 +265,12 @@
  formable_nations_greater_usa:0 "Великие Соединённые Штаты"
  formable_nations_guarani:0 "Государство гуарани"
  formable_nations_viceroyalty_new_spain:0 "Вице-королевство Новой Испании"
+ formable_nations_bohemian_crownlands:0 "Богемские коронные земли"
+ formable_nations_dach:0 "D-A-CH"
+ formable_nations_kalmar:0 "Кальмарская уния"
+ formable_nations_dacia:0 "Гето-Дакия"
+ formable_nations_hanseatic:0 "Ганзейский союз"
+ formable_nations_livonia:0 "Королевство Ливония"
  ##############################
  
  ##############################
@@ -463,3 +469,9 @@
  formable_nations_greater_usa_category:0 "Великие Соединённые Штаты"
  formable_nations_guarani_category:0 "Государство гуарани"
  formable_nations_viceroyalty_new_spain_category:0 "Вице-королевство Новой Испании"
+ formable_nations_bohemian_crownlands_category:0 "Богемские коронные земли"
+ formable_nations_dach_category:0 "D-A-CH"
+ formable_nations_kalmar_category:0 "Кальмарская уния"
+ formable_nations_dacia_category:0 "Гето-Дакия"
+ formable_nations_hanseatic_category:0 "Ганзейский союз"
+ formable_nations_livonia_category:0 "Королевство Ливония"

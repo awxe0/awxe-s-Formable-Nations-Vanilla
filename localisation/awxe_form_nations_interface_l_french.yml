@@ -262,6 +262,12 @@
  formable_nations_greater_usa:0 "Grands États-Unis"
  formable_nations_guarani:0 "État Guaraní"
  formable_nations_viceroyalty_new_spain:0 "Vice-royauté de Nouvelle-Espagne"
+ formable_nations_bohemian_crownlands:0 "Pays de la Couronne de Bohême"
+ formable_nations_dach:0 "D-A-CH"
+ formable_nations_kalmar:0 "Union de Kalmar"
+ formable_nations_dacia:0 "Géto-Dacie"
+ formable_nations_hanseatic:0 "Ligue hanséatique"
+ formable_nations_livonia:0 "Royaume de Livonie"
  ##############################
  
  ##############################
@@ -462,3 +468,9 @@
  formable_nations_greater_usa_category:0 "Grands États-Unis"
  formable_nations_guarani_category:0 "État Guaraní"
  formable_nations_viceroyalty_new_spain_category:0 "Vice-royauté de Nouvelle-Espagne"
+ formable_nations_bohemian_crownlands_category:0 "Pays de la Couronne de Bohême"
+ formable_nations_dach_category:0 "D-A-CH"
+ formable_nations_kalmar_category:0 "Union de Kalmar"
+ formable_nations_dacia_category:0 "Géto-Dacie"
+ formable_nations_hanseatic_category:0 "Ligue hanséatique"
+ formable_nations_livonia_category:0 "Royaume de Livonie"
