@@ -1576,6 +1576,7 @@ formable_nations_mod_category = {
 				original_tag = CAT
 				original_tag = OCC
 				original_tag = COR
+				original_tag = TRA
 			}
 		}
 
@@ -4904,6 +4905,7 @@ formable_nations_mod_category = {
 				original_tag = BOS
 				original_tag = ROM
 				original_tag = TUR
+				original_tag = TRA
 			}
 		}
 
@@ -9424,6 +9426,7 @@ formable_nations_mod_category = {
 				original_tag = SLO
 				original_tag = HUN
 				original_tag = DNZ
+				original_tag = TRA
 			}
 		}
 
@@ -16051,6 +16054,7 @@ formable_nations_mod_category = {
 				original_tag = ROM
 				original_tag = HUN
 				original_tag = DNZ
+				original_tag = TRA
 			}
 		}
 
@@ -22934,6 +22938,7 @@ formable_nations_mod_category = {
 				original_tag = RUT
 				original_tag = CZE
 				original_tag = POL
+				original_tag = TRA
 			}
 		}
 
