@@ -32654,6 +32654,7 @@ formable_nations_mod_category = {
 				original_tag = DNZ
 				original_tag = EST
 				original_tag = LAT
+				original_tag = LIT
 			}
 		}
 
@@ -32737,6 +32738,10 @@ formable_nations_mod_category = {
 				812 = { add_core_of = ROOT }
 				813 = { add_core_of = ROOT }
 			}	
+			11 = { add_core_of = ROOT }
+			814 = { add_core_of = ROOT }
+			815 = { add_core_of = ROOT }
+			124 = { add_claim_by = ROOT }
 		}
 	}
 	
