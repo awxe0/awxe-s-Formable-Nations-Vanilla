@@ -16055,6 +16055,7 @@ formable_nations_mod_category = {
 				original_tag = HUN
 				original_tag = DNZ
 				original_tag = TRA
+				original_tag = SLO
 			}
 		}
 
