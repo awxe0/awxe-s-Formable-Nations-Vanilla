@@ -52,11 +52,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3506850939 Road to 56 : E
 
 Have a suggestion for a new formable nation? Found a bug? Noticed a localization issue?
 
-Feel free to leave a comment but for detailed suggestions and bug reports, please use the **Discussion** section on the Workshop page. It helps keep things organized and ensures your feedback isn’t missed!
-
-Your ideas matter! Want to see more formable nations? Let me know!
-I'm always working to improve and expand this mod.
-Let’s shape the future of this mod together.
+Feel free to leave a comment but for detailed suggestions and bug reports, please use the **Discussion** section on the Workshop page or **Github Issues** page. It helps keep things organized and ensures your feedback isn’t missed!
 
 *All reported bugs and localization issues can be viewed publicly on the GitHub Issues page. You can check ongoing fixes, confirmed reports and closed issues there.*
 
