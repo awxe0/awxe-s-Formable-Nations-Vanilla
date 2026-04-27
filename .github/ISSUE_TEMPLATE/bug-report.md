@@ -27,3 +27,5 @@ A clear and concise description of what you expected to happen.
 
 **Additional context**
 Add any other context about the problem here.
+
+*If you are reporting a localization or visual bug(GFX), add it from the label*
