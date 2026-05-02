@@ -3,6 +3,13 @@ sound = {
 	file = "formable_complete.wav"
 }
 
+category = {
+	name = "AFN_UI"
+	soundeffects = {
+		formable_complete
+	}
+}
+
 soundeffect = {
 	name = formable_complete
 	sounds = {
