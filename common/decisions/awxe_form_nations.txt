@@ -15805,7 +15805,6 @@ formable_nations_mod_category = {
 		icon = formable_nations_roman_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_ROE
-			add_stability = 0.2
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				2 = { add_core_of = ROOT }
@@ -19524,7 +19523,6 @@ formable_nations_mod_category = {
 		icon = formable_nations_great_ottomans
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_GOT
-			add_stability = 0.2
 			set_capital = { state = 797 }
 			set_victory_points = {
 					province = 9833
@@ -27933,7 +27931,6 @@ formable_nations_mod_category = {
 		icon = formable_nations_romano_gothia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_RGE
-			add_stability = 0.1
 			set_capital = { state = 161 }
 			set_victory_points = {
 					province = 6606
@@ -29620,7 +29617,6 @@ formable_nations_mod_category = {
 		icon = formable_nations_carolingian
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 		    set_cosmetic_tag = AFN_CAR
-			add_stability = 0.2
 			set_capital = { state = 28 }
 			set_victory_points = {
 					province = 9559
@@ -32949,7 +32945,6 @@ formable_nations_mod_category = {
 		icon = formable_nations_grossdeutschland_losung
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_GRL
-			add_stability = 0.20
 			set_capital = { state = 52 }
 			set_victory_points = {
 					province = 692
