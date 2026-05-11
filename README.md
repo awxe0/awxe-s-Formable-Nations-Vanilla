@@ -1,4 +1,4 @@
-![AFNV Vanilla - Steam Showcase - Main - 190](https://github.com/user-attachments/assets/98564fdb-8081-495e-a076-086245f59153)
+<img width="1920" height="1080" alt="AFNV Vanilla - Steam Showcase - Main - 200" src="https://github.com/user-attachments/assets/ad7891d6-4011-4116-a516-b69cff0445ed" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
@@ -8,11 +8,11 @@ This is the well-known and beloved Formable Nations mod, fully overhauled. Expan
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 8" src="https://github.com/user-attachments/assets/a15aa756-49a8-4f23-9bef-7cf70d0bbbe4" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 9" src="https://github.com/user-attachments/assets/18f82abf-fa00-4268-8045-96972c3d010e" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
-• +190 Formable Nations  
+• +200 Formable Nations  
 • Custom flags, colors, decisions, and cores  
 • Accurate historical & cultural naming  
 • Regular updates, new content monthly  
