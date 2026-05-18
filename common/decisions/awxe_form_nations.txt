@@ -14688,6 +14688,11 @@ formable_nations_mod_category = {
 			OR = {
 				has_global_flag = no_limit
 				original_tag = GRE
+				original_tag = TUR
+				original_tag = BUL
+				original_tag = SER
+				original_tag = MAC
+				original_tag = ALB
 			}
 		}
 
