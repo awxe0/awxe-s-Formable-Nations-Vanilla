@@ -46,8 +46,26 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
-				capital_scope = { is_on_continent = africa }
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = all_formables_available }
+					NOT = { has_global_flag = ai_disabled }
+				}
+				OR = {
+					capital_scope = { is_on_continent = africa }
+				}
 			}
+			
 		}
 		on_map_mode = decision_view_only
 		highlight_states = {
@@ -161,6 +179,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MON
 				original_tag = TAN
 				original_tag = MEN
@@ -1067,6 +1099,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { is_on_continent = europe }
 			}
 		}
@@ -1359,6 +1405,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GER
 				original_tag = AUS
 				original_tag = SHL
@@ -1565,6 +1625,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FRA
 				original_tag = ITA
 				original_tag = SPR
@@ -1897,6 +1971,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CHI
 				original_tag = YUN
 				original_tag = GXC
@@ -2239,6 +2327,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FRA
 				original_tag = GER
 				original_tag = SHL
@@ -2518,6 +2620,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AUS
 				original_tag = HUN
 			}
@@ -2704,6 +2820,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = LIT
 				original_tag = DNZ
@@ -2912,6 +3042,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GER
 				original_tag = AUS
 				original_tag = SHL
@@ -3207,6 +3351,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SPR
 				original_tag = SPA
 				original_tag = POR
@@ -3347,6 +3505,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = DEN
 				original_tag = SWE
 				original_tag = NOR
@@ -3506,6 +3678,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SAU
 				original_tag = YEM
 				original_tag = OMA
@@ -3671,6 +3857,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CZE
 				original_tag = SLO
 				original_tag = HUN # GIAMPIERX3
@@ -3806,6 +4006,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ARM
 				original_tag = GEO
 				original_tag = AZR
@@ -3881,6 +4095,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HOL
 				original_tag = BEL
 				original_tag = LUX
@@ -3963,6 +4191,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = EST
 				original_tag = LAT
 				original_tag = LIT
@@ -4059,6 +4301,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GUA
 				original_tag = ELS
 				original_tag = HON
@@ -4133,6 +4389,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HUN
 			}
 		}
@@ -4233,6 +4503,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BLR
 				original_tag = UKR
 			}
@@ -4453,6 +4737,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 			    has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BUL
 			}
 		}
@@ -4601,6 +4899,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = COL
 				original_tag = VEN
 			}
@@ -4687,6 +4999,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MEX
 			}
 		}
@@ -4814,6 +5140,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ALB
 			}
 		}
@@ -4893,6 +5233,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ALB
 				original_tag = GRE
 				original_tag = YUG
@@ -5131,6 +5485,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = HUN
 				original_tag = DNZ
@@ -5396,6 +5764,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HUN
 				original_tag = SLO
 				original_tag = ROM
@@ -5534,6 +5916,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ENG
 				original_tag = FRA
 				original_tag = BRI
@@ -5678,6 +6074,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GRE
 				original_tag = MAC
 			}
@@ -6014,6 +6424,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { is_on_continent = south_america }
 			}
 		}
@@ -6198,6 +6622,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 			}
 		}
@@ -6472,6 +6910,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ISR
 			}
 		}
@@ -6573,6 +7025,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AFG
 				original_tag = PAK
 				original_tag = RAJ
@@ -6768,6 +7234,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = TAJ
 			}
@@ -7109,6 +7589,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ENG
 				original_tag = DEN
 				original_tag = NOR
@@ -7233,6 +7727,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PRU
 				original_tag = ECU
 			}
@@ -7325,6 +7833,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FIN
 			}
 		}
@@ -7439,6 +7961,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KAZ
 				original_tag = TUR
 				original_tag = SIK
@@ -7669,6 +8205,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SIA
 				original_tag = LAO
 				original_tag = VIN
@@ -7793,6 +8343,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SWE
 			}
 		}
@@ -7937,6 +8501,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TIB
 			}
 		}
@@ -8016,6 +8594,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = YUG
 				original_tag = CRO
 				original_tag = SER
@@ -8157,6 +8749,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ETH
 				original_tag = ERI
 				original_tag = TIG
@@ -8266,6 +8872,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { is_on_continent = north_america }
 			}
 		}
@@ -8410,6 +9030,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = EGY
 			}
 		}
@@ -8541,6 +9175,20 @@ formable_nations_mod_category = {
 				original_tag = DOM
 				original_tag = HAI
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 			}
 		}
 
@@ -8605,6 +9253,20 @@ formable_nations_mod_category = {
 				original_tag = PRU
 				original_tag = BOL
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 			}
 		}
 		
@@ -8684,6 +9346,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = DOM
 				original_tag = HAI
 				original_tag = CUB
@@ -8768,6 +9444,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AST
 				original_tag = NZL
 				original_tag = PNG
@@ -8887,6 +9577,20 @@ formable_nations_mod_category = {
 				limit = { has_dlc = "Man the Guns" }
 				OR = {
 					has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 					original_tag = CSA
 					original_tag = TXS
 					original_tag = USA
@@ -8915,6 +9619,20 @@ formable_nations_mod_category = {
 			else = {
 				OR = {
 					has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 					original_tag = USA
 					original_tag = MEX
 					original_tag = BLZ
@@ -9172,6 +9890,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = LBA
 				original_tag = MOR
 				original_tag = ALG
@@ -9284,6 +10016,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CAN
 			}
 		}
@@ -9421,6 +10167,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = CZE
 				original_tag = SLO
@@ -9584,6 +10344,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BOL
 				original_tag = ARG
 				original_tag = URG
@@ -9708,6 +10482,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = IRE
 				original_tag = NIR
 				original_tag = SCO
@@ -9795,6 +10583,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AUS
 				original_tag = SWI
 			}
@@ -9913,6 +10715,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CRO
 			}
 		}
@@ -9992,6 +10808,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SER
 			}
 		}
@@ -10075,6 +10905,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = LIT
 			}
 		}
@@ -10212,6 +11056,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CHL
 				original_tag = ARG
 			}
@@ -10334,6 +11192,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = IRQ
 				original_tag = SYR
 				original_tag = KUW
@@ -10481,6 +11353,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { OR = { is_on_continent = asia  is_on_continent = middle_east } }
 			}
 		}
@@ -10705,6 +11591,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { is_on_continent = europe }
 				capital_scope = { OR = { is_on_continent = asia  is_on_continent = middle_east } }
 			}
@@ -10888,6 +11788,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ENG
 				original_tag = SCO
 				original_tag = WLS
@@ -11007,6 +11921,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SOV
 			}
 		}
@@ -11818,6 +12746,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUN
 				original_tag = LBA
 				original_tag = MOR
@@ -11944,6 +12886,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TZN
 				original_tag = KEN
 				original_tag = UGA
@@ -12054,6 +13010,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MLI
 			}
 		}
@@ -12130,6 +13100,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MRT
 				original_tag = MLI
 				original_tag = NGR
@@ -12232,6 +13216,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { is_on_continent = africa }
 				capital_scope = { is_on_continent = europe }
 				capital_scope = { OR = { is_on_continent = asia  is_on_continent = middle_east } }
@@ -12470,6 +13468,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AUS
 			}
 		}
@@ -12597,6 +13609,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ENG
 				original_tag = WLS
 				original_tag = SCO
@@ -12980,6 +14006,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SYR
 				original_tag = LEB
 				original_tag = PAL
@@ -13062,6 +14102,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KOR
 			}
 		}
@@ -13145,6 +14199,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { is_on_continent = middle_east }
 			}
 		}
@@ -13318,6 +14386,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = JAP
 			}
 		}
@@ -13581,6 +14663,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CAM
 				original_tag = SIA
 				original_tag = LAO
@@ -13667,6 +14763,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BAN
 			}
 		}
@@ -13728,6 +14838,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GYA
 				original_tag = SUR
 				original_tag = CAY
@@ -13797,6 +14921,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				capital_scope = { OR = { is_on_continent = north_america  is_on_continent = south_america } }
 			}
 		}
@@ -14005,6 +15143,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = COL
 				original_tag = ECU
 				original_tag = PRU
@@ -14126,6 +15278,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = SLO
 				original_tag = CZE
@@ -14282,6 +15448,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AUS
 				original_tag = BAY
 				original_tag = WUR
@@ -14378,6 +15558,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PRE
 				original_tag = HAN
 				original_tag = MEK
@@ -14513,6 +15707,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PRE
 				original_tag = HAN
 				original_tag = MEK
@@ -14687,6 +15895,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GRE
 				original_tag = TUR
 				original_tag = BUL
@@ -14943,6 +16165,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ITA
 				original_tag = SPR
 				original_tag = SPA
@@ -15343,6 +16579,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ITA
 				original_tag = GRE
 				original_tag = SPR
@@ -16047,6 +17297,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = CZE
 				original_tag = UKR
@@ -16437,6 +17701,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PAP
 				original_tag = TOS
 				original_tag = TTS
@@ -16579,6 +17857,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FRA
 				original_tag = NAV
 				original_tag = BRI
@@ -16761,6 +18053,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = RAJ
 				original_tag = BHU
 				original_tag = NEP
@@ -17000,6 +18306,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AFG
 				original_tag = PAK
 			}
@@ -17111,6 +18431,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AFG
 				original_tag = PAK
 				original_tag = LEB
@@ -17578,6 +18912,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SIA
 				original_tag = MAL
 				original_tag = VIN
@@ -17779,6 +19127,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = AFG
 				original_tag = PAK
@@ -17900,6 +19262,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = AFG
 				original_tag = IRQ
@@ -18051,6 +19427,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ALB
 				original_tag = KOS
 				original_tag = MAC
@@ -18154,6 +19544,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ZIM
 				original_tag = MZB
 				original_tag = ZAM
@@ -18303,6 +19707,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AST
 				original_tag = NZL
 				original_tag = PNG
@@ -18483,6 +19901,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BAH
 				original_tag = DOM
 				original_tag = PUE
@@ -18568,6 +20000,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BAN
 				original_tag = NEP
 			}
@@ -18636,6 +20082,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = DEN
 				original_tag = NOR				
 			}
@@ -18741,6 +20201,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = EGY
 				original_tag = LEB
 				original_tag = TUN
@@ -18909,6 +20383,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GEO		
 			}
 		}
@@ -18994,6 +20482,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GRE
 			}
 		}
@@ -19094,6 +20596,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GRE
 				original_tag = TUR
 			}
@@ -19235,6 +20751,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 			}
 			OR = {
@@ -19688,6 +21218,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KAZ
 				original_tag = UZB
 				original_tag = CRI
@@ -19953,6 +21497,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KOR
 				original_tag = MAN
 			}
@@ -20048,6 +21606,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 			    has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SAU
 				original_tag = QAT
 				original_tag = BHR
@@ -20141,6 +21713,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = QAT
 				original_tag = BHR
@@ -20471,6 +22057,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = AFG
 				original_tag = PAK
@@ -20658,6 +22258,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = TUR
 				original_tag = TMS
@@ -20919,6 +22533,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FRA
 				original_tag = ITA
 				original_tag = BEL
@@ -21169,6 +22797,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CHI
 				original_tag = YUN
 				original_tag = GXC
@@ -21444,6 +23086,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MON
 				original_tag = TAN
 				original_tag = BYA
@@ -21617,6 +23273,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SYR
 				original_tag = LEB
 				original_tag = IRQ
@@ -21732,6 +23402,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = COL
 				original_tag = ECU
 				original_tag = PRU
@@ -22006,6 +23690,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 			    has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = LEB
 				original_tag = LBA
 				original_tag = MOR
@@ -22150,6 +23848,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = UKR
 				original_tag = BLR
@@ -22684,6 +24396,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 				original_tag = GRE
 				original_tag = BUL
@@ -22754,6 +24480,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SUD
 				original_tag = EGY
 				original_tag = ERI
@@ -22840,6 +24580,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MAL
 				original_tag = INS
 				original_tag = SIN
@@ -22930,6 +24684,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AUS
 				original_tag = HUN
 				original_tag = SLV
@@ -23112,6 +24880,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SWE
 				original_tag = FIN
 				original_tag = NOR
@@ -23360,6 +25142,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HUN
 			}
 		}
@@ -23898,6 +25694,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MON
 				original_tag = TAN
 				original_tag = BYA
@@ -24126,6 +25936,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SPR
 				original_tag = SPA
 				original_tag = POR
@@ -24652,6 +26476,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PER
 				original_tag = TUR
 				original_tag = TMS
@@ -24885,6 +26723,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = XSM
 			}
 		}
@@ -25008,6 +26860,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ITA
 				original_tag = TOS
 				original_tag = PAP
@@ -25176,6 +27042,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = UKR
 				original_tag = DON
 			}
@@ -25294,6 +27174,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GER
 				original_tag = SHL
 				original_tag = MEK
@@ -25532,6 +27426,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = DEN
 			}
 		}
@@ -25665,6 +27573,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HOL
 			}
 		}
@@ -25833,6 +27755,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POR
 				original_tag = BRA
 			}
@@ -26076,6 +28012,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 				original_tag = GRE
 				original_tag = GEO
@@ -26251,6 +28201,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AFG
 				original_tag = LEB
 				original_tag = PER
@@ -26581,6 +28545,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PAL
 				original_tag = ISR
 				original_tag = PAP
@@ -26652,6 +28630,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ITA
 				original_tag = PAP
 				original_tag = CRO
@@ -26750,6 +28742,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PAL
 				original_tag = PAP
 			}
@@ -26922,6 +28928,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PHI
 			}
 		}
@@ -27062,6 +29082,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = DNZ
 				original_tag = PRE
 				original_tag = SHL
@@ -27188,6 +29222,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = YEM
 			}
 		}
@@ -27264,6 +29312,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ITA
 				original_tag = TOS
 				original_tag = PAP
@@ -27428,6 +29490,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SPR
 				original_tag = SPA
 				original_tag = POR
@@ -27544,6 +29620,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ADU
 			}
 		}
@@ -27673,6 +29763,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUN
 				original_tag = ALG
 				original_tag = LBA
@@ -27754,6 +29858,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ITA
 				original_tag = TOS
 				original_tag = PAP
@@ -28034,6 +30152,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BUL
 				original_tag = ROM
 			}
@@ -28126,6 +30258,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AUS
 				original_tag = CZE
 				original_tag = SLO
@@ -28219,6 +30365,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = SWE
 				original_tag = DNZ
@@ -28501,6 +30661,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FRA
 				original_tag = NAV
 				original_tag = BRI
@@ -28701,6 +30875,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FIN
 				original_tag = SMI
 			}
@@ -28873,6 +31061,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CAT
 			}
 		}
@@ -28963,6 +31165,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BEL
 				original_tag = HOL
 				original_tag = LUX
@@ -29065,6 +31281,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BEL
 				original_tag = HOL
 				original_tag = LUX
@@ -29166,6 +31396,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = FRA
 				original_tag = BRI
 				original_tag = NAV
@@ -29448,6 +31692,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BEL
 				original_tag = HOL
 				original_tag = LUX
@@ -29733,6 +31991,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = NEP
 				original_tag = BHU
 				original_tag = TIB
@@ -29805,6 +32077,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KOR
 				original_tag = MAN
 			}
@@ -29878,6 +32164,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BHU
 			}
 		}
@@ -29954,6 +32254,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CHI
 				original_tag = YUN
 				original_tag = GXC
@@ -30320,6 +32634,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CHI
 				original_tag = MAN
 				original_tag = MEN
@@ -30453,6 +32781,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HUN
 			}
 		}
@@ -30610,6 +32952,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CRI
 			}
 		}
@@ -30680,6 +33036,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KYR
 				original_tag = TAJ
 				original_tag = KAZ
@@ -30793,6 +33163,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KYR
 				original_tag = KAZ
 				original_tag = SIK
@@ -30897,6 +33281,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = KYR
 				original_tag = KAZ
 				original_tag = UZB
@@ -31053,6 +33451,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 				original_tag = PER
 				original_tag = AZR
@@ -31252,6 +33664,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MAL
 				original_tag = PHI
 				original_tag = INS
@@ -31386,6 +33812,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 				original_tag = PER
 				original_tag = AZR
@@ -31533,6 +33973,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 				original_tag = PER
 				original_tag = AZR
@@ -31666,6 +34120,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = RAJ
 				original_tag = SRL
 				original_tag = MYS
@@ -31784,6 +34252,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CHI
 				original_tag = SHX
 				original_tag = PRC
@@ -31979,6 +34461,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = TUR
 			}
 		}
@@ -32127,6 +34623,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ARM
 			}
 		}
@@ -32188,6 +34698,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = IRQ
 				original_tag = SYR
 			}
@@ -32312,6 +34836,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GRE
 				original_tag = PER
 				original_tag = SYR
@@ -32591,6 +35129,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = AZR
 			}
 		}
@@ -32658,6 +35210,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PRE
 				original_tag = DNZ
 				original_tag = EST
@@ -32771,6 +35337,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GER
 				original_tag = AUS
 				original_tag = HUN
@@ -33046,6 +35626,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = SWE
 				original_tag = NOR
 				original_tag = SMI
@@ -33173,6 +35767,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = POL
 				original_tag = ROM
 				original_tag = DNZ
@@ -33321,6 +35929,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = NOR
 				original_tag = SMI
 			}
@@ -33431,6 +36053,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = BRA
 			}
 		}
@@ -33617,6 +36253,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MEX
 				original_tag = GUA
 				original_tag = ELS
@@ -33698,6 +36348,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MEX
 				original_tag = GUA
 				original_tag = ELS
@@ -33799,6 +36463,20 @@ formable_nations_mod_category = {
 				limit = { has_dlc = "Man the Guns" }
 				OR = {
 					has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 					original_tag = USA
 					original_tag = CSA
 					original_tag = TXS
@@ -33807,6 +36485,20 @@ formable_nations_mod_category = {
 			else = {
 				OR = {
 					has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 					original_tag = USA
 				}
 			}
@@ -34117,6 +36809,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = PAR
 				original_tag = BOL
 			}
@@ -34185,6 +36891,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = {
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = MEX
 				original_tag = USA
 				original_tag = VEN
@@ -34465,6 +37185,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = CZE
 				original_tag = SIL
 			}
@@ -34546,6 +37280,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = GER
 				original_tag = AUS
 				original_tag = SWI
@@ -34712,6 +37460,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = DEN
 				original_tag = SWE
 				original_tag = NOR
@@ -34906,6 +37668,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = ROM
 				original_tag = TRA
 				original_tag = MOL
@@ -35049,6 +37825,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = HOL
 				original_tag = RHI
 				original_tag = HAN
@@ -35223,6 +38013,20 @@ formable_nations_mod_category = {
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
+                #has_global_flag = all_formables_available
+				if = {
+					limit = { is_ai = no }
+					has_global_flag = all_formables_available 
+				}
+				if = {
+					limit = { is_ai = yes }
+					has_global_flag = all_formables_available 
+					NOT = { has_global_flag = ai_disabled }
+				}
+                if = {
+					limit = { is_ai = yes }
+					NOT = { has_global_flag = ai_disabled }
+				}
 				original_tag = EST
 				original_tag = LAT
 			}
