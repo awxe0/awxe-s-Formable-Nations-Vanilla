@@ -61,9 +61,8 @@ formable_nations_mod_category = {
 					NOT = { has_global_flag = all_formables_available }
 					NOT = { has_global_flag = ai_disabled }
 				}
-				OR = {
-					capital_scope = { is_on_continent = africa }
-				}
+				
+				capital_scope = { is_on_continent = africa }
 			}
 			
 		}
