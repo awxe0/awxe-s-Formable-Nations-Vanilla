@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_english:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "Formable's Game Rules"
+
+l_english:
+
+# Game Rules
+ allow_all_formables:0 "Allow Every Formable"
+
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "Enabling this rule will allow every country to form any formable."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "Enabling this rule will allow every country to form only their country related formables."
+
+ allow_AI_formables:0 "Allow Formables for AI"
+
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "Enabling this rule will allow AI to do formables."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "Enabling this rule will NOT allow AI to do formables."
+
+ allow_puppet_formables:0 "Allow Formables for Subjects"
+
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Enabling this rule will allow Subjects to do formables."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Enabling this rule will NOT allow Subjects to do formables."
+ 
+l_english:
+
+# Flags/tooltips
+ all_formables_available:0 "All Formables Available"
+ ai_disabled:0 "AI Forming Disabled"
+ puppet_forming_disabled:0 "Subject Forming Disabled"
