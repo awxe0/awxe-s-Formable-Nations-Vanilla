@@ -93,6 +93,13 @@ formable_nations_mod_category = {
 					#		is_subject = no 
 					#		has_global_flag = puppets_allowed 
 					#	}
+
+						if = {
+							limit = {
+								is_subject = yes
+							}
+							NOT = { has_global_flag = puppet_forming_disabled }
+						}
 						all_state = {
 							OR = {
 								AND = {
@@ -11395,6 +11402,13 @@ formable_nations_mod_category = {
 					#		is_subject = no 
 					#		has_global_flag = puppets_allowed 
 					#	}
+
+						if = {
+							limit = {
+								is_subject = yes
+							}
+							NOT = { has_global_flag = puppet_forming_disabled }
+						}
 						all_state = {
 							OR = {
 								AND = {
@@ -11649,6 +11663,13 @@ formable_nations_mod_category = {
 					#		is_subject = no 
 					#		has_global_flag = puppets_allowed 
 					#	}
+
+						if = {
+							limit = {
+								is_subject = yes
+							}
+							NOT = { has_global_flag = puppet_forming_disabled }
+						}
 						all_state = {
 							OR = {
 								AND = {
@@ -13292,6 +13313,13 @@ formable_nations_mod_category = {
 					#		is_subject = no 
 					#		has_global_flag = puppets_allowed 
 					#	}
+
+						if = {
+							limit = {
+								is_subject = yes
+							}
+							NOT = { has_global_flag = puppet_forming_disabled }
+						}
 						all_state = {
 							OR = {
 								AND = {
@@ -14257,6 +14285,13 @@ formable_nations_mod_category = {
 					#		is_subject = no 
 					#		has_global_flag = puppets_allowed 
 					#	}
+
+						if = {
+							limit = {
+								is_subject = yes
+							}
+							NOT = { has_global_flag = puppet_forming_disabled }
+						}
 						all_state = {
 							OR = {
 								AND = {
@@ -14973,6 +15008,13 @@ formable_nations_mod_category = {
 					#		is_subject = no 
 					#		has_global_flag = puppets_allowed 
 					#	}
+
+						if = {
+							limit = {
+								is_subject = yes
+							}
+							NOT = { has_global_flag = puppet_forming_disabled }
+						}
 						
 						all_state = {
 							OR = {
