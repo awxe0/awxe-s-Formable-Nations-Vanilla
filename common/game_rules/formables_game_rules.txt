@@ -24,7 +24,7 @@
 allow_all_formables = {
     name = "allow_all_formables"
     group = "FORMABLE_NATION_RULES"
-    
+    icon = GFX_decision_SOV_the_workers_dictatorship
     default = { 
         name = NO
         text = "RULE_OPTION_NO"
@@ -42,7 +42,7 @@ allow_all_formables = {
 allow_AI_formables = {
     name = "allow_AI_formables"
     group = "FORMABLE_NATION_RULES"
-    
+    icon = GFX_decision_generic_brainwash
     default = { 
         name = YES
         text = "RULE_OPTION_YES"
@@ -60,7 +60,7 @@ allow_AI_formables = {
 allow_puppet_formables = {
     name = "allow_puppet_formables"
     group = "FORMABLE_NATION_RULES"
-    
+    icon = GFX_decision_generic_arrest
     default = { 
         name = YES
         text = "RULE_OPTION_YES"
