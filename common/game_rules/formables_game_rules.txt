@@ -22,63 +22,55 @@
 # }
 
 allow_all_formables = {
-	name = "allow_all_formables"
-	group = "FORMABLE_NATION_RULES"
-	option = {
-		name = YES
-		text = "RULE_OPTION_YES"
-		desc = "RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC"
-		set_global_flag = no_limit
-		allow_achievements = yes
-	}
-	default = { # by default, every country should only access their respective historical formables
-		name = NO
-		text = "RULE_OPTION_NO"
-		desc = "RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC"
-		clr_global_flag = no_limit
-		allow_achievements = yes
-	}
+    name = "allow_all_formables"
+    group = "FORMABLE_NATION_RULES"
+    
+    default = { 
+        name = NO
+        text = "RULE_OPTION_NO"
+        desc = "RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = YES
+        text = "RULE_OPTION_YES"
+        desc = "RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC"
+        allow_achievements = yes
+    }
 }
 
 allow_AI_formables = {
-	name = "allow_AI_formables"
-	group = "FORMABLE_NATION_RULES"
-	default = { # by default, AI can form countries
-		name = YES
-		text = "RULE_OPTION_YES"
-		desc = "RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC"
-		#set_global_flag = ai_enabled # no need for this, since AI can do formables by default
-		#clr_global_flag = ai_disabled
-		set_global_flag = puppets_allowed
-		allow_achievements = yes
-	}
-	option = {
-		name = NO
-		text = "RULE_OPTION_NO"
-		desc = "RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC"
-		#set_global_flag = ai_disabled
-		clr_global_flag = puppets_allowed
-		allow_achievements = yes
-	}
+    name = "allow_AI_formables"
+    group = "FORMABLE_NATION_RULES"
+    
+    default = { 
+        name = YES
+        text = "RULE_OPTION_YES"
+        desc = "RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = NO
+        text = "RULE_OPTION_NO"
+        desc = "RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC"
+        allow_achievements = yes
+    }
 }
 
 allow_puppet_formables = {
-	name = "allow_puppet_formables"
-	group = "FORMABLE_NATION_RULES"
-	default = { # by default, Subject can form countries
-		name = YES
-		text = "RULE_OPTION_YES"
-		desc = "RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC"
-		set_global_flag = puppets_allowed
-		#clr_global_flag = puppet_forming_disabled
-		allow_achievements = yes
-	}
-	option = {
-		name = NO
-		text = "RULE_OPTION_NO"
-		desc = "RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC"
-		clr_global_flag = puppets_allowed
-		#set_global_flag = puppet_forming_disabled
-		allow_achievements = yes
-	}
+    name = "allow_puppet_formables"
+    group = "FORMABLE_NATION_RULES"
+    
+    default = { 
+        name = YES
+        text = "RULE_OPTION_YES"
+        desc = "RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = NO
+        text = "RULE_OPTION_NO"
+        desc = "RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC"
+        allow_achievements = yes
+    }
 }

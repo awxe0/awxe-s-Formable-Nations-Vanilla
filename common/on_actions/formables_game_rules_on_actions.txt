@@ -1,0 +1,38 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            # 1. Check Formables Limit Rule
+            if = {
+                limit = { 
+                    has_game_rule = { rule = allow_all_formables option = YES } 
+                }
+                set_global_flag = no_limit
+            }
+            else = {
+                clr_global_flag = no_limit
+            }
+
+            # 2. Check AI Formables Rule
+            if = {
+                limit = { 
+                    has_game_rule = { rule = allow_AI_formables option = NO } 
+                }
+                set_global_flag = ai_disabled
+            }
+            else = {
+                clr_global_flag = ai_disabled
+            }
+
+            # 3. Check Puppet Formables Rule
+            if = {
+                limit = { 
+                    has_game_rule = { rule = allow_puppet_formables option = YES } 
+                }
+                set_global_flag = puppets_allowed
+            }
+            else = {
+                clr_global_flag = puppets_allowed
+            }
+        }
+    }
+}
