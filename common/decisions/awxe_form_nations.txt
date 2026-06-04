@@ -6853,7 +6853,6 @@ formable_nations_mod_category = {
 				state = 444 
 				state = 445
 				state = 787  
-				state = 972
                 state = 986
                 state = 987
 				state = 988
@@ -6877,7 +6876,7 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 33 # "39 States"
+							amount = 33 # "38 States"
 						
 							# India (18)
 							320 = { controls_or_subject_of = yes }
@@ -6902,7 +6901,7 @@ formable_nations_mod_category = {
 							# Bengal (1)
 							430 = { controls_or_subject_of = yes }
 
-							# Pakistan (13)
+							# Pakistan (12)
 							440 = { controls_or_subject_of = yes }
 							441 = { controls_or_subject_of = yes }
 							442 = { controls_or_subject_of = yes }
@@ -6910,7 +6909,6 @@ formable_nations_mod_category = {
 							444 = { controls_or_subject_of = yes }
 							445 = { controls_or_subject_of = yes }
 							787 = { controls_or_subject_of = yes }
-							972 = { controls_or_subject_of = yes }
 							986 = { controls_or_subject_of = yes }
 							987 = { controls_or_subject_of = yes }
 							988 = { controls_or_subject_of = yes }
@@ -6978,7 +6976,6 @@ formable_nations_mod_category = {
 				444 = { add_core_of = ROOT }
 				445 = { add_core_of = ROOT }
 				787 = { add_core_of = ROOT }
-				972 = { add_core_of = ROOT }
 				986 = { add_core_of = ROOT }
 				987 = { add_core_of = ROOT }
 				988 = { add_core_of = ROOT }
