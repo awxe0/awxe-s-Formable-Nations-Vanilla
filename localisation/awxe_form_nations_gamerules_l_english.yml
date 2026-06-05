@@ -26,5 +26,5 @@ l_english:
 
 # Flags/tooltips
  all_formables_available:0 "All Formables Available"
- ai_disabled:0 "AI Forming Disabled"
+ ai_formables_disabled:0 "AI Forming Disabled"
  puppet_forming_disabled:0 "Subject Forming Disabled"

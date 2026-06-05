@@ -17,10 +17,10 @@ on_actions = {
                 limit = { 
                     has_game_rule = { rule = allow_AI_formables option = NO } 
                 }
-                set_global_flag = ai_disabled
+                set_global_flag = ai_formables_disabled
             }
             else = {
-                clr_global_flag = ai_disabled
+                clr_global_flag = ai_formables_disabled
             }
 
             # 3. Check Puppet Formables Rule

@@ -35,7 +35,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled
+				has_global_flag = ai_formables_disabled
 			}
 		}
 		
@@ -166,7 +166,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -1079,7 +1079,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -1378,7 +1378,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -1591,7 +1591,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -1930,7 +1930,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -2279,7 +2279,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -2565,7 +2565,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -2758,7 +2758,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -2973,7 +2973,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -3275,7 +3275,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -3422,7 +3422,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -3588,7 +3588,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -3760,7 +3760,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -3902,7 +3902,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -3984,7 +3984,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4073,7 +4073,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4176,7 +4176,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4257,7 +4257,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4364,7 +4364,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4591,7 +4591,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4746,7 +4746,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4839,7 +4839,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -4973,7 +4973,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -5059,7 +5059,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -5304,7 +5304,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -5576,7 +5576,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -5721,7 +5721,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -5872,7 +5872,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -6215,7 +6215,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -6363,7 +6363,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -6412,7 +6412,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -6693,7 +6693,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -6801,7 +6801,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -7000,7 +7000,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -7348,7 +7348,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -7479,7 +7479,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -7578,7 +7578,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -7699,7 +7699,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -7936,7 +7936,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8067,7 +8067,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8218,7 +8218,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8304,7 +8304,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8452,7 +8452,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8568,7 +8568,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8719,7 +8719,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8855,7 +8855,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -8926,7 +8926,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9014,7 +9014,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9105,7 +9105,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9229,7 +9229,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9524,7 +9524,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9643,7 +9643,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9787,7 +9787,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -9957,7 +9957,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10088,7 +10088,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10182,7 +10182,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10307,7 +10307,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10393,7 +10393,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10483,7 +10483,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10627,7 +10627,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10756,7 +10756,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -10910,7 +10910,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -11148,7 +11148,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -11345,7 +11345,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -11471,7 +11471,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -12289,7 +12289,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -12422,7 +12422,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -12539,7 +12539,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -12622,7 +12622,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -12731,7 +12731,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -12983,7 +12983,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -13117,7 +13117,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -13507,7 +13507,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -13596,7 +13596,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -13686,7 +13686,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -13873,7 +13873,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14143,7 +14143,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14236,7 +14236,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14304,7 +14304,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14380,7 +14380,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14602,7 +14602,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14730,7 +14730,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14893,7 +14893,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -14996,7 +14996,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -15139,7 +15139,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -15313,7 +15313,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -15576,7 +15576,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -15983,7 +15983,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -16647,7 +16647,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -17044,7 +17044,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -17193,7 +17193,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -17382,7 +17382,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -17628,7 +17628,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -17746,7 +17746,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -18220,7 +18220,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -18428,7 +18428,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -18556,7 +18556,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -18714,7 +18714,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -18824,7 +18824,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -18980,7 +18980,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19167,7 +19167,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19259,7 +19259,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19334,7 +19334,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19446,7 +19446,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19621,7 +19621,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19713,7 +19713,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19820,7 +19820,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -19968,7 +19968,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -20428,7 +20428,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -20700,7 +20700,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -20802,7 +20802,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -20902,7 +20902,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -21239,7 +21239,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -21433,7 +21433,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -21701,7 +21701,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -21958,7 +21958,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -22240,7 +22240,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -22420,7 +22420,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -22542,7 +22542,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -22823,7 +22823,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -22974,7 +22974,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -23515,7 +23515,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -23586,7 +23586,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -23679,7 +23679,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -23776,7 +23776,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -23965,7 +23965,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -24220,7 +24220,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -24765,7 +24765,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -25000,7 +25000,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -25533,7 +25533,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -25773,7 +25773,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -25903,7 +25903,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -26078,7 +26078,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -26203,7 +26203,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -26448,7 +26448,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -26588,7 +26588,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -26763,7 +26763,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -27013,7 +27013,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -27195,7 +27195,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -27532,7 +27532,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -27610,7 +27610,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -27715,7 +27715,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -27894,7 +27894,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28041,7 +28041,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28174,7 +28174,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28257,7 +28257,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28428,7 +28428,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28551,7 +28551,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28687,7 +28687,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -28775,7 +28775,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -29062,7 +29062,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -29161,7 +29161,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -29261,7 +29261,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -29550,7 +29550,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -29757,7 +29757,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -29936,7 +29936,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30033,7 +30033,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30142,7 +30142,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30250,7 +30250,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30539,7 +30539,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30831,7 +30831,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30910,7 +30910,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -30990,7 +30990,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -31073,7 +31073,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -31446,7 +31446,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -31586,7 +31586,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -31750,7 +31750,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -31827,7 +31827,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -31947,7 +31947,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32058,7 +32058,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32221,7 +32221,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32427,7 +32427,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32568,7 +32568,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32722,7 +32722,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32862,7 +32862,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -32987,7 +32987,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -33189,7 +33189,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -33344,7 +33344,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -33412,7 +33412,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -33543,7 +33543,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -33829,7 +33829,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -33903,7 +33903,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34023,7 +34023,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34305,7 +34305,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34439,7 +34439,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34594,7 +34594,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34711,7 +34711,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34904,7 +34904,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -34992,7 +34992,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -35098,7 +35098,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -35426,7 +35426,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -35501,7 +35501,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -35788,7 +35788,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -35876,7 +35876,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -36049,7 +36049,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -36250,7 +36250,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -36400,7 +36400,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
@@ -36581,7 +36581,7 @@ formable_nations_mod_category = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_global_flag = ai_disabled 
+				has_global_flag = ai_formables_disabled 
 			}
 		}
 		
