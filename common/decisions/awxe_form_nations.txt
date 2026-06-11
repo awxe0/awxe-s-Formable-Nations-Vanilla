@@ -13291,6 +13291,9 @@ formable_nations_mod_category = {
 				state = 931
 				state = 1074
 				state = 1075
+				state = 1079
+				state = 1080
+				state = 1081
 			}
 		}
 		
@@ -13404,6 +13407,9 @@ formable_nations_mod_category = {
 						931 = { controls_or_subject_of = yes }
 						1074 = { controls_or_subject_of = yes }
 				        1075 = { controls_or_subject_of = yes }
+						1079 = { controls_or_subject_of = yes }
+				        1080 = { controls_or_subject_of = yes }
+				        1081 = { controls_or_subject_of = yes }
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -13543,6 +13549,9 @@ formable_nations_mod_category = {
 				931 = { add_core_of = ROOT }	
 				1074 = { add_core_of = ROOT }
 				1075 = { add_core_of = ROOT }
+				1079 = { add_core_of = ROOT }
+				1080 = { add_core_of = ROOT }
+				1081 = { add_core_of = ROOT }
 			}
 			629 = { add_core_of = ROOT }
 			686 = { add_core_of = ROOT }
