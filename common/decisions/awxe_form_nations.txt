@@ -8046,7 +8046,7 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_ICH
 			add_stability = 0.15
-			set_capital = { state = 289 }
+			set_capital = { state = 1076 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Indochina
@@ -18459,7 +18459,7 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 		    set_cosmetic_tag = AFN_SEA
 			add_stability = 0.2
-			set_capital = { state = 289 }
+			set_capital = { state = 1076 }
 			set_victory_points = {
 					province = 7408
 					value = 15
