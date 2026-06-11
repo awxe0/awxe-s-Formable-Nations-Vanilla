@@ -32617,7 +32617,26 @@ formable_nations_mod_category = {
 				state = 1024
 				state = 1025
 				state = 1026
-				state = 1027
+				state = 1027	
+                state = 1047
+				state = 1048
+				state = 1049
+				state = 1050
+				state = 1051
+				state = 1052
+				state = 1053
+				state = 1054
+				state = 1055
+				state = 1056
+				state = 1057
+				state = 1058
+				state = 1059
+				state = 1060
+				state = 1061
+				state = 1062
+				state = 1063
+				state = 1064
+				state = 1065
 			}
 		}
 		
@@ -32651,6 +32670,25 @@ formable_nations_mod_category = {
 				        1025 = { controls_or_subject_of = yes }
 				        1026 = { controls_or_subject_of = yes }
 				        1027 = { controls_or_subject_of = yes }
+						1047 = { controls_or_subject_of = yes }
+				        1048 = { controls_or_subject_of = yes }
+				        1049 = { controls_or_subject_of = yes }
+				        1050 = { controls_or_subject_of = yes }
+				        1051 = { controls_or_subject_of = yes }
+				        1052 = { controls_or_subject_of = yes }
+				        1053 = { controls_or_subject_of = yes }
+				        1054 = { controls_or_subject_of = yes }
+				        1055 = { controls_or_subject_of = yes }
+				        1056 = { controls_or_subject_of = yes }
+				        1057 = { controls_or_subject_of = yes }
+				        1058 = { controls_or_subject_of = yes }
+				        1059 = { controls_or_subject_of = yes }
+				        1060 = { controls_or_subject_of = yes }
+				        1061 = { controls_or_subject_of = yes }
+				        1062 = { controls_or_subject_of = yes }
+				        1063 = { controls_or_subject_of = yes }
+				        1064 = { controls_or_subject_of = yes }
+				        1065 = { controls_or_subject_of = yes }
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -32698,9 +32736,28 @@ formable_nations_mod_category = {
 				1025 = { add_core_of = ROOT }
 				1026 = { add_core_of = ROOT }
 				1027 = { add_core_of = ROOT }
+				1047 = { add_core_of = ROOT }
+				1048 = { add_core_of = ROOT }
+				1049 = { add_core_of = ROOT }
+				1050 = { add_core_of = ROOT }
+				1051 = { add_core_of = ROOT }
+				1052 = { add_core_of = ROOT }
+				1053 = { add_core_of = ROOT }
+				1054 = { add_core_of = ROOT }
+				1055 = { add_core_of = ROOT }
+				1056 = { add_core_of = ROOT }
+				1057 = { add_core_of = ROOT }
+				1058 = { add_core_of = ROOT }
+				1059 = { add_core_of = ROOT }
+				1060 = { add_core_of = ROOT }
+				1061 = { add_core_of = ROOT }
+				1062 = { add_core_of = ROOT }
+				1063 = { add_core_of = ROOT }
+				1064 = { add_core_of = ROOT }
+				1065 = { add_core_of = ROOT }
 			}
 			721 = { add_core_of = ROOT }
-			336 = { add_core_of = ROOT }
+			1021 = { add_core_of = ROOT }
 		}
 	}
 	
