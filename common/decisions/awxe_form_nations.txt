@@ -9145,6 +9145,7 @@ formable_nations_mod_category = {
 				original_tag = TAH
 				original_tag = FIJ
 				original_tag = WPG
+				original_tag = BOU
 			}
 		}
 
@@ -19186,6 +19187,7 @@ formable_nations_mod_category = {
 				original_tag = GYA
 				original_tag = RAP
 				original_tag = WPG
+				original_tag = BOU
 			}
 		}
 
