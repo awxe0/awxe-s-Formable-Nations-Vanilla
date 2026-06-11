@@ -7953,6 +7953,7 @@ formable_nations_mod_category = {
 				original_tag = VIN
 				original_tag = CAM
 				original_tag = BRM
+				original_tag = CPS
 			}
 		}
 
@@ -9143,6 +9144,7 @@ formable_nations_mod_category = {
 				original_tag = PNG
 				original_tag = TAH
 				original_tag = FIJ
+				original_tag = WPG
 			}
 		}
 
@@ -14218,6 +14220,7 @@ formable_nations_mod_category = {
 				original_tag = LAO
 				original_tag = VIN
 				original_tag = BRM
+				original_tag = CPS
 			}
 		}
 
@@ -18323,6 +18326,19 @@ formable_nations_mod_category = {
 				original_tag = MLK
 				original_tag = PNG
 				original_tag = SIN
+				original_tag = CPS
+				original_tag = SNG
+				original_tag = BRN
+				original_tag = ATJ
+				original_tag = SSI
+				original_tag = BLI
+				original_tag = TNE
+				original_tag = GOW
+				original_tag = POK
+				original_tag = SAR
+				original_tag = SAB
+				original_tag = TNE
+				original_tag = WPG
 			}
 		}
 
@@ -19169,6 +19185,7 @@ formable_nations_mod_category = {
 				original_tag = KIR
 				original_tag = GYA
 				original_tag = RAP
+				original_tag = WPG
 			}
 		}
 
@@ -23881,6 +23898,9 @@ formable_nations_mod_category = {
 				original_tag = INS
 				original_tag = SIN
 				original_tag = SIA
+				original_tag = SNG
+				original_tag = ATJ
+				original_tag = SSI
 			}
 		}
 
@@ -32663,6 +32683,18 @@ formable_nations_mod_category = {
 				original_tag = MLK
 				original_tag = PNG
 				original_tag = SIN
+				original_tag = SNG
+				original_tag = BRN
+				original_tag = ATJ
+				original_tag = SSI
+				original_tag = BLI
+				original_tag = TNE
+				original_tag = GOW
+				original_tag = POK
+				original_tag = SAR
+				original_tag = SAB
+				original_tag = TNE
+				original_tag = WPG
 			}
 		}
 
@@ -33156,6 +33188,9 @@ formable_nations_mod_category = {
 				original_tag = MAL
 				original_tag = INS
 				original_tag = BAN
+				original_tag = SNG
+				original_tag = ATJ
+				original_tag = SSI
 			}
 		}
 
