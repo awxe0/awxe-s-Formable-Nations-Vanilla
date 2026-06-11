@@ -23824,7 +23824,6 @@ formable_nations_mod_category = {
 				state = 336
 				state = 672
 				state = 724
-				state = 1021
 				state = 1047
 				state = 1048
 				state = 1049
@@ -23849,7 +23848,6 @@ formable_nations_mod_category = {
 				        336 = { controls_or_subject_of = yes }
 				        672 = { controls_or_subject_of = yes }
 				        724 = { controls_or_subject_of = yes }
-				        1021 = { controls_or_subject_of = yes }
 				        1047 = { controls_or_subject_of = yes }
 				        1048 = { controls_or_subject_of = yes }
 				        1049 = { controls_or_subject_of = yes }
@@ -23894,7 +23892,6 @@ formable_nations_mod_category = {
 				336 = { add_core_of = ROOT }
 				672 = { add_core_of = ROOT }
 				724 = { add_core_of = ROOT }
-				1021 = { add_core_of = ROOT }
 				1047 = { add_core_of = ROOT }
 				1048 = { add_core_of = ROOT }
 				1049 = { add_core_of = ROOT }
@@ -23909,6 +23906,7 @@ formable_nations_mod_category = {
 				1065 = { add_core_of = ROOT }			
 			}
 			289 = { add_claim_by = ROOT }	
+			1021 = { add_claim_by = ROOT }
 			1076 = { add_claim_by = ROOT }
 			1078 = { add_claim_by = ROOT }
 		}
