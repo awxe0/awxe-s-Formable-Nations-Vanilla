@@ -23820,16 +23820,23 @@ formable_nations_mod_category = {
 
 		highlight_states = {
 			highlight_state_targets = {
-				state = 333
 				state = 335
 				state = 336
-				state = 446
-				state = 667
 				state = 672
-				state = 673
 				state = 724
-				state = 334
-				state = 1022
+				state = 1021
+				state = 1047
+				state = 1048
+				state = 1049
+				state = 1050
+				state = 1051
+				state = 1058
+				state = 1060
+				state = 1061
+				state = 1062
+				state = 1063
+				state = 1064
+				state = 1065
 			}
 		}
 		
@@ -23838,16 +23845,23 @@ formable_nations_mod_category = {
 				tooltip = highlighted_state_tooltip
 				OR = {
 					AND = {
-						333 = { controls_or_subject_of = yes }
 				        335 = { controls_or_subject_of = yes }
 				        336 = { controls_or_subject_of = yes }
-				        446 = { controls_or_subject_of = yes }
-				        667 = { controls_or_subject_of = yes }
 				        672 = { controls_or_subject_of = yes }
-				        673 = { controls_or_subject_of = yes }
 				        724 = { controls_or_subject_of = yes }
-				        334 = { controls_or_subject_of = yes }
-				        1022 = { controls_or_subject_of = yes }
+				        1021 = { controls_or_subject_of = yes }
+				        1047 = { controls_or_subject_of = yes }
+				        1048 = { controls_or_subject_of = yes }
+				        1049 = { controls_or_subject_of = yes }
+				        1050 = { controls_or_subject_of = yes }
+				        1051 = { controls_or_subject_of = yes }
+				        1058 = { controls_or_subject_of = yes }
+				        1060 = { controls_or_subject_of = yes }
+				        1061 = { controls_or_subject_of = yes }
+				        1062 = { controls_or_subject_of = yes }
+				        1063 = { controls_or_subject_of = yes }
+				        1064 = { controls_or_subject_of = yes }
+				        1065 = { controls_or_subject_of = yes }
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -23870,7 +23884,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 672 }
 			set_victory_points = {
-					province = 4652
+					province = 10322
 					value = 10
 				}
 			custom_effect_tooltip = core_land
@@ -23878,14 +23892,25 @@ formable_nations_mod_category = {
 				333 = { add_core_of = ROOT }
 				335 = { add_core_of = ROOT }
 				336 = { add_core_of = ROOT }
-				446 = { add_core_of = ROOT }
-				667 = { add_core_of = ROOT }
 				672 = { add_core_of = ROOT }
-				673 = { add_core_of = ROOT }
 				724 = { add_core_of = ROOT }
-				334 = { add_core_of = ROOT }
-				1022 = { add_core_of = ROOT }				
+				1021 = { add_core_of = ROOT }
+				1047 = { add_core_of = ROOT }
+				1048 = { add_core_of = ROOT }
+				1049 = { add_core_of = ROOT }
+				1050 = { add_core_of = ROOT }
+				1051 = { add_core_of = ROOT }
+				1058 = { add_core_of = ROOT }
+				1060 = { add_core_of = ROOT }
+				1061 = { add_core_of = ROOT }
+				1062 = { add_core_of = ROOT }
+				1063 = { add_core_of = ROOT }
+				1064 = { add_core_of = ROOT }
+				1065 = { add_core_of = ROOT }			
 			}
+			289 = { add_claim_by = ROOT }	
+			1076 = { add_claim_by = ROOT }
+			1078 = { add_claim_by = ROOT }
 		}
 	}
 	
