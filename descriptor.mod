@@ -1,4 +1,4 @@
-version="1.9 - Crownlands Reborn"
+version="1.10 - Maritime Realms"
 picture="thumbnail"
 tags={
 	"Alternative History"
@@ -9,5 +9,5 @@ tags={
 	"Gameplay"
 }
 name="awxe's Formable Nations"
-supported_version="1.18.*"
+supported_version="1.19.*"
 remote_file_id="3677761082"
