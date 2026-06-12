@@ -2,7 +2,7 @@ Head Developer:
 awxe
 
 Contributors:
-GIAMPIERX3 - Idea Contributor / Bug Fixing
+GIAMPIERX3 - Developer / Bug Fixing
 Choo_Choo_Oreo - Optimization Contributor
 
 Modding Community:
