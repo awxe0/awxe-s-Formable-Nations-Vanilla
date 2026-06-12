@@ -799,4 +799,20 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_livonia"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_livonia.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_melanesia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_melanesia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_polynesia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_polynesia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_pacific"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_pacific.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_toungoo"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_toungoo.tga"
+	}
 }
