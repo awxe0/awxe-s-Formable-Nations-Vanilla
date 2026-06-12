@@ -17504,6 +17504,9 @@ formable_nations_mod_category = {
 				original_tag = SRL
 				original_tag = BAN
 				original_tag = TIB
+				original_tag = KAS
+				original_tag = SKK
+				original_tag = MPU
 			}
 		}
 
@@ -17744,6 +17747,7 @@ formable_nations_mod_category = {
                 #has_global_flag = all_formables_available
 				original_tag = AFG
 				original_tag = PAK
+				original_tag = KAS
 			}
 		}
 
@@ -18637,6 +18641,7 @@ formable_nations_mod_category = {
 				original_tag = PAK
 				original_tag = TAJ
 				original_tag = RAJ
+				original_tag = KAS
 			}
 		}
 
