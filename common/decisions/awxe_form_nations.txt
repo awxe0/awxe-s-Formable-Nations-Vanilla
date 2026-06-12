@@ -14017,18 +14017,118 @@ formable_nations_mod_category = {
 				state = 655
 				state = 657
 				
-				# China
-				state = 608
-				state = 614
+				# China & Warlords
+				state = 591
+				state = 592
+				state = 593
+				state = 594
+				state = 595
+				state = 596
 				state = 597
 				state = 598 
-				state = 613 
+				state = 599
+				state = 600
+				state = 602
+				state = 603
+				state = 605
+				state = 606
+				state = 607
+				state = 608
+				state = 613
+				state = 614
+				state = 615
+				state = 620
+				state = 621
+				state = 622
+				state = 744
+				state = 746
+				state = 748
+				state = 749
+				state = 750
+				state = 1032
+				state = 1033
 				state = 1034
+				state = 1035
+				state = 1036
 				state = 1038
 				state = 1039
 				state = 1043
-				state = 596
-				state = 595
+				state = 1046
+				
+				# Indochina
+				state = 286
+				state = 670
+				state = 671
+				state = 741
+				state = 1017
+				state = 1066
+				state = 1067
+				state = 1068
+				state = 1069
+				
+				# Siam
+				state = 289
+				state = 724
+				state = 868
+				state = 869
+				state = 1076
+				state = 1077
+				state = 1078
+				
+				# Malaya
+				state = 333
+				state = 336
+				state = 1023
+				state = 1024
+				state = 1059
+				state = 1060
+				state = 1061
+				state = 1062
+				state = 1063
+				state = 1064
+				
+				# Indonesia
+				state = 334
+				state = 335
+				state = 672
+				state = 673
+				state = 667
+				state = 668
+				state = 669
+				state = 738
+				state = 1022
+				state = 1047
+				state = 1048
+				state = 1049
+				state = 1050
+				state = 1051
+				state = 1052
+				state = 1053
+				state = 1054
+				state = 1055
+				state = 1056
+				state = 1057
+				state = 1058
+				
+				# Philippines
+				state = 327
+				state = 623
+				state = 624
+				state = 625
+				state = 626
+				state = 627
+				state = 628
+				state = 1025
+				state = 1026
+				state = 1027
+				
+				# Port Cities
+				state = 326 # Hong Kong
+				state = 721 # Timor
+				state = 728 # Kouang
+				state = 729 # Macau
+				state = 1021 # Singapore
+				state = 1065 # Penang
 			}
 		}
 		
@@ -14039,89 +14139,166 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 40 # "49 States"
+							amount = 56 # "143 States"
 						
-							# Japan & Manchu (28)
+							# Japan & Manchu (30)
 							528 = { controls_or_subject_of = yes }
-							530 = { controls_or_subject_of = yes }
-							529 = { controls_or_subject_of = yes }
-							531 = { controls_or_subject_of = yes }
-							532 = { controls_or_subject_of = yes }
-							535 = { controls_or_subject_of = yes }
-							282 = { controls_or_subject_of = yes }
-							534 = { controls_or_subject_of = yes }
-							533 = { controls_or_subject_of = yes }
-							536 = { controls_or_subject_of = yes }
-							526 = { controls_or_subject_of = yes }
-							537 = { controls_or_subject_of = yes }
-							555 = { controls_or_subject_of = yes }
-							611 = { controls_or_subject_of = yes }
-							612 = { controls_or_subject_of = yes }
-							328 = { controls_or_subject_of = yes }
-							610 = { controls_or_subject_of = yes }
-							714 = { controls_or_subject_of = yes }
-							715 = { controls_or_subject_of = yes }
-							716 = { controls_or_subject_of = yes }
-							717 = { controls_or_subject_of = yes }
-							761 = { controls_or_subject_of = yes }
-							745 = { controls_or_subject_of = yes }
-							609 = { controls_or_subject_of = yes }
-						 	524 = { controls_or_subject_of = yes }
-							1018 = { controls_or_subject_of = yes } 
-							1019 = { controls_or_subject_of = yes }
-							1020 = { controls_or_subject_of = yes }
+				            530 = { controls_or_subject_of = yes }
+				            529 = { controls_or_subject_of = yes }
+				            531 = { controls_or_subject_of = yes }
+				            532 = { controls_or_subject_of = yes }
+				            535 = { controls_or_subject_of = yes }
+				            282 = { controls_or_subject_of = yes }
+				            534 = { controls_or_subject_of = yes }
+				            533 = { controls_or_subject_of = yes }
+				            536 = { controls_or_subject_of = yes }
+				            526 = { controls_or_subject_of = yes }
+				            537 = { controls_or_subject_of = yes }
+				            555 = { controls_or_subject_of = yes }
+				            611 = { controls_or_subject_of = yes }
+				            612 = { controls_or_subject_of = yes }
+				            328 = { controls_or_subject_of = yes }
+				            610 = { controls_or_subject_of = yes }
+				            714 = { controls_or_subject_of = yes }
+				            715 = { controls_or_subject_of = yes }
+				            716 = { controls_or_subject_of = yes }
+				            717 = { controls_or_subject_of = yes }
+				            761 = { controls_or_subject_of = yes }
+				            745 = { controls_or_subject_of = yes }
+				            609 = { controls_or_subject_of = yes }
+				            716 = { controls_or_subject_of = yes }
+				            610 = { controls_or_subject_of = yes }
+				            524 = { controls_or_subject_of = yes }
+				            1018 = { controls_or_subject_of = yes }
+				            1019 = { controls_or_subject_of = yes }
+				            1020 = { controls_or_subject_of = yes }
 
-							# Korea (6)
-							525 = { controls_or_subject_of = yes }
-							527 = { controls_or_subject_of = yes }
-							1028 = { controls_or_subject_of = yes } 
-							1029 = { controls_or_subject_of = yes }
-							1030 = { controls_or_subject_of = yes }
-							1031 = { controls_or_subject_of = yes }
-
-							# Chinese (11)
-							614 = { controls_or_subject_of = yes }
-							608 = { controls_or_subject_of = yes } 
-							597 = { controls_or_subject_of = yes }
-							598 = { controls_or_subject_of = yes }
-							613 = { controls_or_subject_of = yes }
-							1034 = { controls_or_subject_of = yes }
-							1038 = { controls_or_subject_of = yes }
-							1039 = { controls_or_subject_of = yes }
-							1043 = { controls_or_subject_of = yes }
-							596 = { controls_or_subject_of = yes }
-							595 = { controls_or_subject_of = yes }
-
-							# Soviet (4)
-							408 = { controls_or_subject_of = yes }
-							409 = { controls_or_subject_of = yes } 
-							655 = { controls_or_subject_of = yes }
-							657 = { controls_or_subject_of = yes }
-
-						#	OR = { 
-						#		AND = {
-						#			# Chinese
-						#		614 = { controls_or_subject_of = yes }
-						#		608 = { controls_or_subject_of = yes } 
-						#		597 = { controls_or_subject_of = yes }
-						#		598 = { controls_or_subject_of = yes }
-						#		613 = { controls_or_subject_of = yes }
-						#		1034 = { controls_or_subject_of = yes }
-						#		1038 = { controls_or_subject_of = yes }
-						#		1039 = { controls_or_subject_of = yes }
-						#		1043 = { controls_or_subject_of = yes }
-						#		596 = { controls_or_subject_of = yes }
-						#		595 = { controls_or_subject_of = yes }
-						#		}	
-						#		AND = {
-						#			# Soviet
-						#		408 = { controls_or_subject_of = yes }
-						#		409 = { controls_or_subject_of = yes } 
-						#		655 = { controls_or_subject_of = yes }
-						#		657 = { controls_or_subject_of = yes }
-						#		}	
-						#	}
-
+				            # Korea (6)
+				            525 = { controls_or_subject_of = yes }
+				            527 = { controls_or_subject_of = yes }
+				            1028 = { controls_or_subject_of = yes }
+				            1029 = { controls_or_subject_of = yes }
+				            1030 = { controls_or_subject_of = yes }
+				            1031 = { controls_or_subject_of = yes }
+				
+				            # Soviet (4)
+				            408 = { controls_or_subject_of = yes }
+				            409 = { controls_or_subject_of = yes }
+				            655 = { controls_or_subject_of = yes }
+				            657 = { controls_or_subject_of = yes }
+				
+				            # China & Warlords (36)
+				            591 = { controls_or_subject_of = yes }
+				            592 = { controls_or_subject_of = yes }
+				            593 = { controls_or_subject_of = yes }
+				            594 = { controls_or_subject_of = yes }
+				            595 = { controls_or_subject_of = yes }
+				            596 = { controls_or_subject_of = yes }
+				            597 = { controls_or_subject_of = yes }
+				            598 = { controls_or_subject_of = yes } 
+				            599 = { controls_or_subject_of = yes }
+				            600 = { controls_or_subject_of = yes }
+				            602 = { controls_or_subject_of = yes }
+				            603 = { controls_or_subject_of = yes }
+				            605 = { controls_or_subject_of = yes }
+				            606 = { controls_or_subject_of = yes }
+				            607 = { controls_or_subject_of = yes }
+				            608 = { controls_or_subject_of = yes }
+				            613 = { controls_or_subject_of = yes }
+				            614 = { controls_or_subject_of = yes }
+				            615 = { controls_or_subject_of = yes }
+				            620 = { controls_or_subject_of = yes }
+				            621 = { controls_or_subject_of = yes }
+				            622 = { controls_or_subject_of = yes }
+				            744 = { controls_or_subject_of = yes }
+				            746 = { controls_or_subject_of = yes }
+				            748 = { controls_or_subject_of = yes }
+				            749 = { controls_or_subject_of = yes }
+				            750 = { controls_or_subject_of = yes }
+				            1032 = { controls_or_subject_of = yes }
+				            1033 = { controls_or_subject_of = yes }
+				            1034 = { controls_or_subject_of = yes }
+				            1035 = { controls_or_subject_of = yes }
+				            1036 = { controls_or_subject_of = yes }
+				            1038 = { controls_or_subject_of = yes }
+				            1039 = { controls_or_subject_of = yes }
+				            1043 = { controls_or_subject_of = yes }
+				            1046 = { controls_or_subject_of = yes }
+				
+				            # Indochina (9)
+				            286 = { controls_or_subject_of = yes }
+				            670 = { controls_or_subject_of = yes }
+				            671 = { controls_or_subject_of = yes }
+				            741 = { controls_or_subject_of = yes }
+				            1017 = { controls_or_subject_of = yes }
+				            1066 = { controls_or_subject_of = yes }
+				            1067 = { controls_or_subject_of = yes }
+				            1068 = { controls_or_subject_of = yes }
+				            1069 = { controls_or_subject_of = yes }
+				
+				            # Siam (7)
+				            289 = { controls_or_subject_of = yes }
+				            724 = { controls_or_subject_of = yes }
+				            868 = { controls_or_subject_of = yes }
+				            869 = { controls_or_subject_of = yes }
+				            1076 = { controls_or_subject_of = yes }
+				            1077 = { controls_or_subject_of = yes }
+				            1078 = { controls_or_subject_of = yes }
+				
+				            # Malaya (10)
+				            333 = { controls_or_subject_of = yes }
+				            336 = { controls_or_subject_of = yes }
+				            1023 = { controls_or_subject_of = yes }
+				            1024 = { controls_or_subject_of = yes }
+				            1059 = { controls_or_subject_of = yes }
+				            1060 = { controls_or_subject_of = yes }
+				            1061 = { controls_or_subject_of = yes }
+				            1062 = { controls_or_subject_of = yes }
+				            1063 = { controls_or_subject_of = yes }
+				            1064 = { controls_or_subject_of = yes }
+				
+				            # Indonesia (21)
+				            334 = { controls_or_subject_of = yes }
+				            335 = { controls_or_subject_of = yes }
+				            672 = { controls_or_subject_of = yes }
+				            673 = { controls_or_subject_of = yes }
+				            667 = { controls_or_subject_of = yes }
+				            668 = { controls_or_subject_of = yes }
+				            669 = { controls_or_subject_of = yes }
+				            738 = { controls_or_subject_of = yes }
+				            1022 = { controls_or_subject_of = yes }
+				            1047 = { controls_or_subject_of = yes }
+				            1048 = { controls_or_subject_of = yes }
+				            1049 = { controls_or_subject_of = yes }
+				            1050 = { controls_or_subject_of = yes }
+				            1051 = { controls_or_subject_of = yes }
+				            1052 = { controls_or_subject_of = yes }
+				            1053 = { controls_or_subject_of = yes }
+				            1054 = { controls_or_subject_of = yes }
+				            1055 = { controls_or_subject_of = yes }
+				            1056 = { controls_or_subject_of = yes }
+				            1057 = { controls_or_subject_of = yes }
+				            1058 = { controls_or_subject_of = yes }
+				
+				            # Philippines (10)
+							327 = { controls_or_subject_of = yes }
+							623 = { controls_or_subject_of = yes }
+							624 = { controls_or_subject_of = yes }
+							625 = { controls_or_subject_of = yes }
+							626 = { controls_or_subject_of = yes }
+							627 = { controls_or_subject_of = yes }
+							628 = { controls_or_subject_of = yes }
+							1025 = { controls_or_subject_of = yes }
+							1026 = { controls_or_subject_of = yes }
+							1027 = { controls_or_subject_of = yes }
+				
+				            # Port Cities (10)
+				            326 = { controls_or_subject_of = yes } # Hong Kong
+				            721 = { controls_or_subject_of = yes } # Timor
+				            728 = { controls_or_subject_of = yes } # Kouang
+				            729 = { controls_or_subject_of = yes } # Macau
+				            1021 = { controls_or_subject_of = yes } # Singapore
+				            1065 = { controls_or_subject_of = yes } # Penang
 						}
 					}
 					AND = {
@@ -14142,7 +14319,7 @@ formable_nations_mod_category = {
 		icon = formable_nations_greater_japan
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_GJA
-			add_stability = 0.15
+			add_stability = 0.2
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Japan & Manchu
@@ -14156,63 +14333,149 @@ formable_nations_mod_category = {
 				534 = { add_core_of = ROOT }
 				533 = { add_core_of = ROOT }
 				536 = { add_core_of = ROOT }
-				555 = { add_core_of = ROOT }
-				537 = { add_core_of = ROOT }
-				655 = { add_core_of = ROOT }
 				526 = { add_core_of = ROOT }
-				525 = { add_core_of = ROOT }
-				527 = { add_core_of = ROOT }
-				524 = { add_core_of = ROOT }
-				645 = { add_core_of = ROOT }
-				761 = { add_core_of = ROOT }
-				714 = { add_core_of = ROOT }
-				610 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT }
+				612 = { add_core_of = ROOT }
 				328 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				714 = { add_core_of = ROOT }
 				715 = { add_core_of = ROOT }
 				716 = { add_core_of = ROOT }
 				717 = { add_core_of = ROOT }
+				761 = { add_core_of = ROOT }
 				745 = { add_core_of = ROOT }
 				609 = { add_core_of = ROOT }
-				408 = { add_core_of = ROOT }
-				409 = { add_core_of = ROOT }
-				611 = { add_core_of = ROOT }
-				612 = { add_core_of = ROOT }
+				716 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
 				524 = { add_core_of = ROOT }
-				1018 = { add_core_of = ROOT } 
+				1018 = { add_core_of = ROOT }
 				1019 = { add_core_of = ROOT }
 				1020 = { add_core_of = ROOT }
 				# Korea
 				525 = { add_core_of = ROOT }
 				527 = { add_core_of = ROOT }
-				1028 = { add_core_of = ROOT } 
+				1028 = { add_core_of = ROOT }
 				1029 = { add_core_of = ROOT }
 				1030 = { add_core_of = ROOT }
-				1031 = { add_core_of = ROOT }
-				# Chinese
-				608 = { add_core_of = ROOT }
-				614 = { add_core_of = ROOT }
-				597 = { add_core_of = ROOT }
-				598 = { add_core_of = ROOT }
-				613 = { add_core_of = ROOT }
-				1034 = { add_core_of = ROOT }
-				1038 = { add_core_of = ROOT }
-				1039 = { add_core_of = ROOT }
-				1043 = { add_core_of = ROOT }
-				596 = { add_core_of = ROOT }
-				595 = { add_core_of = ROOT }
+				1031 = { add_core_of = ROOT }				
 				# Soviet
 				408 = { add_core_of = ROOT }
 				409 = { add_core_of = ROOT }
 				655 = { add_core_of = ROOT }
-				657 = { add_core_of = ROOT }
+				657 = { add_core_of = ROOT }				
+				# China & Warlords
+				591 = { add_core_of = ROOT }
+				592 = { add_core_of = ROOT }
+				593 = { add_core_of = ROOT }
+				594 = { add_core_of = ROOT }
+				595 = { add_core_of = ROOT }
+				596 = { add_core_of = ROOT }
+				597 = { add_core_of = ROOT }
+				598 = { add_core_of = ROOT } 
+				599 = { add_core_of = ROOT }
+				600 = { add_core_of = ROOT }
+				602 = { add_core_of = ROOT }
+				603 = { add_core_of = ROOT }
+				605 = { add_core_of = ROOT }
+				606 = { add_core_of = ROOT }
+				607 = { add_core_of = ROOT }
+				608 = { add_core_of = ROOT }
+				613 = { add_core_of = ROOT }
+				614 = { add_core_of = ROOT }
+				615 = { add_core_of = ROOT }
+				620 = { add_core_of = ROOT }
+				621 = { add_core_of = ROOT }
+				622 = { add_core_of = ROOT }
+				744 = { add_core_of = ROOT }
+				746 = { add_core_of = ROOT }
+				748 = { add_core_of = ROOT }
+				749 = { add_core_of = ROOT }
+				750 = { add_core_of = ROOT }
+				1032 = { add_core_of = ROOT }
+				1033 = { add_core_of = ROOT }
+				1034 = { add_core_of = ROOT }
+				1035 = { add_core_of = ROOT }
+				1036 = { add_core_of = ROOT }
+				1038 = { add_core_of = ROOT }
+				1039 = { add_core_of = ROOT }
+				1043 = { add_core_of = ROOT }
+				1046 = { add_core_of = ROOT }				
+				# Indochina
+				286 = { add_core_of = ROOT }
+				670 = { add_core_of = ROOT }
+				671 = { add_core_of = ROOT }
+				741 = { add_core_of = ROOT }
+				1017 = { add_core_of = ROOT }
+				1066 = { add_core_of = ROOT }
+				1067 = { add_core_of = ROOT }
+				1068 = { add_core_of = ROOT }
+				1069 = { add_core_of = ROOT }				
+				# Siam
+				289 = { add_core_of = ROOT }
+				724 = { add_core_of = ROOT }
+				868 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }
+				1076 = { add_core_of = ROOT }
+				1077 = { add_core_of = ROOT }
+				1078 = { add_core_of = ROOT }				
+				# Malaya
+				333 = { add_core_of = ROOT }
+				336 = { add_core_of = ROOT }
+				1023 = { add_core_of = ROOT }
+				1024 = { add_core_of = ROOT }
+				1059 = { add_core_of = ROOT }
+				1060 = { add_core_of = ROOT }
+				1061 = { add_core_of = ROOT }
+				1062 = { add_core_of = ROOT }
+				1063 = { add_core_of = ROOT }
+				1064 = { add_core_of = ROOT }				
+				# Indonesia
+				334 = { add_core_of = ROOT }
+				335 = { add_core_of = ROOT }
+				672 = { add_core_of = ROOT }
+				673 = { add_core_of = ROOT }
+				667 = { add_core_of = ROOT }
+				668 = { add_core_of = ROOT }
+				669 = { add_core_of = ROOT }
+				738 = { add_core_of = ROOT }
+				1022 = { add_core_of = ROOT }
+				1047 = { add_core_of = ROOT }
+				1048 = { add_core_of = ROOT }
+				1049 = { add_core_of = ROOT }
+				1050 = { add_core_of = ROOT }
+				1051 = { add_core_of = ROOT }
+				1052 = { add_core_of = ROOT }
+				1053 = { add_core_of = ROOT }
+				1054 = { add_core_of = ROOT }
+				1055 = { add_core_of = ROOT }
+				1056 = { add_core_of = ROOT }
+				1057 = { add_core_of = ROOT }
+				1058 = { add_core_of = ROOT }				
+				# Philippines
+				327 = { add_core_of = ROOT }
+				623 = { add_core_of = ROOT }
+				624 = { add_core_of = ROOT }
+				625 = { add_core_of = ROOT }
+				626 = { add_core_of = ROOT }
+				627 = { add_core_of = ROOT }
+				628 = { add_core_of = ROOT }
+				1025 = { add_core_of = ROOT }
+				1026 = { add_core_of = ROOT }
+				1027 = { add_core_of = ROOT }				
+				# Port Cities
+				326 = { add_core_of = ROOT } # Hong Kong
+				721 = { add_core_of = ROOT } # Timor
+				728 = { add_core_of = ROOT } # Kouang
+				729 = { add_core_of = ROOT } # Macau
+				1021 = { add_core_of = ROOT } # Singapore
+				1065 = { add_core_of = ROOT } # Penang
 			}
-			# China
-			743 = { add_core_of = ROOT }
-			# Soviets
-			560 = { add_claim_by = ROOT }
-			637 = { add_claim_by = ROOT }
-			# USA
-			650 = { add_claim_by = ROOT } #attu island
+			733 = { add_claim_by = ROOT } # Andaman
+			560 = { add_claim_by = ROOT } # Nikolayevsk
+			637 = { add_claim_by = ROOT } # Kamchatka
+			650 = { add_claim_by = ROOT } # Attu Island
 			638 = { add_claim_by = ROOT } # Guam
 		}
 	}
