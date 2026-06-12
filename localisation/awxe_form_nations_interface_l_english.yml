@@ -271,6 +271,10 @@
  formable_nations_dacia:0 "Geto-Dacia"
  formable_nations_hanseatic:0 "Hanseatic League"
  formable_nations_livonia:0 "Kingdom of Livonia"
+ formable_nations_melanesia:0 "Melanesia"
+ formable_nations_polynesia:0 "Polynesia"
+ formable_nations_pacific:0 "Pacific"
+ formable_nations_toungoo:0 "Toungoo Empire"
  ##############################
 
  #############################
@@ -475,3 +479,7 @@
  formable_nations_dacia_category:0 "Geto-Dacia"
  formable_nations_hanseatic_category:0 "Hanseatic League"
  formable_nations_livonia_category:0 "Kingdom of Livonia"
+ formable_nations_melanesia_category:0 "Melanesia"
+ formable_nations_polynesia_category:0 "Polynesia"
+ formable_nations_pacific_category:0 "Pacific"
+ formable_nations_toungoo_category:0 "Toungoo Empire"
