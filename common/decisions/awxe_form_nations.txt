@@ -3561,7 +3561,6 @@ formable_nations_mod_category = {
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
-				337 = { add_core_of = ROOT }
 				38 = { add_core_of = ROOT }
 				124 = { add_core_of = ROOT }
 				138 = { add_core_of = ROOT }
