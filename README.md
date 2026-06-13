@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="AFNV Vanilla - Steam Showcase - Main - 200" src="https://github.com/user-attachments/assets/ad7891d6-4011-4116-a516-b69cff0445ed" />
+<img width="1920" height="1080" alt="AFNV Vanilla - Steam Showcase - Main - 200++" src="https://github.com/user-attachments/assets/7389d936-8e99-4b02-bd7b-d05aee14986f" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
@@ -8,7 +8,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled. Expan
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 9" src="https://github.com/user-attachments/assets/18f82abf-fa00-4268-8045-96972c3d010e" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 10" src="https://github.com/user-attachments/assets/70395d91-538a-4d76-ad38-1bcc23ea9200" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
