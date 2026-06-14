@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_polish:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "Zasady Gry Formowalnych Państw"
+ 
+l_polish:
+
+# Game Rules
+ allow_all_formables:0 "Zezwól na Wszystkie Formowalne"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "Włączenie tej zasady pozwoli każdemu krajowi formować dowolne państwo formowalne."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "Włączenie tej zasady pozwoli każdemu krajowi formować tylko państwa formowalne powiązane z jego własnym krajem."
+ 
+ allow_AI_formables:0 "Zezwól na Formowalne dla SI"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "Włączenie tej zasady pozwoli SI na formowanie państw."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "Włączenie tej zasady NIE pozwoli SI na formowanie państw."
+ 
+ allow_puppet_formables:0 "Zezwól na Formowalne dla Lenników"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Włączenie tej zasady pozwoli lennikom na formowanie państw."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Włączenie tej zasady NIE pozwoli lennikom na formowanie państw."
+ 
+l_polish:
+
+# Flags/tooltips
+ all_formables_available:0 "Wszystkie Formowalne Dostępne"
+ ai_formables_disabled:0 "Formowanie przez SI Wyłączone"
+ puppet_forming_disabled:0 "Formowanie przez Lenników Wyłączone"

@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_korean:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "형성 가능 국가 게임 규칙"
+ 
+l_korean:
+
+# Game Rules
+ allow_all_formables:0 "모든 형성 가능 국가 허용"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "이 규칙을 활성화하면 모든 국가가 어떤 형성 가능 국가든 형성할 수 있습니다."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "이 규칙을 활성화하면 각 국가는 자국과 관련된 형성 가능 국가만 형성할 수 있습니다."
+ 
+ allow_AI_formables:0 "AI의 형성 가능 국가 허용"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "이 규칙을 활성화하면 AI가 국가를 형성할 수 있습니다."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "이 규칙을 활성화하면 AI는 국가를 형성할 수 없습니다."
+ 
+ allow_puppet_formables:0 "속국 형성 가능 국가 허용"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "이 규칙을 활성화하면 속국이 국가를 형성할 수 있습니다."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "이 규칙을 활성화하면 속국은 국가를 형성할 수 없습니다."
+ 
+l_korean:
+
+# Flags/tooltips
+ all_formables_available:0 "모든 형성 가능 국가 이용 가능"
+ ai_formables_disabled:0 "AI 형성 비활성화"
+ puppet_forming_disabled:0 "속국 형성 비활성화"

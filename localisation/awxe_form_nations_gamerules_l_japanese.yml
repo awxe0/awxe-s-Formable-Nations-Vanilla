@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_japanese:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "形成可能国家のゲームルール"
+ 
+l_japanese:
+
+# Game Rules
+ allow_all_formables:0 "すべての形成可能国家を許可"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "このルールを有効にすると、すべての国が任意の形成可能国家を形成できます。"
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "このルールを有効にすると、各国は自国に関連する形成可能国家のみ形成できます。"
+ 
+ allow_AI_formables:0 "AIの形成可能国家を許可"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "このルールを有効にすると、AIが国家を形成できます。"
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "このルールを有効にすると、AIは国家を形成できなくなります。"
+ 
+ allow_puppet_formables:0 "属国による形成可能国家を許可"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "このルールを有効にすると、属国が国家を形成できます。"
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "このルールを有効にすると、属国は国家を形成できなくなります。"
+ 
+l_japanese:
+
+# Flags/tooltips
+ all_formables_available:0 "すべての形成可能国家が利用可能"
+ ai_formables_disabled:0 "AI形成無効"
+ puppet_forming_disabled:0 "属国形成無効"

@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_russian:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "Правила Игры Формируемых Государств"
+ 
+l_russian:
+
+# Game Rules
+ allow_all_formables:0 "Разрешить Все Формируемые"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "Включение этого правила позволит каждой стране формировать любое формируемое государство."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "Включение этого правила позволит каждой стране формировать только связанные с ней формируемые государства."
+ 
+ allow_AI_formables:0 "Разрешить Формируемые для ИИ"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "Включение этого правила позволит ИИ формировать государства."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "Включение этого правила НЕ позволит ИИ формировать государства."
+ 
+ allow_puppet_formables:0 "Разрешить Формируемые для Субъектов"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Включение этого правила позволит субъектам формировать государства."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Включение этого правила НЕ позволит субъектам формировать государства."
+ 
+l_russian:
+
+# Flags/tooltips
+ all_formables_available:0 "Все Формируемые Доступны"
+ ai_formables_disabled:0 "Формирование ИИ Отключено"
+ puppet_forming_disabled:0 "Формирование Субъектами Отключено"

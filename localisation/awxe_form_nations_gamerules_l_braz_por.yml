@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_braz_por:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "Regras de Jogo das Formáveis"
+ 
+l_braz_por:
+
+# Game Rules
+ allow_all_formables:0 "Permitir Todas as Formáveis"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "Ativar esta regra permitirá que todos os países formem qualquer nação formável."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "Ativar esta regra permitirá que cada país forme apenas as nações formáveis relacionadas ao seu próprio país."
+ 
+ allow_AI_formables:0 "Permitir Formáveis para a IA"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "Ativar esta regra permitirá que a IA forme nações."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "Ativar esta regra NÃO permitirá que a IA forme nações."
+ 
+ allow_puppet_formables:0 "Permitir Formáveis para Súditos"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Ativar esta regra permitirá que súditos formem nações."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Ativar esta regra NÃO permitirá que súditos formem nações."
+ 
+l_braz_por:
+
+# Flags/tooltips
+ all_formables_available:0 "Todas as Formáveis Disponíveis"
+ ai_formables_disabled:0 "Formação por IA Desativada"
+ puppet_forming_disabled:0 "Formação por Súditos Desativada"

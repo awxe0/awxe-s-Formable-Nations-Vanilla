@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_french:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "Règles de Jeu des Formables"
+ 
+l_french:
+
+# Game Rules
+ allow_all_formables:0 "Autoriser Toutes les Formables"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "Activer cette règle permettra à tous les pays de former n'importe quelle nation formable."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "Activer cette règle permettra à chaque pays de former uniquement les nations formables liées à son propre pays."
+ 
+ allow_AI_formables:0 "Autoriser les Formables pour l'IA"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "Activer cette règle permettra à l'IA de former des nations."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "Activer cette règle N'autorisera PAS l'IA à former des nations."
+ 
+ allow_puppet_formables:0 "Autoriser les Formables pour les Sujets"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Activer cette règle permettra aux sujets de former des nations."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Activer cette règle N'autorisera PAS les sujets à former des nations."
+ 
+l_french:
+
+# Flags/tooltips
+ all_formables_available:0 "Toutes les Formables Disponibles"
+ ai_formables_disabled:0 "Formation par l'IA Désactivée"
+ puppet_forming_disabled:0 "Formation par Sujets Désactivée"

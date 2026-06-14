@@ -1,0 +1,30 @@
+﻿# GIAMPIERX3's Game Rules
+l_german:
+
+# Game Rules Groups
+ FORMABLE_NATION_RULES:0 "Spielregeln der Formbaren Nationen"
+ 
+l_german:
+
+# Game Rules
+ allow_all_formables:0 "Alle Formbaren Erlauben"
+ 
+ RULE_OPTION_ALLOW_ALL_FORMABLES_YES_DESC:0 "Aktivieren dieser Regel erlaubt jedem Land, jede formbare Nation zu bilden."
+ RULE_OPTION_ALLOW_ALL_FORMABLES_NO_DESC:0 "Aktivieren dieser Regel erlaubt jedem Land nur die zu seinem Land gehörenden formbaren Nationen zu bilden."
+ 
+ allow_AI_formables:0 "Formbare für KI Erlauben"
+ 
+ RULE_OPTION_ALLOW_AI_FORMABLES_YES_DESC:0 "Aktivieren dieser Regel erlaubt der KI das Bilden von Nationen."
+ RULE_OPTION_ALLOW_AI_FORMABLES_NO_DESC:0 "Aktivieren dieser Regel erlaubt der KI NICHT das Bilden von Nationen."
+ 
+ allow_puppet_formables:0 "Formbare für Vasallen Erlauben"
+ 
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Aktivieren dieser Regel erlaubt Vasallen das Bilden von Nationen."
+ RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Aktivieren dieser Regel erlaubt Vasallen NICHT das Bilden von Nationen."
+ 
+l_german:
+
+# Flags/tooltips
+ all_formables_available:0 "Alle Formbaren Verfügbar"
+ ai_formables_disabled:0 "KI-Formung Deaktiviert"
+ puppet_forming_disabled:0 "Vasallen-Formung Deaktiviert"
