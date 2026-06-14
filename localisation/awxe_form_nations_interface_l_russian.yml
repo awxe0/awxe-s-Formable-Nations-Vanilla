@@ -271,6 +271,10 @@
  formable_nations_dacia:0 "Гето-Дакия"
  formable_nations_hanseatic:0 "Ганзейский союз"
  formable_nations_livonia:0 "Королевство Ливония"
+ formable_nations_melanesia:0 "Меланезия"
+ formable_nations_polynesia:0 "Полинезия"
+ formable_nations_pacific:0 "Тихий океан"
+ formable_nations_toungoo:0 "Империя Таунгу"
  ##############################
  
  ##############################
@@ -475,3 +479,7 @@
  formable_nations_dacia_category:0 "Гето-Дакия"
  formable_nations_hanseatic_category:0 "Ганзейский союз"
  formable_nations_livonia_category:0 "Королевство Ливония"
+ formable_nations_melanesia_category:0 "Меланезия"
+ formable_nations_polynesia_category:0 "Полинезия"
+ formable_nations_pacific_category:0 "Тихий океан"
+ formable_nations_toungoo_category:0 "Империя Таунгу"

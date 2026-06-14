@@ -271,6 +271,10 @@
  formable_nations_dacia:0 "盖托-达契亚"
  formable_nations_hanseatic:0 "汉萨同盟"
  formable_nations_livonia:0 "利沃尼亚王国"
+ formable_nations_melanesia:0 "美拉尼西亚"
+ formable_nations_polynesia:0 "波利尼西亚"
+ formable_nations_pacific:0 "太平洋"
+ formable_nations_toungoo:0 "东吁帝国"
  ##############################
  
  #############################
@@ -475,4 +479,8 @@
  formable_nations_dacia_category:0 "盖托-达契亚"
  formable_nations_hanseatic_category:0 "汉萨同盟"
  formable_nations_livonia_category:0 "利沃尼亚王国"
+ formable_nations_melanesia_category:0 "美拉尼西亚"
+ formable_nations_polynesia_category:0 "波利尼西亚"
+ formable_nations_pacific_category:0 "太平洋"
+ formable_nations_toungoo_category:0 "东吁帝国"
  

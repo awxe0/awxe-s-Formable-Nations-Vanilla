@@ -270,6 +270,10 @@
  formable_nations_dacia:0 "Geto-Dakien"
  formable_nations_hanseatic:0 "Hansebund"
  formable_nations_livonia:0 "Königreich Livland"
+ formable_nations_melanesia:0 "Melanesien"
+ formable_nations_polynesia:0 "Polynesien"
+ formable_nations_pacific:0 "Pazifik"
+ formable_nations_toungoo:0 "Toungoo-Reich"
  ##############################
  
  ##############################
@@ -476,4 +480,8 @@
  formable_nations_dacia_category:0 "Geto-Dakien"
  formable_nations_hanseatic_category:0 "Hansebund"
  formable_nations_livonia_category:0 "Königreich Livland"
+ formable_nations_melanesia_category:0 "Melanesien"
+ formable_nations_polynesia_category:0 "Polynesien"
+ formable_nations_pacific_category:0 "Pazifik"
+ formable_nations_toungoo_category:0 "Toungoo-Reich"
  

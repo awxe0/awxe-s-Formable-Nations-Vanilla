@@ -271,6 +271,10 @@
  formable_nations_dacia:0 "Geto-Dácia"
  formable_nations_hanseatic:0 "Liga Hanseática"
  formable_nations_livonia:0 "Reino da Livónia"
+ formable_nations_melanesia:0 "Melanésia"
+ formable_nations_polynesia:0 "Polinésia"
+ formable_nations_pacific:0 "Pacífico"
+ formable_nations_toungoo:0 "Império Toungoo"
  ##############################
 
  #############################
@@ -475,3 +479,7 @@
  formable_nations_dacia_category:0 "Geto-Dácia"
  formable_nations_hanseatic_category:0 "Liga Hanseática"
  formable_nations_livonia_category:0 "Reino da Livónia"
+ formable_nations_melanesia_category:0 "Melanésia"
+ formable_nations_polynesia_category:0 "Polinésia"
+ formable_nations_pacific_category:0 "Pacífico"
+ formable_nations_toungoo_category:0 "Império Toungoo"
