@@ -1132,20 +1132,7 @@ formable_nations_mod_category = {
 	
 	    priority = 2
 		
-		visible = {
-			if = {
-				limit = { 
-					has_global_flag = no_limit
-				}
-				always = yes
-			}
-			else = {
-				NOT = { 
-					has_country_flag = unform_available
-					has_global_flag = hide_formable_nations
-				}
-			}
-		}
+		
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -6612,20 +6599,6 @@ formable_nations_mod_category = {
 	
 		priority = 6
 		
-		visible = {
-			if = {
-				limit = { 
-					has_global_flag = no_limit
-				}
-				always = yes
-			}
-			else = {
-				NOT = { 
-					has_country_flag = unform_available
-					has_global_flag = hide_formable_nations
-				}
-			}
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -6775,20 +6748,6 @@ formable_nations_mod_category = {
 	
 	    priority = 1
 		
-		visible = {
-			if = {
-				limit = { 
-					has_global_flag = no_limit
-				}
-				always = yes
-			}
-			else = {
-				NOT = { 
-					has_country_flag = unform_available
-					has_global_flag = hide_formable_nations
-				}
-			}
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -9994,20 +9953,6 @@ formable_nations_mod_category = {
 					original_tag = BAH
 					original_tag = JAM
 					original_tag = YUC
-				}
-			}
-		}
-		visible = {
-			if = {
-				limit = { 
-					has_global_flag = no_limit
-				}
-				always = yes
-			}
-			else = {
-				NOT = { 
-					has_country_flag = unform_available
-					has_global_flag = hide_formable_nations
 				}
 			}
 		}
