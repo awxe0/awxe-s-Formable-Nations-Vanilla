@@ -3,6 +3,7 @@ awxe
 
 Contributors:
 GIAMPIERX3 - Developer / Bug Fixing
+Ugurtr0 - Optimization Contributor
 Choo_Choo_Oreo - Optimization Contributor
 
 Modding Community:
