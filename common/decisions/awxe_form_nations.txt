@@ -182,30 +182,6 @@ formable_nations_mod_category = {
 	formable_nations_mongol_empire = {
 	
 		priority = 999
-		
-		visible = {
-			if = {
-				limit = { 
-					has_global_flag = no_limit
-				}
-				always = yes
-			}
-			else = {
-				NOT = { 
-					has_country_flag = unform_available
-					has_global_flag = hide_formable_nations
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_global_flag = ai_formables_disabled 
-			}
-		}
-		
-		cost = 0  days_re_enable = 0	
 		allowed = {		
 		    OR = {		
 		        original_tag = MON		
@@ -25675,7 +25651,7 @@ formable_nations_mod_category = {
 		        original_tag = MAL		
 		        original_tag = INS		
 		        original_tag = SIN		
-		        original_tag = SIA		
+		        original_tag = SIA			
 		        original_tag = SNG		
 		        original_tag = ATJ		
 		        original_tag = SSI		
