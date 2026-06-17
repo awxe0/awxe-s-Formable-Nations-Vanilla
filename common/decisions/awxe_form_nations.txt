@@ -14892,37 +14892,40 @@ formable_nations_mod_category = {
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				# Japan & Manchu
+				# Japan
+				state = 282
+				state = 524
+				state = 526
 				state = 528
-				state = 530
 				state = 529
+				state = 530
 				state = 531
 				state = 532
-				state = 535
-				state = 282
-				state = 534
 				state = 533
+				state = 534
+				state = 535
 				state = 536
-				state = 526
-				state = 537
 				state = 555
-				state = 611
-				state = 612
+				state = 645
+				state = 648
+				state = 1018
+				state = 1019
+				state = 1020
+
+				# Manchu
 				state = 328
+				state = 537
+				state = 609
 				state = 610
+				state = 611 #mengjiang
+				state = 612	#mengjiang	
 				state = 714
 				state = 715
 				state = 716
 				state = 717
 				state = 761
 				state = 745
-				state = 609
-				state = 716
-				state = 610
-				state = 524
-				state = 1018
-				state = 1019
-				state = 1020
+				state = 1043 #mengjiang	
 
 				# Korea
 				state = 525
@@ -14935,30 +14938,35 @@ formable_nations_mod_category = {
 				# Soviet
 				state = 408
 				state = 409
+				state = 560
 				state = 655
 				state = 657
 				
 				# China & Warlords
-				state = 591
-				state = 592
-				state = 593
-				state = 594
-				state = 595
-				state = 596
-				state = 597
+				state = 325 
+				state = 591 
+				state = 592 
+				state = 593 
+				state = 594 
+				state = 595 
+				state = 596 
+				state = 597  
 				state = 598 
-				state = 599
-				state = 600
-				state = 602
-				state = 606
-				state = 607
-				state = 608
-				state = 613
-				state = 614
-				state = 615
-				state = 620
-				state = 749
-				state = 750
+				state = 599 
+				state = 600 
+				state = 602 
+				state = 603 
+				state = 606 
+				state = 607 
+				state = 608 
+				state = 613 
+				state = 614 
+				state = 615 
+				state = 620 
+				state = 747 
+				state = 748 
+				state = 749 
+				state = 750 
 				state = 1033
 				state = 1034
 				state = 1035
@@ -15062,39 +15070,42 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 58 # "143 States"
+							amount = 115 # "145 States"
 						
-							# Japan & Manchu (30)
+							# Japan (18)
+							282 = { controls_or_subject_of = yes }
+							524 = { controls_or_subject_of = yes }
+							526 = { controls_or_subject_of = yes }
 							528 = { controls_or_subject_of = yes }
-				            530 = { controls_or_subject_of = yes }
-				            529 = { controls_or_subject_of = yes }
-				            531 = { controls_or_subject_of = yes }
-				            532 = { controls_or_subject_of = yes }
-				            535 = { controls_or_subject_of = yes }
-				            282 = { controls_or_subject_of = yes }
-				            534 = { controls_or_subject_of = yes }
-				            533 = { controls_or_subject_of = yes }
-				            536 = { controls_or_subject_of = yes }
-				            526 = { controls_or_subject_of = yes }
-				            537 = { controls_or_subject_of = yes }
-				            555 = { controls_or_subject_of = yes }
-				            611 = { controls_or_subject_of = yes }
-				            612 = { controls_or_subject_of = yes }
-				            328 = { controls_or_subject_of = yes }
-				            610 = { controls_or_subject_of = yes }
-				            714 = { controls_or_subject_of = yes }
-				            715 = { controls_or_subject_of = yes }
-				            716 = { controls_or_subject_of = yes }
-				            717 = { controls_or_subject_of = yes }
-				            761 = { controls_or_subject_of = yes }
-				            745 = { controls_or_subject_of = yes }
-				            609 = { controls_or_subject_of = yes }
-				            716 = { controls_or_subject_of = yes }
-				            610 = { controls_or_subject_of = yes }
-				            524 = { controls_or_subject_of = yes }
-				            1018 = { controls_or_subject_of = yes }
-				            1019 = { controls_or_subject_of = yes }
-				            1020 = { controls_or_subject_of = yes }
+							529 = { controls_or_subject_of = yes }
+							530 = { controls_or_subject_of = yes }
+							531 = { controls_or_subject_of = yes }
+							532 = { controls_or_subject_of = yes }
+							533 = { controls_or_subject_of = yes }
+							534 = { controls_or_subject_of = yes }
+							535 = { controls_or_subject_of = yes }
+							536 = { controls_or_subject_of = yes }
+							555 = { controls_or_subject_of = yes }
+							645 = { controls_or_subject_of = yes }
+							648 = { controls_or_subject_of = yes }
+							1018 = { controls_or_subject_of = yes }
+							1019 = { controls_or_subject_of = yes }
+							1020 = { controls_or_subject_of = yes }
+
+							# Manchu (13)
+							328 = { controls_or_subject_of = yes }
+							537 = { controls_or_subject_of = yes }
+							609 = { controls_or_subject_of = yes }
+							610 = { controls_or_subject_of = yes }
+							611 = { controls_or_subject_of = yes } #mengjiang
+							612 = { controls_or_subject_of = yes } #mengjiang	
+							714 = { controls_or_subject_of = yes }
+							715 = { controls_or_subject_of = yes }
+							716 = { controls_or_subject_of = yes }
+							717 = { controls_or_subject_of = yes }
+							761 = { controls_or_subject_of = yes }
+							745 = { controls_or_subject_of = yes }
+							1043 = { controls_or_subject_of = yes } #mengjiang
 
 				            # Korea (6)
 				            525 = { controls_or_subject_of = yes }
@@ -15104,13 +15115,15 @@ formable_nations_mod_category = {
 				            1030 = { controls_or_subject_of = yes }
 				            1031 = { controls_or_subject_of = yes }
 				
-				            # Soviet (4)
+				            # Soviet (5)
 				            408 = { controls_or_subject_of = yes }
 				            409 = { controls_or_subject_of = yes }
+							560 = { controls_or_subject_of = yes }
 				            655 = { controls_or_subject_of = yes }
 				            657 = { controls_or_subject_of = yes }
 				
-				            # China & Warlords (27)
+				            # China & Warlords (31)
+							325 = { controls_or_subject_of = yes }
 				            591 = { controls_or_subject_of = yes }
 			                592 = { controls_or_subject_of = yes }
 			                593 = { controls_or_subject_of = yes }
@@ -15122,6 +15135,7 @@ formable_nations_mod_category = {
 			                599 = { controls_or_subject_of = yes }
 			                600 = { controls_or_subject_of = yes }
 			                602 = { controls_or_subject_of = yes }
+							603 = { controls_or_subject_of = yes }
 			                606 = { controls_or_subject_of = yes }
 			                607 = { controls_or_subject_of = yes }
 			                608 = { controls_or_subject_of = yes }
@@ -15129,6 +15143,8 @@ formable_nations_mod_category = {
 			                614 = { controls_or_subject_of = yes }
 			                615 = { controls_or_subject_of = yes }
 			                620 = { controls_or_subject_of = yes }
+							747 = { controls_or_subject_of = yes }
+							748 = { controls_or_subject_of = yes }
 			                749 = { controls_or_subject_of = yes }
 			                750 = { controls_or_subject_of = yes }
 			                1033 = { controls_or_subject_of = yes }
@@ -15217,7 +15233,7 @@ formable_nations_mod_category = {
 				            998 = { controls_or_subject_of = yes }
 				            999 = { controls_or_subject_of = yes }
 				
-				            # Port Cities (10)
+				            # Port Cities (6)
 				            326 = { controls_or_subject_of = yes } # Hong Kong
 				            721 = { controls_or_subject_of = yes } # Timor
 				            728 = { controls_or_subject_of = yes } # Kouang
@@ -15247,37 +15263,39 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
-				# Japan & Manchu
+				# Japan
+				282 = { add_core_of = ROOT }
+				524 = { add_core_of = ROOT }
+				526 = { add_core_of = ROOT }
 				528 = { add_core_of = ROOT }
-				530 = { add_core_of = ROOT }
 				529 = { add_core_of = ROOT }
+				530 = { add_core_of = ROOT }
 				531 = { add_core_of = ROOT }
 				532 = { add_core_of = ROOT }
-				535 = { add_core_of = ROOT }
-				282 = { add_core_of = ROOT }
-				534 = { add_core_of = ROOT }
 				533 = { add_core_of = ROOT }
+				534 = { add_core_of = ROOT }
+				535 = { add_core_of = ROOT }
 				536 = { add_core_of = ROOT }
-				526 = { add_core_of = ROOT }
-				537 = { add_core_of = ROOT }
 				555 = { add_core_of = ROOT }
-				611 = { add_core_of = ROOT }
-				612 = { add_core_of = ROOT }
+				645 = { add_core_of = ROOT }
+				648 = { add_core_of = ROOT }
+				1018 = { add_core_of = ROOT }
+				1019 = { add_core_of = ROOT }
+				1020 = { add_core_of = ROOT }
+				# Manchu
 				328 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				609 = { add_core_of = ROOT }
 				610 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT } #mengjiang
+				612 = { add_core_of = ROOT } #mengjiang	
 				714 = { add_core_of = ROOT }
 				715 = { add_core_of = ROOT }
 				716 = { add_core_of = ROOT }
 				717 = { add_core_of = ROOT }
 				761 = { add_core_of = ROOT }
 				745 = { add_core_of = ROOT }
-				609 = { add_core_of = ROOT }
-				716 = { add_core_of = ROOT }
-				610 = { add_core_of = ROOT }
-				524 = { add_core_of = ROOT }
-				1018 = { add_core_of = ROOT }
-				1019 = { add_core_of = ROOT }
-				1020 = { add_core_of = ROOT }
+				1043 = { add_core_of = ROOT } #mengjiang	
 				# Korea
 				525 = { add_core_of = ROOT }
 				527 = { add_core_of = ROOT }
@@ -15288,9 +15306,11 @@ formable_nations_mod_category = {
 				# Soviet
 				408 = { add_core_of = ROOT }
 				409 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
 				655 = { add_core_of = ROOT }
 				657 = { add_core_of = ROOT }				
 				# China & Warlords
+				325 = { add_core_of = ROOT }
 				591 = { add_core_of = ROOT }
 			    592 = { add_core_of = ROOT }
 			    593 = { add_core_of = ROOT }
@@ -15298,10 +15318,11 @@ formable_nations_mod_category = {
 			    595 = { add_core_of = ROOT }
 			    596 = { add_core_of = ROOT }
 			    597 = { add_core_of = ROOT }
-			    598 = { add_core_of = ROOT }
+			    598 = { add_core_of = ROOT } 
 			    599 = { add_core_of = ROOT }
 			    600 = { add_core_of = ROOT }
 			    602 = { add_core_of = ROOT }
+				603 = { add_core_of = ROOT }
 			    606 = { add_core_of = ROOT }
 			    607 = { add_core_of = ROOT }
 			    608 = { add_core_of = ROOT }
@@ -15309,6 +15330,8 @@ formable_nations_mod_category = {
 			    614 = { add_core_of = ROOT }
 			    615 = { add_core_of = ROOT }
 			    620 = { add_core_of = ROOT }
+				747 = { add_core_of = ROOT }
+				748 = { add_core_of = ROOT }
 			    749 = { add_core_of = ROOT }
 			    750 = { add_core_of = ROOT }
 			    1033 = { add_core_of = ROOT }
@@ -15354,7 +15377,7 @@ formable_nations_mod_category = {
 				673 = { add_core_of = ROOT }
 				667 = { add_core_of = ROOT }
 				668 = { add_core_of = ROOT }
-				669 = { add_core_of = ROOT }
+				669 = { add_core_of = ROOT } # Dutch New Guinea
 				738 = { add_core_of = ROOT }
 				1022 = { add_core_of = ROOT }
 				1047 = { add_core_of = ROOT }
@@ -15366,7 +15389,7 @@ formable_nations_mod_category = {
 				1053 = { add_core_of = ROOT }
 				1054 = { add_core_of = ROOT }
 				1055 = { add_core_of = ROOT }
-				1056 = { add_core_of = ROOT }
+				1056 = { add_core_of = ROOT } # Dutch Papua
 				1057 = { add_core_of = ROOT }
 				1058 = { add_core_of = ROOT }				
 				# Philippines
@@ -15398,14 +15421,47 @@ formable_nations_mod_category = {
 				1021 = { add_core_of = ROOT } # Singapore
 				1065 = { add_core_of = ROOT } # Penang
 			}
-			733 = { add_claim_by = ROOT } # Andaman
-			560 = { add_claim_by = ROOT } # Nikolayevsk
+
+			# RANDOM ISLANDs
+			733 = { add_core_of = ROOT } # Andaman # was { add_claim_by = ROOT } 
 			637 = { add_claim_by = ROOT } # Kamchatka
+			
+			632 = { add_core_of = ROOT } # Wake island
+			638 = { add_core_of = ROOT } # Guam
+			647 = { add_core_of = ROOT } # Plau
 			650 = { add_claim_by = ROOT } # Attu Island
-			638 = { add_claim_by = ROOT } # Guam
-			979 = { add_claim_by = ROOT } # New Guinea
+			633 = { add_claim_by = ROOT } # Marshall Islands
+			684 = { add_claim_by = ROOT } # Caroline Islands
+			
 			737 = { add_claim_by = ROOT } # Bismarck
 			1070 = { add_claim_by = ROOT } # Bougainville
+
+			#Rest of Papua
+			523 = { add_claim_by = ROOT } # Papua
+			979 = { add_claim_by = ROOT } # New Guinea
+			1073 = { add_claim_by = ROOT } # Interior Papua
+
+			# CLAIMS on parts of "China Proper" (maybe make a tooltip?)
+			# rest of Shanxi
+			621 = { add_claim_by = ROOT }
+			746 = { add_claim_by = ROOT }
+			# CCP
+			622 = { add_claim_by = ROOT }
+			1046 = { add_claim_by = ROOT }
+			#Sichuan Clique
+			605 = { add_claim_by = ROOT } 
+			751 = { add_claim_by = ROOT }
+			752 = { add_claim_by = ROOT }
+			753 = { add_claim_by = ROOT }
+			1037 = { add_claim_by = ROOT }
+			1041 = { add_claim_by = ROOT }
+			#Northeastern Army
+			283 = { add_claim_by = ROOT }
+			744 = { add_claim_by = ROOT }
+			1032 = { add_claim_by = ROOT }
+
+			#Nixgxia Ma (rest might be added if we do all China Proper - GIAMPIERX3)
+			1045 = { add_claim_by = ROOT }
 		}
 	}
 
