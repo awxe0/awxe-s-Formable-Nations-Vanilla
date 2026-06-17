@@ -15059,7 +15059,7 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 50 # "143 States"
+							amount = 58 # "143 States"
 						
 							# Japan & Manchu (30)
 							528 = { controls_or_subject_of = yes }
