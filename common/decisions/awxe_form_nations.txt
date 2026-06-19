@@ -25519,6 +25519,8 @@ formable_nations_mod_category = {
 		priority = 879		
 		allowed = {		
 		    OR = {		
+			    has_global_flag = no_limit
+                #has_global_flag = all_formables_available
 		        original_tag = TUR		
 		        original_tag = GRE		
 		        original_tag = BUL		
@@ -25576,7 +25578,13 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_TRC } } }
-			# custom_trigger_tooltip = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			custom_trigger_tooltip = { 
+				tooltip = is_puppet_tooltip 
+				OR = { 
+					is_subject = no 
+					has_global_flag = puppets_allowed 
+				} 
+			}
 		}
 		icon = formable_nations_thracia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
