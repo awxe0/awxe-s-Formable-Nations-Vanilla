@@ -25524,7 +25524,7 @@ formable_nations_mod_category = {
 		priority = 879		
 		allowed = {		
 		    OR = {		
-		        original_tag = TUR		
+				original_tag = TUR		
 		        original_tag = GRE		
 		        original_tag = BUL		
 		    }
