@@ -25002,7 +25002,7 @@ formable_nations_mod_category = {
 		        original_tag = RUT		
 		        original_tag = DNZ		
 		    }
-		
+				
 		}
 
 		ai_will_do = {
