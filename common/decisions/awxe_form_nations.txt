@@ -17464,7 +17464,12 @@ formable_nations_mod_category = {
 		        original_tag = GLC		
 		        original_tag = CAT		
 		        original_tag = NAV		
-		        original_tag = ROM		
+		        original_tag = ROM
+		        original_tag = TUR				
+		        original_tag = BUL				
+		        original_tag = SER				
+		        original_tag = MAC				
+		        original_tag = ALB					
 		    }
 		
 		}
