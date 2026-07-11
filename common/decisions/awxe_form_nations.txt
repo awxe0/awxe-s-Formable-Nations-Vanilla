@@ -3537,13 +3537,6 @@ formable_nations_mod_category = {
 				174 = { add_core_of = ROOT }
 				175 = { add_core_of = ROOT }
 				176 = { add_core_of = ROOT }
-				112 = { add_core_of = ROOT }
-				179 = { add_core_of = ROOT }
-				180 = { add_core_of = ROOT }
-				181 = { add_core_of = ROOT }
-				118 = { add_core_of = ROOT }
-				177 = { add_core_of = ROOT }
-				41 = { add_core_of = ROOT }
 				788 = { add_core_of = ROOT }
 				789 = { add_core_of = ROOT }
 				790 = { add_core_of = ROOT }
@@ -3551,6 +3544,11 @@ formable_nations_mod_category = {
 				792 = { add_core_of = ROOT }
 				793 = { add_core_of = ROOT }
 				794 = { add_core_of = ROOT }
+				112 = { add_core_of = ROOT }
+				179 = { add_core_of = ROOT }
+				180 = { add_core_of = ROOT }
+				181 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
 				795 = { add_core_of = ROOT }
 			}
 			118 = { add_claim_by = ROOT }
