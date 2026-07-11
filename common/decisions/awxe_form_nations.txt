@@ -16422,8 +16422,7 @@ formable_nations_mod_category = {
 				975 = { add_core_of = ROOT }
 				976 = { add_core_of = ROOT }				
 			}
-			997 = { add_core_of = ROOT }
-			997 = { add_claim_by = ROOT }
+			978 = { add_core_of = ROOT }
 		}
 	}
 
@@ -25526,9 +25525,9 @@ formable_nations_mod_category = {
 		    OR = {		
 				original_tag = TUR		
 		        original_tag = GRE		
-		        original_tag = BUL		
+		        original_tag = BUL				
 		    }
-		
+
 		}
 
 		ai_will_do = {
