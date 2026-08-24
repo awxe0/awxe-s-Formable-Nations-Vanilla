@@ -1,6 +1,7 @@
 on_actions = {
     on_startup = {
         effect = {
+            
             # 1. Check Formables Limit Rule
             if = {
                 limit = { 
@@ -33,6 +34,18 @@ on_actions = {
             else = {
                 clr_global_flag = puppets_allowed
             }
-        }
-    }
-}
+
+            # 4. Check Multiple Formables Rule
+            if = {
+                limit = { 
+                    has_game_rule = { rule = allow_multiple_formables option = YES } 
+                }
+                set_global_flag = unform_available
+            }
+            else = {
+                clr_global_flag = unform_available
+            }
+
+        } # end effect
+    } # end on_startup
+} # end on_actions

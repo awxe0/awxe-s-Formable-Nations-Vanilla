@@ -8,6 +8,6 @@ tags={
 	"Utilities"
 	"Gameplay"
 }
-name="awxe's Formable Nations"
+name="awxe's Formable Nations MOD"
 supported_version="1.19.*"
 remote_file_id="3677761082"

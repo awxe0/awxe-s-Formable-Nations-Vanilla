@@ -74,3 +74,21 @@ allow_puppet_formables = {
         allow_achievements = yes
     }
 }
+
+allow_multiple_formables = {
+    name = "allow_multiple_formables"
+    group = "FORMABLE_NATION_RULES"
+    icon = GFX_decision_generic_form_nation # maybe could be GFX_decision_category_CHL_mapuche_nationalism_decisions ?
+    default = { 
+        name = YES
+        text = "RULE_OPTION_YES"
+        desc = "RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC"
+        allow_achievements = yes
+    }
+    option = {
+        name = NO
+        text = "RULE_OPTION_NO"
+        desc = "RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC"
+        allow_achievements = yes
+    }
+}
