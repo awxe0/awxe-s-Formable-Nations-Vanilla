@@ -1853,8 +1853,8 @@ JAP_pacific_union = {
 }
 
 SIA_thailand = { #Mandate 1, Phibun, historical
-	color = rgb { 90 80 180 } 
-	color_ui = rgb { 90 80 180 }
+	color = rgb { 244 25 2 } 
+	color_ui = rgb { 244 25 2 }
 }
 
 SIA_great_thai_empire = { #Mandate 1, Phibun, historical
