@@ -22,9 +22,16 @@ l_french:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Activer cette règle permettra aux sujets de former des nations."
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Activer cette règle N'autorisera PAS les sujets à former des nations."
  
+ allow_multiple_formables:0 "Autoriser la Déformation"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "Activer cette règle permettra de déformer les nations formables."
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "Activer cette règle N'autorisera PAS de déformer les nations formables."
+ 
 l_french:
 
 # Flags/tooltips
  all_formables_available:0 "Toutes les Formables Disponibles"
  ai_formables_disabled:0 "Formation par l'IA Désactivée"
  puppet_forming_disabled:0 "Formation par Sujets Désactivée"
+ unform_available:0 "Déformation Disponible"
+ formed_country:0 "Pays Formé"

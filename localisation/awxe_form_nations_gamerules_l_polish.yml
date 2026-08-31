@@ -22,9 +22,16 @@ l_polish:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Włączenie tej zasady pozwoli lennikom na formowanie państw."
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Włączenie tej zasady NIE pozwoli lennikom na formowanie państw."
  
+ allow_multiple_formables:0 "Zezwól na Rozwiązywanie"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "Włączenie tej zasady pozwoli na rozwiązywanie formowanych państw."
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "Włączenie tej zasady NIE pozwoli na rozwiązywanie formowanych państw."
+ 
 l_polish:
 
 # Flags/tooltips
  all_formables_available:0 "Wszystkie Formowalne Dostępne"
  ai_formables_disabled:0 "Formowanie przez SI Wyłączone"
  puppet_forming_disabled:0 "Formowanie przez Lenników Wyłączone"
+ unform_available:0 "Rozwiązywanie Dostępne"
+ formed_country:0 "Państwo Utworzone"

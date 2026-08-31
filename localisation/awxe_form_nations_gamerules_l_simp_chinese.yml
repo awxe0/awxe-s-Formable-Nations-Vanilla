@@ -22,9 +22,16 @@ l_simp_chinese:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "启用此规则将允许附属国形成国家。"
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "启用此规则将不允许附属国形成国家。"
  
+ allow_multiple_formables:0 "允许解散形成"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "启用此规则将允许解散已形成的国家。"
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "启用此规则将不允许解散已形成的国家。"
+ 
 l_simp_chinese:
 
 # Flags/tooltips
  all_formables_available:0 "所有可形成国家可用"
  ai_formables_disabled:0 "AI形成已禁用"
  puppet_forming_disabled:0 "附属国形成已禁用"
+ unform_available:0 "解散形成可用"
+ formed_country:0 "国家已形成"

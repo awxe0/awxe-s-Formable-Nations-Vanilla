@@ -22,9 +22,16 @@ l_japanese:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "このルールを有効にすると、属国が国家を形成できます。"
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "このルールを有効にすると、属国は国家を形成できなくなります。"
  
+ allow_multiple_formables:0 "形成解除を許可"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "このルールを有効にすると、形成可能国家の形成を解除できます。"
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "このルールを有効にすると、形成可能国家の形成を解除できなくなります。"
+ 
 l_japanese:
 
 # Flags/tooltips
  all_formables_available:0 "すべての形成可能国家が利用可能"
  ai_formables_disabled:0 "AI形成無効"
  puppet_forming_disabled:0 "属国形成無効"
+ unform_available:0 "形成解除可能"
+ formed_country:0 "国家形成済み"

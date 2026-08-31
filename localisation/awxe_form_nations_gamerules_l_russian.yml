@@ -22,9 +22,16 @@ l_russian:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Включение этого правила позволит субъектам формировать государства."
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Включение этого правила НЕ позволит субъектам формировать государства."
  
+ allow_multiple_formables:0 "Разрешить Расформирование"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "Включение этого правила позволит расформировывать формируемые государства."
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "Включение этого правила НЕ позволит расформировывать формируемые государства."
+ 
 l_russian:
 
 # Flags/tooltips
  all_formables_available:0 "Все Формируемые Доступны"
  ai_formables_disabled:0 "Формирование ИИ Отключено"
  puppet_forming_disabled:0 "Формирование Субъектами Отключено"
+ unform_available:0 "Расформирование Доступно"
+ formed_country:0 "Страна Сформирована"

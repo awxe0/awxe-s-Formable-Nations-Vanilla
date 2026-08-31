@@ -22,9 +22,16 @@ l_braz_por:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Ativar esta regra permitirá que súditos formem nações."
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Ativar esta regra NÃO permitirá que súditos formem nações."
  
+ allow_multiple_formables:0 "Permitir Desfazer Formação"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "Ativar esta regra permitirá desfazer a formação de nações formáveis."
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "Ativar esta regra NÃO permitirá desfazer a formação de nações formáveis."
+ 
 l_braz_por:
 
 # Flags/tooltips
  all_formables_available:0 "Todas as Formáveis Disponíveis"
  ai_formables_disabled:0 "Formação por IA Desativada"
  puppet_forming_disabled:0 "Formação por Súditos Desativada"
+ unform_available:0 "Desfazer Formação Disponível"
+ formed_country:0 "País Formado"

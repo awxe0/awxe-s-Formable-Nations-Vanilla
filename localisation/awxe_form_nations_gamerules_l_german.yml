@@ -22,9 +22,16 @@ l_german:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Aktivieren dieser Regel erlaubt Vasallen das Bilden von Nationen."
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Aktivieren dieser Regel erlaubt Vasallen NICHT das Bilden von Nationen."
  
+ allow_multiple_formables:0 "Auflösung Erlauben"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "Aktivieren dieser Regel erlaubt das Auflösen von formbaren Nationen."
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "Aktivieren dieser Regel erlaubt NICHT das Auflösen von formbaren Nationen."
+ 
 l_german:
 
 # Flags/tooltips
  all_formables_available:0 "Alle Formbaren Verfügbar"
  ai_formables_disabled:0 "KI-Formung Deaktiviert"
  puppet_forming_disabled:0 "Vasallen-Formung Deaktiviert"
+ unform_available:0 "Auflösung Verfügbar"
+ formed_country:0 "Land Gebildet"

@@ -22,9 +22,16 @@ l_spanish:
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_YES_DESC:0 "Activar esta regla permitirá a los súbditos formar naciones."
  RULE_OPTION_ALLOW_PUPPET_FORMABLES_NO_DESC:0 "Activar esta regla NO permitirá a los súbditos formar naciones."
  
+ allow_multiple_formables:0 "Permitir Desformación"
+ 
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_YES_DESC:0 "Activar esta regla permitirá deshacer la formación de naciones formables."
+ RULE_OPTION_ALLOW_MULTIPLE_FORMABLES_NO_DESC:0 "Activar esta regla NO permitirá deshacer la formación de naciones formables."
+ 
 l_spanish:
 
 # Flags/tooltips
  all_formables_available:0 "Todas las Formables Disponibles"
  ai_formables_disabled:0 "Formación por IA Desactivada"
  puppet_forming_disabled:0 "Formación por Súbditos Desactivada"
+ unform_available:0 "Desformación Disponible"
+ formed_country:0 "País Formado"
