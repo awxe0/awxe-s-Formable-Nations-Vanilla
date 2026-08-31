@@ -274,6 +274,9 @@
  formable_nations_polynesia:0 "Polynesien"
  formable_nations_pacific:0 "Pazifik"
  formable_nations_toungoo:0 "Toungoo-Reich"
+ formable_nations_north_africa:0 "Nordafrika"
+ formable_nations_ayyubid_dynasty:0 "Ayyubidendynastie"
+ formable_nations_sub_saharan_africa:0 "Subsahara-Afrika"
  ##############################
  
  ##############################
@@ -484,4 +487,7 @@
  formable_nations_polynesia_category:0 "Polynesien"
  formable_nations_pacific_category:0 "Pazifik"
  formable_nations_toungoo_category:0 "Toungoo-Reich"
+ formable_nations_north_africa_category:0 "Nordafrika"
+ formable_nations_ayyubid_dynasty_category:0 "Ayyubidendynastie"
+ formable_nations_sub_saharan_africa_category:0 "Subsahara-Afrika"
  

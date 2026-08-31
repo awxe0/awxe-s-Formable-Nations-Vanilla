@@ -275,6 +275,9 @@
  formable_nations_polynesia:0 "Polinezja"
  formable_nations_pacific:0 "Pacyfik"
  formable_nations_toungoo:0 "Imperium Toungoo"
+ formable_nations_north_africa:0 "Afryka Północna"
+ formable_nations_ayyubid_dynasty:0 "Dynastia Ajjubidów"
+ formable_nations_sub_saharan_africa:0 "Afryka Subsaharyjska"
  ##############################
  
  ##############################
@@ -483,3 +486,6 @@
  formable_nations_polynesia_category:0 "Polinezja"
  formable_nations_pacific_category:0 "Pacyfik"
  formable_nations_toungoo_category:0 "Imperium Toungoo"
+ formable_nations_north_africa_category:0 "Afryka Północna"
+ formable_nations_ayyubid_dynasty_category:0 "Dynastia Ajjubidów"
+ formable_nations_sub_saharan_africa_category:0 "Afryka Subsaharyjska"

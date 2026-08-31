@@ -275,6 +275,9 @@
  formable_nations_polynesia:0 "폴리네시아"
  formable_nations_pacific:0 "태평양"
  formable_nations_toungoo:0 "퉁구 제국"
+ formable_nations_north_africa:0 "북아프리카"
+ formable_nations_ayyubid_dynasty:0 "아이유브 왕조"
+ formable_nations_sub_saharan_africa:0 "사하라 이남 아프리카"
  ##############################
  
  ##############################
@@ -482,3 +485,6 @@
  formable_nations_polynesia_category:0 "폴리네시아"
  formable_nations_pacific_category:0 "태평양"
  formable_nations_toungoo_category:0 "퉁구 제국"
+ formable_nations_north_africa_category:0 "북아프리카"
+ formable_nations_ayyubid_dynasty_category:0 "아이유브 왕조"
+ formable_nations_sub_saharan_africa_category:0 "사하라 이남 아프리카"

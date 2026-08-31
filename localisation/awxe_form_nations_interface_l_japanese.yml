@@ -275,6 +275,9 @@
  formable_nations_polynesia:0 "ポリネシア"
  formable_nations_pacific:0 "太平洋"
  formable_nations_toungoo:0 "トゥングー帝国"
+ formable_nations_north_africa:0 "北アフリカ"
+ formable_nations_ayyubid_dynasty:0 "アイユーブ朝"
+ formable_nations_sub_saharan_africa:0 "サハラ以南アフリカ"
  ##############################
 
  ##############################
@@ -483,3 +486,6 @@
  formable_nations_polynesia_category:0 "ポリネシア"
  formable_nations_pacific_category:0 "太平洋"
  formable_nations_toungoo_category:0 "トゥングー帝国"
+ formable_nations_north_africa_category:0 "北アフリカ"
+ formable_nations_ayyubid_dynasty_category:0 "アイユーブ朝"
+ formable_nations_sub_saharan_africa_category:0 "サハラ以南アフリカ"
