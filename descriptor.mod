@@ -1,4 +1,4 @@
-version="1.11 - Sands of Civilization"
+version="1.11 - Shadows of the Sahara"
 picture="thumbnail"
 tags={
 	"Alternative History"
