@@ -2918,3 +2918,18 @@ AFN_TOU = {
 	color = rgb { 248 202 2 }
 	color_ui = rgb { 248 202 2 }
 }
+
+AFN_NAC = {
+	color = rgb { 170 123 18 }
+	color_ui = rgb { 170 123 18 }
+}
+
+AFN_AYD = {
+	color = rgb { 255 201 15 }
+	color_ui = rgb { 255 201 15 }
+}
+
+AFN_SSA = {
+	color = rgb { 53 161 0 }
+	color_ui = rgb { 53 161 0 }
+}
