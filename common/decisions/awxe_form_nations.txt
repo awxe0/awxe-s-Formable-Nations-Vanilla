@@ -41148,4 +41148,157 @@ formable_nations_mod_category = {
 			705 = { add_core_of = ROOT }
 		}
 	}
+	
+	formable_nations_west_africa = {
+	
+		priority = 799
+		allowed = {		
+		    OR = {		
+		        original_tag = MRT
+				original_tag = SEN
+				original_tag = GAM
+				original_tag = GNB
+				original_tag = GNA
+				original_tag = MLI
+				original_tag = SIE
+				original_tag = LIB
+				original_tag = IVO
+				original_tag = VOL
+				original_tag = GHA
+				original_tag = TOG
+				original_tag = DAH
+				original_tag = NGA
+				original_tag = NGR
+				original_tag = BIA
+		    }		
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_formables_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			if = {
+				limit = { 
+					has_global_flag = no_limit
+				}
+				always = yes
+			}
+			else = {
+				NOT = { 
+					has_country_flag = formed_country
+					has_global_flag = hide_formable_nations
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {				
+				state = 272
+				state = 274
+				state = 296
+				state = 298
+				state = 515
+				state = 556
+				state = 557
+				state = 558
+				state = 700
+				state = 701
+				state = 776
+				state = 777
+				state = 778
+				state = 779
+				state = 780
+				state = 781
+				state = 782
+				state = 786
+				state = 898
+				state = 899
+				state = 900
+				state = 901
+				state = 902
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+						272 = { controls_or_subject_of = yes }
+						274 = { controls_or_subject_of = yes }
+				        296 = { controls_or_subject_of = yes }
+				        298 = { controls_or_subject_of = yes }
+				        515 = { controls_or_subject_of = yes }
+				        556 = { controls_or_subject_of = yes }
+				        557 = { controls_or_subject_of = yes }
+				        558 = { controls_or_subject_of = yes }
+				        700 = { controls_or_subject_of = yes }
+				        701 = { controls_or_subject_of = yes }
+				        776 = { controls_or_subject_of = yes }
+				        777 = { controls_or_subject_of = yes }
+				        778 = { controls_or_subject_of = yes }
+				        779 = { controls_or_subject_of = yes }
+				        780 = { controls_or_subject_of = yes }
+				        781 = { controls_or_subject_of = yes }
+				        782 = { controls_or_subject_of = yes }
+				        786 = { controls_or_subject_of = yes }
+				        898 = { controls_or_subject_of = yes }
+				        899 = { controls_or_subject_of = yes }
+				        900 = { controls_or_subject_of = yes }
+				        901 = { controls_or_subject_of = yes }
+				        902 = { controls_or_subject_of = yes }				        			
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_WAC } } }
+			custom_trigger_tooltip = { 
+				tooltip = is_puppet_tooltip 
+				OR = { 
+					is_subject = no 
+					has_global_flag = puppets_allowed 
+				} 
+			}
+		}
+		icon = formable_nations_west_africa
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_WAC
+			add_stability = 0.10
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = formed_country
+				272 = { add_core_of = ROOT }
+				274 = { add_core_of = ROOT }
+				296 = { add_core_of = ROOT }
+				298 = { add_core_of = ROOT }
+				515 = { add_core_of = ROOT }
+				556 = { add_core_of = ROOT }
+				557 = { add_core_of = ROOT }
+				558 = { add_core_of = ROOT }
+				700 = { add_core_of = ROOT }
+				701 = { add_core_of = ROOT }
+				776 = { add_core_of = ROOT }
+				777 = { add_core_of = ROOT }
+				778 = { add_core_of = ROOT }
+				779 = { add_core_of = ROOT }
+				780 = { add_core_of = ROOT }
+				781 = { add_core_of = ROOT }
+				782 = { add_core_of = ROOT }
+				786 = { add_core_of = ROOT }
+				898 = { add_core_of = ROOT }
+				899 = { add_core_of = ROOT }
+				900 = { add_core_of = ROOT }
+				901 = { add_core_of = ROOT }
+				902 = { add_core_of = ROOT }
+			}
+		}
+	}
 } 

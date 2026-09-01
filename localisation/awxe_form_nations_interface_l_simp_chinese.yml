@@ -278,6 +278,7 @@
  formable_nations_north_africa:0 "北非"
  formable_nations_ayyubid_dynasty:0 "阿尤布王朝"
  formable_nations_sub_saharan_africa:0 "撒哈拉以南非洲"
+ formable_nations_west_africa:0 "西非"
  ##############################
  
  #############################
@@ -489,4 +490,5 @@
  formable_nations_north_africa_category:0 "北非"
  formable_nations_ayyubid_dynasty_category:0 "阿尤布王朝"
  formable_nations_sub_saharan_africa_category:0 "撒哈拉以南非洲"
+ formable_nations_west_africa_category:0 "西非"
  

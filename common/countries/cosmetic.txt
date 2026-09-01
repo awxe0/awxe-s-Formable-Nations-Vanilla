@@ -2933,3 +2933,8 @@ AFN_SSA = {
 	color = rgb { 53 161 0 }
 	color_ui = rgb { 53 161 0 }
 }
+
+AFN_WAC = {
+	color = rgb { 15 35 178 }
+	color_ui = rgb { 15 35 178 }
+}

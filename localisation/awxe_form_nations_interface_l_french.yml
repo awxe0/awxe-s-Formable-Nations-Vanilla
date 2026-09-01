@@ -275,6 +275,7 @@
  formable_nations_north_africa:0 "Afrique du Nord"
  formable_nations_ayyubid_dynasty:0 "Dynastie Ayyoubide"
  formable_nations_sub_saharan_africa:0 "Afrique Sub-Saharienne"
+ formable_nations_west_africa:0 "Afrique de l'Ouest"
  ##############################
  
  ##############################
@@ -488,3 +489,4 @@
  formable_nations_north_africa_category:0 "Afrique du Nord"
  formable_nations_ayyubid_dynasty_category:0 "Dynastie Ayyoubide"
  formable_nations_sub_saharan_africa_category:0 "Afrique Sub-Saharienne"
+ formable_nations_west_africa_category:0 "Afrique de l'Ouest"

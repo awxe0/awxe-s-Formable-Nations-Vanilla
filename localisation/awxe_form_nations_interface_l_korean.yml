@@ -278,6 +278,7 @@
  formable_nations_north_africa:0 "북아프리카"
  formable_nations_ayyubid_dynasty:0 "아이유브 왕조"
  formable_nations_sub_saharan_africa:0 "사하라 이남 아프리카"
+ formable_nations_west_africa:0 "서아프리카"
  ##############################
  
  ##############################
@@ -488,3 +489,4 @@
  formable_nations_north_africa_category:0 "북아프리카"
  formable_nations_ayyubid_dynasty_category:0 "아이유브 왕조"
  formable_nations_sub_saharan_africa_category:0 "사하라 이남 아프리카"
+ formable_nations_west_africa_category:0 "서아프리카"

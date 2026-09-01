@@ -815,4 +815,20 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_toungoo"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_toungoo.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_north_africa"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_north_africa.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_ayyubid_dynasty"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_ayyubid_dynasty.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_sub_saharan_africa"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_sub_saharan_africa.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_west_africa"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_west_africa.tga"
+	}
 }
