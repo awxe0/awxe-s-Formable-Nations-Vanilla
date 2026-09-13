@@ -1,5 +1,7 @@
 <img width="1920" height="1080" alt="AFNV Vanilla - Steam Showcase - Main - 200++" src="https://github.com/user-attachments/assets/7389d936-8e99-4b02-bd7b-d05aee14986f" />
 
+<img width="1920" height="1080" alt="AFNV Vanilla - Steam Showcase - Dev History 1 11" src="https://github.com/user-attachments/assets/6242b8e8-774a-46ab-b27f-aa73a1185613" />
+
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
 **MOD:** https://steamcommunity.com/sharedfiles/filedetails/?id=3677761082
